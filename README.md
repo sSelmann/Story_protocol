@@ -1,6 +1,8 @@
 ![image](https://github.com/user-attachments/assets/4d6332b2-0852-41f0-8ed3-57c41385a411)
 
----
+
+![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
+
 
 ### 📌 Overview
 Intellectual property is a multi-trillion-dollar asset class trapped in an outdated system. Story onramps IP to the blockchain and makes it programmable through innovation.
