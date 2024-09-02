@@ -85,6 +85,83 @@ story init --network iliad --moniker <your_moniker>
 ```
 ![image](https://github.com/user-attachments/assets/c9e49230-4c08-407f-a564-a2fe17d596b1)
 
+## Create story-geth service file  
+```bash
+sudo tee /etc/systemd/system/story-geth.service > /dev/null <<EOF  
+[Unit]
+Description=Story execution daemon
+After=network-online.target
+
+[Service]
+User=$USER
+#WorkingDirectory=$HOME/.story/geth
+ExecStart=/usr/local/bin/story-geth --iliad --syncmode full
+Restart=always
+RestartSec=3
+LimitNOFILE=infinity
+LimitNPROC=infinity
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
+## Create story service file  
+```bash
+sudo tee /etc/systemd/system/$NODE.service > /dev/null <<EOF  
+[Unit]
+Description=Story consensus daemon
+After=network-online.target
+
+[Service]
+User=$USER
+WorkingDirectory=$HOME/.story/story
+ExecStart=/usr/local/bin/story run
+Restart=always
+RestartSec=3
+LimitNOFILE=infinity
+LimitNPROC=infinity
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+sudo tee <<EOF >/dev/null /etc/systemd/journald.conf
+Storage=persistent
+EOF
+```
+
+## Reload and start story-geth   
+```bash
+sudo systemctl daemon-reload && \
+sudo systemctl start story-geth && \
+sudo systemctl enable story-geth && \
+sudo systemctl status story-geth
+```
+
+## Reload and start story    
+```bash
+sudo systemctl daemon-reload && \
+sudo systemctl start story && \
+sudo systemctl enable story && \
+sudo systemctl status story
+```
+
+## Check logs  
+story-geth  
+```bash
+sudo journalctl -u story-geth -f -o cat
+```
+story   
+```bash
+sudo journalctl -u story -f -o cat
+```
+
+## Check sync status
+```bash
+curl localhost:26657/status | jq
+```
+![image](https://github.com/user-attachments/assets/0b6be018-522a-4aab-ac4d-57f0572505e3)
 
 
 
