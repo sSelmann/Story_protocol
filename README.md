@@ -7,5 +7,11 @@
 Intellectual property is a multi-trillion-dollar asset class trapped in an outdated system. Story onramps IP to the blockchain and makes it programmable through innovation.
 
 ### 🌐 Useful links  
-[Discord](https://discord.gg/storyprotocol) | [Website](https://www.storyprotocol.xyz) | [About](https://docs.story.foundation/docs/what-is-story) | [Twitter](https://twitter.com/StoryProtocol) | [GitHub](https://github.com/storyprotocol) | [Dashboard](https://explorer.storyprotocol.xyz/) | [Story Academy](https://www.storyprotocol.xyz/academy) | [Telegram](https://t.me/+gInJTVTz2mcwZWZh) | [Learn Story](https://www.storyhousekbw.xyz/) | [L1 Blog](https://www.storyprotocol.xyz/media/story-tokenizing-creativity-on-the-worlds-ip-blockchain)
+[Discord](https://discord.gg/storyprotocol) | [Website](https://www.storyprotocol.xyz) | [About](https://docs.story.foundation/docs/what-is-story) | [Twitter](https://twitter.com/StoryProtocol) | [GitHub](https://github.com/storyprotocol) | [Dashboard](https://explorer.storyprotocol.xyz/) | [Story Academy](https://www.storyprotocol.xyz/academy) | [Telegram](https://t.me/+gInJTVTz2mcwZWZh) | [Learn Story](https://www.storyhousekbw.xyz/) | [L1 Blog](https://www.storyprotocol.xyz/media/story-tokenizing-creativity-on-the-worlds-ip-blockchain)   
+
+## ✨ Cumulo resources   
+
+### RPC Story Node   
+[https://rpc-story.cumulo.org.es](https://rpc-story.cumulo.org.es/)
+
 ---
