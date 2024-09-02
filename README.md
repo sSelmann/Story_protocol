@@ -18,5 +18,6 @@ peer	[95c28e5f3087c919be63791f8c5dcede23002d43@77.68.126.91:26656](https://githu
 
 ### Step-by-step guide to setting up and running a node on the Story blockchain    
 
+[![Node Guide](https://img.shields.io/badge/-Node%20Guide-808080?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/node-guide.md)
 
 ---
