@@ -19,10 +19,10 @@ v0.9.11-stable
 
 ## Default folder
 By default, we set up the following default data folders for the consensus and execution clients:   
-o	Story raíz de datos:~/.story/story  
-o	story-geth raíz de datos: ~/.story/geth  
+o	Story root data:~/.story/story  
+o	story-geth data root: ~/.story/geth  
 
-## CHAIN_ID="iliad"
+### CHAIN_ID="iliad"
 
 ## Install dependencies  
 ```bash
@@ -44,7 +44,15 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 go version
 ```
 
-
+Install piplabs
+```bash
+cd $HOME
+rm -rf story
+#git clone https://github.com/piplabs/story.git
+#cd story
+#git checkout v0.9.11
+#make build
+```
 
 Download Story-Geth binary
 ```bash
