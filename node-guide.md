@@ -1,5 +1,25 @@
 # Step-by-step guide to setting up and running a node on the Story blockchain
 
+## Table of Contents
+- [System Specs](#system-specs)
+- [Default folder](#default-folder)
+- [Install dependencies](#install-dependencies)
+- [Install Go 23](#install-go-23)
+- [Install piplabs](#install-piplabs)
+- [Download Story-Geth binary](#download-story-geth-binary)
+- [Download Story binary](#download-story-binary)
+- [Init Iliad node](#init-iliad-node)
+- [Create story-geth service file](#create-story-geth-service-file)
+- [Create story service file](#create-story-service-file)
+- [Reload and start story-geth](#reload-and-start-story-geth)
+- [Reload and start story](#reload-and-start-story)
+- [Check logs](#check-logs)
+  - [story-geth](#story-geth)
+  - [story](#story)
+- [Check sync status](#check-sync-status)
+
+---
+
 ## System Specs   
 
 **Hardware	Requirement**  
