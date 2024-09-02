@@ -1,8 +1,11 @@
 ![image](https://github.com/user-attachments/assets/4d6332b2-0852-41f0-8ed3-57c41385a411)
 
+---
 <hr>
- <h3>📌 Overview</h3>
- Intellectual property is a multi-trillion-dollar asset class trapped in an outdated system. Story onramps IP to the blockchain and makes it programmable through innovation.  
 
- <h3>🌐 Useful links</h3>
-[Discord](https://discord.gg/storyprotocol)  | [Website](https://www.storyprotocol.xyz) | [About](https://docs.story.foundation/docs/what-is-story) | [Twitter](https://twitter.com/StoryProtocol) | [GitHub](https://github.com/storyprotocol) | [Dashboard](https://explorer.storyprotocol.xyz/) | [Story Academy](https://www.storyprotocol.xyz/academy) | [Telegram](https://t.me/+gInJTVTz2mcwZWZh) | [Learn Story](https://www.storyhousekbw.xyz/) | [L1 Blog](https://www.storyprotocol.xyz/media/story-tokenizing-creativity-on-the-worlds-ip-blockchain)   
+### 📌 Overview
+Intellectual property is a multi-trillion-dollar asset class trapped in an outdated system. Story onramps IP to the blockchain and makes it programmable through innovation.
+
+### 🌐 Useful links  
+[Discord](https://discord.gg/storyprotocol) | [Website](https://www.storyprotocol.xyz) | [About](https://docs.story.foundation/docs/what-is-story) | [Twitter](https://twitter.com/StoryProtocol) | [GitHub](https://github.com/storyprotocol) | [Dashboard](https://explorer.storyprotocol.xyz/) | [Story Academy](https://www.storyprotocol.xyz/academy) | [Telegram](https://t.me/+gInJTVTz2mcwZWZh) | [Learn Story](https://www.storyhousekbw.xyz/) | [L1 Blog](https://www.storyprotocol.xyz/media/story-tokenizing-creativity-on-the-worlds-ip-blockchain)
+---
