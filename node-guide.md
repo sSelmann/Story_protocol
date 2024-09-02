@@ -8,6 +8,9 @@ RAM	8 GB
 Disk	200 GB  
 Bandwidth	10 MBit/s  
 
+**Ubuntu min version**  
+22.04  
+
 **story-geth version**  
 version: 0.9.2-stable  
 
@@ -19,6 +22,7 @@ By default, we set up the following default data folders for the consensus and e
 o	Story raíz de datos:~/.story/story  
 o	story-geth raíz de datos: ~/.story/geth  
 
+## CHAIN_ID="iliad"
 
 ## Install dependencies  
 ```bash
@@ -27,32 +31,51 @@ sudo apt-get update
 sudo apt install curl git make jq build-essential gcc unzip wget lz4 aria2 -y
 ```
 
+## Install Go 23  
+```bash
+cd $HOME
+VERSION=1.23.0
+wget -O go.tar.gz https://go.dev/dl/go$VERSION.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go.tar.gz && rm go.tar.gz
+echo 'export GOROOT=/usr/local/go' >> $HOME/.bash_profile
+echo 'export GOPATH=$HOME/go' >> $HOME/.bash_profile
+echo 'export GO111MODULE=on' >> $HOME/.bash_profile
+echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
+go version
+```
+
+
+
 Download Story-Geth binary
 ```bash
-wget https://story-geth-binaries.s3.us-west-1.amazonaws.com/geth-public/geth-linux-amd64-0.9.2-ea9f0d2.tar.gz
-tar -xzvf geth-linux-amd64-0.9.2-ea9f0d2.tar.gz
-[ ! -d "$HOME/go/bin" ] && mkdir -p $HOME/go/bin
-if ! grep -q "$HOME/go/bin" $HOME/.bash_profile; then
-  echo 'export PATH=$PATH:$HOME/go/bin' >> $HOME/.bash_profile
-fi
-sudo cp geth-linux-amd64-0.9.2-ea9f0d2/geth $HOME/go/bin/story-geth
-source $HOME/.bash_profile
+cd $HOME
+rm -rf story-geth
+#git clone https://github.com/piplabs/story-geth.git
+#cd story-geth
+#git checkout v0.9.2
+#make geth
+wget -O geth-linux-amd64-0.9.2-ea9f0d2.tar.gz https://story-geth-binaries.s3.us-west-1.amazonaws.com/geth-public/geth-linux-amd64-0.9.2-ea9f0d2.tar.gz 
+tar xvf geth-linux-amd64-0.9.2-ea9f0d2.tar.gz
+sudo chmod +x geth-linux-amd64-0.9.2-ea9f0d2/geth
+sudo mv geth-linux-amd64-0.9.2-ea9f0d2/geth /usr/local/bin/story-geth
+#SEEDS="81987895a11f6689ada254c6b57932ab7ed909b6@54.241.167.190:26656,010fb4de28667725a4fef26cdc7f9452cc34b16d@54.176.175.48:26656,e9b4bc203197b62cc7e6a80a64742e752f4210d5@54.193.250.204:26656,68b9145889e7576b652ca68d985826abd46ad660@18.166.164.232:26656"
 story-geth version
 ```
 
 Download Story binary
 ```bash
-wget https://story-geth-binaries.s3.us-west-1.amazonaws.com/story-public/story-linux-amd64-0.9.11-2a25df1.tar.gz
-tar -xzvf story-linux-amd64-0.9.11-2a25df1.tar.gz
-[ ! -d "$HOME/go/bin" ] && mkdir -p $HOME/go/bin
-if ! grep -q "$HOME/go/bin" $HOME/.bash_profile; then
-  echo 'export PATH=$PATH:$HOME/go/bin' >> $HOME/.bash_profile
-fi
-sudo cp story-linux-amd64-0.9.11-2a25df1/story $HOME/go/bin/story
-source $HOME/.bash_profile
+wget -O story-linux-amd64-0.9.11-2a25df1.tar.gz https://story-geth-binaries.s3.us-west-1.amazonaws.com/story-public/story-linux-amd64-0.9.11-2a25df1.tar.gz
+tar xvf story-linux-amd64-0.9.11-2a25df1.tar.gz
+sudo chmod +x story-linux-amd64-0.9.11-2a25df1/story
+sudo mv story-linux-amd64-0.9.11-2a25df1/story /usr/local/bin/
 story version
 ```
 
+## Init Iliad node  
+```bash
+story init --network iliad --moniker <your_moniker>
+```
+![image](https://github.com/user-attachments/assets/c9e49230-4c08-407f-a564-a2fe17d596b1)
 
 
 
