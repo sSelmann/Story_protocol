@@ -12,6 +12,9 @@ Intellectual property is a multi-trillion-dollar asset class trapped in an outda
 ## ✨ Cumulo resources   
 
 ### RPC Story Node   
-[https://rpc-story.cumulo.org.es](https://rpc-story.cumulo.org.es/)
+[https://rpc-story.cumulo.org.es](https://rpc-story.cumulo.org.es/)  
+
+peer	[95c28e5f3087c919be63791f8c5dcede23002d43@77.68.126.91:26656](https://github.com/user-attachments/assets/017e6a06-e699-4fc6-9b33-48366aea54ad)
+
 
 ---
