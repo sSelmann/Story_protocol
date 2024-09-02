@@ -44,7 +44,7 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 go version
 ```
 
-Install piplabs
+## Install piplabs
 ```bash
 cd $HOME
 rm -rf story
@@ -54,7 +54,7 @@ rm -rf story
 #make build
 ```
 
-Download Story-Geth binary
+## Download Story-Geth binary
 ```bash
 cd $HOME
 rm -rf story-geth
@@ -70,7 +70,7 @@ sudo mv geth-linux-amd64-0.9.2-ea9f0d2/geth /usr/local/bin/story-geth
 story-geth version
 ```
 
-Download Story binary
+## Download Story binary
 ```bash
 wget -O story-linux-amd64-0.9.11-2a25df1.tar.gz https://story-geth-binaries.s3.us-west-1.amazonaws.com/story-public/story-linux-amd64-0.9.11-2a25df1.tar.gz
 tar xvf story-linux-amd64-0.9.11-2a25df1.tar.gz
