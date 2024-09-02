@@ -1,3 +1,5 @@
+![STORYGUIDE](https://github.com/user-attachments/assets/fc64ceef-46ff-42ec-8bdf-55bb7459f4ac)
+
 # Step-by-step guide to setting up and running a node on the Story blockchain
 
 ## Table of Contents
