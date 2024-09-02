@@ -2,9 +2,7 @@
 
 # Step-by-step guide to setting up and running a node on the Story blockchain
 
-![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
-
-## Table of Contents
+### Table of Contents
 - [System Specs](#system-specs)
 - [Default folder](#default-folder)
 - [Install dependencies](#install-dependencies)
@@ -22,7 +20,7 @@
   - [story](#story)
 - [Check sync status](#check-sync-status)
 
----
+![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
 
 ## System Specs   
 
