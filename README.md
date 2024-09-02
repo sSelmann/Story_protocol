@@ -12,6 +12,9 @@ Intellectual property is a multi-trillion-dollar asset class trapped in an outda
 
 ## ✨ Cumulo resources   
 
+### Validator Story Node   
+valoper: [storyvaloper17s93lgl2ym8f98dukr7n9524sedxh8kjgkyfmv](https://testnet.story.explorers.guru/validator/storyvaloper17s93lgl2ym8f98dukr7n9524sedxh8kjgkyfmv)
+
 ### RPC Story Node   
 [https://rpc-story.cumulo.org.es](https://rpc-story.cumulo.org.es/)  
 
