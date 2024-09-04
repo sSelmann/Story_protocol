@@ -13,6 +13,7 @@
    {
     "name": "itrocket",
     "webservices": "https://itrocket.net/services/testnet/story/",
+    "x": "itrocket_team",
     "validatorlogo": "itrocket.jpg",
     "explorer": "",
     "peers": "2f372238bf86835e8ad68c0db12351833c40e8ad@story-testnet-peer.itrocket.net:26656",
