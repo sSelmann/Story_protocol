@@ -1,0 +1,13 @@
+[
+  {
+    "name": "kjnodes",
+    "webservices": "https://services.kjnodes.com/testnet/story/",
+    "validatorlogo": "kjnodes.jpg",
+    "explorer": "",
+    "api": "https://story-testnet.api.kjnodes.com",
+    "rpc": "https://story-testnet.rpc.kjnodes.com",
+    "grpc": "story-testnet.grpc.kjnodes.com:443",
+    "addrbook": "https://snapshots.kjnodes.com/story-testnet/addrbook.json",
+   "snapshot": ""
+  }
+]
