@@ -185,6 +185,18 @@ curl localhost:26657/status | jq
 ```
 ![image](https://github.com/user-attachments/assets/0b6be018-522a-4aab-ac4d-57f0572505e3)
 
+## Create Validator  
+Export validator Public Key & Private key  
+```bash
+story validator export
+```
+Export the derived EVM private key
+```bash
+story validator export --export-evm-key
+```
+Faucet link:  [https://faucet.story.foundation/](https://faucet.story.foundation/)
 
-
+```bash
+story validator create --stake 1000000000000000000 --private-key <private-key>
+```
 
