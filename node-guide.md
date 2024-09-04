@@ -197,6 +197,12 @@ story validator export --export-evm-key
 ```
 Faucet link:  [https://faucet.story.foundation/](https://faucet.story.foundation/)
 
+Check key wallet  
+```bash
+story validator export | grep "EVM Public Key:" | awk '{print $NF}'
+```
+
+Create Validator  
 ```bash
 story validator create --stake 1000000000000000000 --private-key <private-key>
 ```
