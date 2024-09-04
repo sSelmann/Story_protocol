@@ -19,6 +19,7 @@
   - [story-geth](#story-geth)
   - [story](#story)
 - [Check sync status](#check-sync-status)
+- [Create Validator](#create-validator)
 
 ![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
 
