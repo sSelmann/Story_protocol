@@ -21,3 +21,8 @@ sudo journalctl -u story-geth -f -o cat
 ```bash
 sudo journalctl -u story -f -o cat
 ```
+## Wallet
+Check key wallet  
+```bash
+story validator export | grep "EVM Public Key:" | awk '{print $NF}'
+```
