@@ -2,7 +2,7 @@
   {
     "name": "kjnodes",
     "webservices": "https://services.kjnodes.com/testnet/story/",
-    "x": "kjnodes";
+    "x": "kjnodes",
     "validatorlogo": "kjnodes.jpg",
     "explorer": "",
     "api": "https://story-testnet.api.kjnodes.com",
