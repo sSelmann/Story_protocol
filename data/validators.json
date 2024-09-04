@@ -23,7 +23,7 @@
     "rpc": "https://story-testnet-rpc.itrocket.net",
     "json-rpc": "https://story-testnet-evm.itrocket.net:443",
     "grpc": "peers scanner",
-    "Snapshot": "https://itrocket.net/services/testnet/story/",
+    "snapshot": "https://itrocket.net/services/testnet/story/",
     "addrbook": "https://server-5.itrocket.net/testnet/story/addrbook.json",
     "tools": ""
   }
