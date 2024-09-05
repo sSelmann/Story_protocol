@@ -42,5 +42,22 @@
     "snapshot": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
     "addrbook": "",
     "tools": "guide"
+  },
+   {
+    "name": "Daniel Mandragora",
+    "webservices": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR",
+    "x": "contributedao",
+    "validatorlogo": "contributiondao.jpg",
+    "explorer": "",
+    "geth": "enode://a86b76eb7171eb68c4495e1fbad292715eee9b77a34ffa5cf39e40cc9047e1c41e01486d1e31428228a1350b0f870bcd3b6c5d608ba65fe7b7fcba715a78eeb8@story-geth.mandragora.io:30303"
+    "peers": "f16c644a6d19798e482edcfe5bd5728a22aa5e0d@65.108.103.184:26656",
+    "seeds": "6a07e2f396519b55ea05f195bac7800b451983c0@story-seed.mandragora.io:26656",
+    "api": "",
+    "rpc": "story-rpc.mandragora.io",
+    "json-rpc": "",
+    "grpc": "",
+    "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR",
+    "addrbook": "https://raw.githubusercontent.com/McDaan/general/main/story/addrbook.json",
+    "tools": "guide"
   }
 ]
