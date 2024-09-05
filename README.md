@@ -26,4 +26,7 @@ peer	[95c28e5f3087c919be63791f8c5dcede23002d43@77.68.126.91:26656](https://githu
 
 ### Cumulo's Story Protocol Resources
 
-[![Node Guide](https://img.shields.io/badge/-Node%20Guide-808080?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/node-guide.md)
+[![Node Guide](https://img.shields.io/badge/-Node%20Guide-505050?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/node-guide.md)
+[![Useful Commands](https://img.shields.io/badge/-Useful%20Commands-505050?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/useful_commands.md)
+[![Medium in Spanish](https://img.shields.io/badge/-Medium%20in%20Spanish-505050?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/story-espa%C3%B1ol)
+
