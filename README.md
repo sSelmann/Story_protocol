@@ -10,7 +10,7 @@ Intellectual property is a multi-trillion-dollar asset class trapped in an outda
 ### 🌐 Useful links  
 [Discord](https://discord.gg/storyprotocol) | [Website](https://www.storyprotocol.xyz) | [About](https://docs.story.foundation/docs/what-is-story) | [Twitter](https://twitter.com/StoryProtocol) | [GitHub](https://github.com/storyprotocol) | [Dashboard](https://explorer.storyprotocol.xyz/) | [Story Academy](https://www.storyprotocol.xyz/academy) | [Telegram](https://t.me/+gInJTVTz2mcwZWZh) | [Learn Story](https://www.storyhousekbw.xyz/) | [L1 Blog](https://www.storyprotocol.xyz/media/story-tokenizing-creativity-on-the-worlds-ip-blockchain)   
 
-## ✨ Cumulo resources   
+## ✨ Cumulo Node Resources   
 
 ### Validator Story Node   
 valoper: [storyvaloper17s93lgl2ym8f98dukr7n9524sedxh8kjgkyfmv](https://testnet.story.explorers.guru/validator/storyvaloper17s93lgl2ym8f98dukr7n9524sedxh8kjgkyfmv)
@@ -20,8 +20,10 @@ valoper: [storyvaloper17s93lgl2ym8f98dukr7n9524sedxh8kjgkyfmv](https://testnet.s
 
 peer	[95c28e5f3087c919be63791f8c5dcede23002d43@77.68.126.91:26656](https://github.com/user-attachments/assets/017e6a06-e699-4fc6-9b33-48366aea54ad)
 
-### Step-by-step guide to setting up and running a node on the Story blockchain    
+
+
+![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
+
+### Cumulo's Story Protocol Resources
 
 [![Node Guide](https://img.shields.io/badge/-Node%20Guide-808080?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/node-guide.md)
-
----
