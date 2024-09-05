@@ -22,9 +22,25 @@
     "api": "",
     "rpc": "https://story-testnet-rpc.itrocket.net",
     "json-rpc": "https://story-testnet-evm.itrocket.net:443",
-    "grpc": "peers scanner",
+    "tools": "peers scanner",
     "snapshot": "https://itrocket.net/services/testnet/story/",
     "addrbook": "https://server-5.itrocket.net/testnet/story/addrbook.json",
     "tools": ""
+  },
+   {
+    "name": "ContributionDAO",
+    "webservices": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
+    "x": "contributedao",
+    "validatorlogo": "contributiondao.jpg",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "",
+    "rpc": "",
+    "json-rpc": "",
+    "grpc": "",
+    "snapshot": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
+    "addrbook": "",
+    "tools": "guide"
   }
 ]
