@@ -20,6 +20,10 @@ valoper: [storyvaloper17s93lgl2ym8f98dukr7n9524sedxh8kjgkyfmv](https://testnet.s
 
 peer	[95c28e5f3087c919be63791f8c5dcede23002d43@77.68.126.91:26656](https://github.com/user-attachments/assets/017e6a06-e699-4fc6-9b33-48366aea54ad)
 
+### Archive Story Node  
+RPC [https://story-testnet-rpc.cumulo.me](https://story-testnet-rpc.cumulo.me)   
+JSON-RPC: [https://story-testnet-evm.cumulo.me](https://story-testnet-evm.cumulo.me)  
+WSS: [https://story-testnet-wss.cumulo.me](https://story-testnet-wss.cumulo.me)  
 
 
 ![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
