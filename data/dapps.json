@@ -7,5 +7,14 @@
    "whoare": "Unleash is a revolutionary IPFi platform only possible on Story. On Unleash, IP assets fuel a creative and financial ecosystem. Create, trade, and leverage your IP in unprecedented ways.",
    "img": "unleash.jpg",
    "logo": "unleashlogo.jpg"  
+ },
+ {
+   "name": "Color",
+   "type": "NFT",
+   "web": "https://www.colormp.com/",
+   "twitter": "color_mp",
+   "whoare": "Color is the world's first IP marketplace only possible on Story. Buy, sell & discover IP Assets and Licenses on a platform that's designed to supercharge creativity and collaboration.",
+   "img": "color.jpg",
+   "logo": "logocolor.jpg"  
  }
 ]
