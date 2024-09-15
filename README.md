@@ -23,7 +23,7 @@ peer	[95c28e5f3087c919be63791f8c5dcede23002d43@77.68.126.91:26656](https://githu
 ### Archive Story Node  
 RPC [https://story-testnet-rpc.cumulo.me](https://story-testnet-rpc.cumulo.me)   
 JSON-RPC: [https://story-testnet-evm.cumulo.me](https://story-testnet-evm.cumulo.me)  
-WSS: [https://story-testnet-wss.cumulo.me](https://story-testnet-wss.cumulo.me)  
+WSS: [wss://story-testnet-wss.cumulo.me:443](wss://story-testnet-wss.cumulo.me:443)  
 
 
 ![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
