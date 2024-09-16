@@ -29,6 +29,14 @@ Cosmos-WSS: [wss://story-testnet-rpc.cumulo.me/websocket](wss://story-testnet-rp
 
 ![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
 
+### [Story Front-Chain](https://story.frontchain.cumulo.pro/)
+
+![image](https://github.com/user-attachments/assets/5a43af9d-4f1e-4a65-aab8-80c584af9a96)
+
+
+
+![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
+
 ### Cumulo's Story Protocol Resources
 
 [![Node Guide](https://img.shields.io/badge/-Node%20Guide-505050?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/node-guide.md)
