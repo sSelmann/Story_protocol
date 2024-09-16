@@ -25,5 +25,14 @@
    "whoare": "Mycelium's creative tools are an all-in-one creative suite transforming IP into a digital playground. These tools are currently in early access for Mindblowon NFT holders. ",
    "img": "mycelium.jpg",
    "logo": "logomycelium.jpg"  
+ },
+ {
+   "name": "Blockbook",
+   "type": "",
+   "web": "https://www.blockbook.app/",
+   "twitter": "TheBlockBookapp",
+   "whoare": "Spotlight your content with BlockBook ⚡️Connect directly with brands and showcase your talent.",
+   "img": "blockbook.jpg",
+   "logo": "logoblockbook.jpg"  
  }
 ]
