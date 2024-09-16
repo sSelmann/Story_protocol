@@ -16,5 +16,14 @@
    "whoare": "Color is the world's first IP marketplace only possible on Story. Buy, sell & discover IP Assets and Licenses on a platform that's designed to supercharge creativity and collaboration.",
    "img": "color.jpg",
    "logo": "logocolor.jpg"  
+ },
+ {
+   "name": "Mycelium's Creative Tools",
+   "type": "Creative tool",
+   "web": "https://myceliumnetwork.io/",
+   "twitter": "mycelium_io",
+   "whoare": "Mycelium's creative tools are an all-in-one creative suite transforming IP into a digital playground. These tools are currently in early access for Mindblowon NFT holders. ",
+   "img": "mycelium.jpg",
+   "logo": "logomycelium.jpg"  
  }
 ]
