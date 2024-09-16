@@ -17,6 +17,7 @@ valoper: [storyvaloper17s93lgl2ym8f98dukr7n9524sedxh8kjgkyfmv](https://testnet.s
 
 ### RPC Story Node   
 RPC: [https://rpc-story.cumulo.org.es](https://rpc-story.cumulo.org.es/)  
+Cosmos-WSS: wss://rpc-story.cumulo.org.es/websocket
 
 peer	[95c28e5f3087c919be63791f8c5dcede23002d43@77.68.126.91:26656](https://github.com/user-attachments/assets/017e6a06-e699-4fc6-9b33-48366aea54ad)
 
