@@ -29,7 +29,9 @@ Cosmos-WSS: [wss://story-testnet-rpc.cumulo.me/websocket](wss://story-testnet-rp
 
 ![LINEA](https://github.com/user-attachments/assets/6cbf6840-7d91-482b-9f97-bdbaf8187e9f)
 
-### [Story Front-Chain](https://story.frontchain.cumulo.pro/)
+### [Story Front-Chain](https://story.frontchain.cumulo.pro/)  
+
+Story Front-Chain, the first modular front-end dashboard, includes tools that allow you to check all types of endpoints for your Story node. In addition, it provides access to additional resources gathered from validators and the ecosystem, giving you a comprehensive and streamlined view of the status and performance of your node on the Story network.
 
 ![image](https://github.com/user-attachments/assets/5a43af9d-4f1e-4a65-aab8-80c584af9a96)
 
