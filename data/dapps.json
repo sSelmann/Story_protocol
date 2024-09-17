@@ -43,5 +43,14 @@
    "whoare": "PiperX is redefining the IP-Fi space with a fresh infrastructure that makes trading, managing, and monetizing IP assets more accessible and transparent.",
    "img": "piperX.jpg",
    "logo": "logopiperX.jpg"  
+ },
+ {
+   "name": "Story Hunt",
+   "type": "IP-Fi",
+   "web": "https://app.storyhunt.xyz/",
+   "twitter": "0xstoryhunt",
+   "whoare": "Story Hunt is one of the DEXs for swapping IPs, NFTs, and Tokens. Swap $IP <-> Everything",
+   "img": "storyhunt.jpg",
+   "logo": "logostoryhunt.jpg"  
  }
 ]
