@@ -15,7 +15,8 @@
    "twitter": "color_mp",
    "whoare": "Color is the world's first IP marketplace only possible on Story. Buy, sell & discover IP Assets and Licenses on a platform that's designed to supercharge creativity and collaboration.",
    "img": "color.jpg",
-   "logo": "logocolor.jpg"  
+   "logo": "logocolor.jpg",
+   "testnet": "https://x.com/color_mp/status/1828458129194971272"
  },
  {
    "name": "Mycelium's Creative Tools",
@@ -24,7 +25,8 @@
    "twitter": "mycelium_io",
    "whoare": "Mycelium's creative tools are an all-in-one creative suite transforming IP into a digital playground. These tools are currently in early access for Mindblowon NFT holders. ",
    "img": "mycelium.jpg",
-   "logo": "logomycelium.jpg"  
+   "logo": "logomycelium.jpg",
+   "testnet": "https://x.com/mycelium_io/status/1829552022670221729"
  },
  {
    "name": "Blockbook",
@@ -42,7 +44,8 @@
    "twitter": "piperxprotocol",
    "whoare": "PiperX is redefining the IP-Fi space with a fresh infrastructure that makes trading, managing, and monetizing IP assets more accessible and transparent.",
    "img": "piperX.jpg",
-   "logo": "logopiperX.jpg"  
+   "logo": "logopiperX.jpg",
+   "testnet": "https://x.com/piperxprotocol/status/1829096829771743416"
  },
  {
    "name": "Story Hunt",
@@ -51,6 +54,7 @@
    "twitter": "0xstoryhunt",
    "whoare": "Story Hunt is one of the DEXs for swapping IPs, NFTs, and Tokens. Swap $IP <-> Everything",
    "img": "storyhunt.jpg",
-   "logo": "logostoryhunt.jpg"  
+   "logo": "logostoryhunt.jpg",
+   "testnet": "https://x.com/StoryProtocol/status/1828455573513482607"
  }
 ]
