@@ -1,7 +1,7 @@
 [
  {
    "name": "Unleash",
-   "type": "IPFi",
+   "type": "IP-Fi",
    "web": "https://unleashprotocol.xyz/",
    "twitter": "unleashprotocol",
    "whoare": "Unleash is a revolutionary IPFi platform only possible on Story. On Unleash, IP assets fuel a creative and financial ecosystem. Create, trade, and leverage your IP in unprecedented ways.",
@@ -34,5 +34,14 @@
    "whoare": "Spotlight your content with BlockBook ⚡️Connect directly with brands and showcase your talent.",
    "img": "blockbook.jpg",
    "logo": "logoblockbook.jpg"  
+ },
+ {
+   "name": "PiperX",
+   "type": "IP-Fi",
+   "web": "https://app.piperx.xyz/",
+   "twitter": "piperxprotocol",
+   "whoare": "PiperX is redefining the IP-Fi space with a fresh infrastructure that makes trading, managing, and monetizing IP assets more accessible and transparent.",
+   "img": "piperX.jpg",
+   "logo": "logopiperX.jpg"  
  }
 ]
