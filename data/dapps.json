@@ -58,13 +58,14 @@
    "testnet": "https://x.com/StoryProtocol/status/1828455573513482607"
  },
  {
-   "name": "",
-   "type": "",
-   "web": "",
-   "twitter": "",
-   "whoare": ",
-   "img": ".jpg",
-   "logo": ".jpg",
-   "testnet": ""
+   "name": "Escher",
+   "type": "AI",
+   "web": "https://app.escher.ai/login",
+   "twitter": "RingfenceAI",
+   "whoare": "Escher.ai is a platform that uses generative AI to help Web3 creators generate and manage digital content",
+   "img": "ringfence.jpg",
+   "logo": "logoringfence.png",
+   "testnet": "https://x.com/RingfenceAI/status/1834261195450097879",
+   "author": "Ringfence"
  }
 ]
