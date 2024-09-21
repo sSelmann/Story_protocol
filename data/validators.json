@@ -5,11 +5,18 @@
     "x": "kjnodes",
     "validatorlogo": "kjnodes.jpg",
     "explorer": "",
+    "peers": "",
+    "seeds": "",
     "api": "https://story-testnet.api.kjnodes.com",
     "rpc": "https://story-testnet.rpc.kjnodes.com",
     "grpc": "story-testnet.grpc.kjnodes.com:443",
+    "evm-rpc": "https://story-jsonrpc.mandragora.io",
+    "wss_cosmos": "wss://story-rpc.mandragora.io/websocket",
+    "wss_evm": "wss://story-jsonrpc.mandragora.io"
+    "snapshot": "",
     "addrbook": "https://snapshots.kjnodes.com/story-testnet/addrbook.json",
-    "snapshot": ""
+    "tools": "",
+    "tools_url": {}
   },
   {
     "name": "itrocket",
@@ -21,11 +28,13 @@
     "seeds": "51ff395354c13fab493a03268249a74860b5f9cc@story-testnet-seed.itrocket.net:26656",
     "api": "",
     "rpc": "https://story-testnet-rpc.itrocket.net",
-    "evm-rpc": "https://story-testnet-evm.itrocket.net:443",
-    "tools": "peers scanner",
+    "grpc": "",
     "snapshot": "https://itrocket.net/services/testnet/story/",
     "addrbook": "https://server-5.itrocket.net/testnet/story/addrbook.json",
-    "tools": ""
+    "tools": "peers scanner",
+    "tools_url": {
+      "peers scanner": "https://itrocket.net/services/testnet/story/"
+    }
   },
   {
     "name": "ContributionDAO",
@@ -37,11 +46,13 @@
     "seeds": "",
     "api": "",
     "rpc": "",
-    "json-rpc": "",
     "grpc": "",
     "snapshot": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
     "addrbook": "",
-    "tools": "guide"
+    "tools": "guide",
+    "tools_url": {
+      "guide": "https://services.contributiondao.com/testnet/story-protocol/snapshots"
+    }
   },
   {
     "name": "Daniel Mandragora",
@@ -49,16 +60,17 @@
     "x": "mandragora_spem",
     "validatorlogo": "mandragora.jpg",
     "explorer": "",
-    "geth": "enode://a86b76eb7171eb68c4495e1fbad292715eee9b77a34ffa5cf39e40cc9047e1c41e01486d1e31428228a1350b0f870bcd3b6c5d608ba65fe7b7fcba715a78eeb8@story-geth.mandragora.io:30303",
     "peers": "f16c644a6d19798e482edcfe5bd5728a22aa5e0d@65.108.103.184:26656",
     "seeds": "6a07e2f396519b55ea05f195bac7800b451983c0@story-seed.mandragora.io:26656",
     "api": "",
     "rpc": "story-rpc.mandragora.io",
-    "evm-rpc": "",
     "grpc": "",
     "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR",
     "addrbook": "https://raw.githubusercontent.com/McDaan/general/main/story/addrbook.json",
-    "tools": "guide"
+    "tools": "guide",
+    "tools_url": {
+      "guide": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR"
+    }
   },
   {
     "name": "Joseph Tran Services",
@@ -66,33 +78,38 @@
     "x": "",
     "validatorlogo": "joseph.jpg",
     "explorer": "",
-    "geth": "enode://b2624137cc602dcb1db9913a7cbe0a2ba134723038ebabdda4df7b2cef7ddc3ffa7ee8567d2193b3d2608406c304eb902a8a52e8fb6ff7e34c1b1773115f8c68@peer-story.josephtran.xyz:30303",
     "peers": "9fc21eaa5f39f3611875a951775c5b1ebdf032ee@peer-story.josephtran.xyz:26656",
     "seeds": "",
     "api": "",
     "rpc": "https://rpc-story.josephtran.xyz",
-    "evm-rpc": "https://evm-rpc-story.josephtran.xyz",
     "grpc": "",
     "snapshot": "https://service.josephtran.xyz/testnet/story/snapshot",
     "addrbook": "",
     "tools": "guide",
-    "guide": "https://service.josephtran.xyz/testnet/story/installation"
+    "tools_url": {
+      "guide": "https://service.josephtran.xyz/testnet/story/installation"
+    }   
   },
   {
-    "name": "",
-    "webservices": "",
-    "x": "",
-    "validatorlogo": "",
-    "explorer": "",
-    "geth": "",
-    "peers": "",
-    "seeds": "",
-    "api": "",
-    "rpc": "",
-    "evm-rpc": "",
-    "grpc": "",
-    "snapshot": "",
-    "addrbook": "",
-    "tools": ""
+  "name": "SynergyNodes",
+  "webservices": "https://www.synergynodes.com/service/storytest",
+  "x": "SynergyNodes",
+  "validatorlogo": "synergynodes.png",
+  "explorer": "",
+  "peers": "",
+  "seeds": "",
+  "api": "https://story-testnet-api.synergynodes.com",
+  "rpc": "https://story-testnet-rpc.synergynodes.com",
+  "evm-rpc": "https://story-testnet-evm.synergynodes.com",
+  "wss_cosmos": "wss://story-testnet-rpc.synergynodes.com/websocket",
+  "wss_evm": "wss://story-testnet-evm.synergynodes.com",
+  "grpc": "storytest.grpc.synergynodes.com:443",
+  "snapshot": "https://www.synergynodes.com/service/storytest",
+  "addrbook": "https://support.synergynodes.com/addrbook/story_testnet/addrbook.json",
+  "tools": "Bech32 Tool",
+  "tools_url": {
+    "Bech32 Tool": "https://tools.synergynodes.com/"
   }
+}
+
 ]
