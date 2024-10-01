@@ -41,3 +41,13 @@ These metrics are fundamental for monitoring and diagnosing the performance and 
 Value: histogram representing block times  
 ![image](https://github.com/user-attachments/assets/3d683ee0-9dfa-4d4d-b95f-db394582366a)
 
+## Chain Size  
+
+*cometbft_consensus_chain_size_bytes*
+
+This metric shows the cumulative size of the blockchain as it grows over time, accounting for all blocks, transactions, and state data. Understanding the chain size helps track data storage requirements and manage resources, especially for nodes with limited storage capacity
+Value: size of the blockchain in bytes
+![image](https://github.com/user-attachments/assets/39faf527-e104-49cb-8a15-c4a1f67839fc)
+
+
+
