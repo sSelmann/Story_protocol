@@ -21,6 +21,15 @@ Value: Number representing the last block reached by the node consensus.
 *cometbft_blocksync_latest_block_height*  
 
 This is the number of the highest block processed by the node, indicating whether it is up to date with the network.
-Value: Number representing highest block processed by the node.
-![image](https://github.com/user-attachments/assets/849a12f3-ae61-4896-a8e9-e6fb02ce1755)
+Value: Number representing highest block processed by the node.  
+![image](https://github.com/user-attachments/assets/5b472c4d-dfb8-4120-beab-4f164702d099)
+
+## Block Size  
+
+*cometbft_consensus_block_size_bytes*  
+
+This metric provides the size of individual blocks processed by the node. It reflects the amount of data contained in a single block, such as transactions and other relevant information. Monitoring block size is crucial for understanding the network's data throughput and can help in identifying performance issues, especially when block sizes grow too large or remain consistently small.  
+Value: size of each block in bytes  
+![image](https://github.com/user-attachments/assets/a4c5f097-4548-4003-b73e-17efc45ba56c)
+
 
