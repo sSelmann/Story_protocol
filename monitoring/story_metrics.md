@@ -32,4 +32,12 @@ This metric provides the size of individual blocks processed by the node. It ref
 Value: size of each block in bytes  
 ![image](https://github.com/user-attachments/assets/a4c5f097-4548-4003-b73e-17efc45ba56c)
 
+## State Block  Processing Time  
+
+*cometbft_state_block_processing_time_bucket*  
+
+Measures block processing time. Records the time the node takes to process a block, which helps to evaluate its efficiency.
+These metrics are fundamental for monitoring and diagnosing the performance and status of the node in the network.  
+Value: histogram representing block times  
+![image](https://github.com/user-attachments/assets/3d683ee0-9dfa-4d4d-b95f-db394582366a)
 
