@@ -57,6 +57,14 @@ This metric captures instances where the node receives votes that are considered
 Value: number of votes received by the node that correspond to previous heights and rounds than the node’s current state.  
 ![image](https://github.com/user-attachments/assets/7bf32f7a-9611-4227-b1fa-ca1099e567a7)
 
+## Proposal Receive Count  
+
+*cometbft_consensus_proposal_receive_count*
+
+This metric measures the total count of block proposals that the node has received over time. The proposals are annotated with their status, indicating whether they were accepted or rejected by the consensus process. Monitoring this helps in understanding the node's participation in the consensus mechanism and provides insights into the efficiency and reliability of the proposal process within the network. It is particularly useful for diagnosing any issues with block proposal acceptance rates.  
+Value: total number of proposals received by the node since the process started, categorized by status ('accepted' or 'rejected').  
+![Uploading image.png…]()
+
 
 
 
