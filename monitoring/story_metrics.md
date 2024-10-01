@@ -63,7 +63,8 @@ Value: number of votes received by the node that correspond to previous heights 
 
 This metric measures the total count of block proposals that the node has received over time. The proposals are annotated with their status, indicating whether they were accepted or rejected by the consensus process. Monitoring this helps in understanding the node's participation in the consensus mechanism and provides insights into the efficiency and reliability of the proposal process within the network. It is particularly useful for diagnosing any issues with block proposal acceptance rates.  
 Value: total number of proposals received by the node since the process started, categorized by status ('accepted' or 'rejected').  
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/20436329-e905-487e-a8f4-ee7a97571225)
+
 
 
 
