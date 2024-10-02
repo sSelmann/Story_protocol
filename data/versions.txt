@@ -1,0 +1,2 @@
+latest_story_version=0.9.11-2a25df1
+latest_geth_version=0.9.2-ea9f0d2
