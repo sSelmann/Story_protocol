@@ -93,6 +93,12 @@ Displays the total number of redelegate events that have occurred in the network
 Value: number of times staking delegations have been reallocated from one validator to another.  
 ![image](https://github.com/user-attachments/assets/3196a022-41b3-45a6-8e7f-11be513c9923)
 
+## Staking Delegate Transactions  
 
+*cosmos_tx_msg__cosmos_staking_v1beta1_MsgDelegate*
+
+Displays the total amount of tokens delegated in the network.  
+Value: number of delegation transactions for the Cosmos staking module
+![image](https://github.com/user-attachments/assets/f88c8c0b-f9e7-48fc-8054-9d4b36d72a28)
 
 
