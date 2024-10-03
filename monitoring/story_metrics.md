@@ -85,3 +85,14 @@ Displays the total number of undelegate events that have occurred in the network
 Value: number of times delegations have been withdrawn.  
 ![image](https://github.com/user-attachments/assets/82c61e25-b06c-493a-8e7a-dc282c939c78)
 
+## Staking Redelegate  
+
+*cosmos_staking_redelegate*
+
+Displays the total number of redelegate events that have occurred in the network.
+Value: number of times staking delegations have been reallocated from one validator to another.  
+![image](https://github.com/user-attachments/assets/3196a022-41b3-45a6-8e7f-11be513c9923)
+
+
+
+
