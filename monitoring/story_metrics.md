@@ -65,7 +65,23 @@ This metric measures the total count of block proposals that the node has receiv
 Value: total number of proposals received by the node since the process started, categorized by status ('accepted' or 'rejected').  
 ![image](https://github.com/user-attachments/assets/20436329-e905-487e-a8f4-ee7a97571225)
 
+## Token Distribution and Staking
+_________________________________
 
+## Staking Delegate  
 
+*cosmos_staking_delegate*
 
+Measures how many times users have delegated tokens to validators, showing staking activity on the network. 
+
+Value: Counts the total number of staking delegations.  
+![image](https://github.com/user-attachments/assets/4a250fa0-f90e-4529-ae14-2829bfc0b14c)
+
+## Staking Undelegate  
+
+*cosmos_staking_undelegate*
+
+Displays the total number of undelegate events that have occurred in the network.  
+Value: number of times delegations have been withdrawn.  
+![image](https://github.com/user-attachments/assets/82c61e25-b06c-493a-8e7a-dc282c939c78)
 
