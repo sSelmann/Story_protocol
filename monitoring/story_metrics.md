@@ -65,6 +65,14 @@ This metric measures the total count of block proposals that the node has receiv
 Value: total number of proposals received by the node since the process started, categorized by status ('accepted' or 'rejected').  
 ![image](https://github.com/user-attachments/assets/20436329-e905-487e-a8f4-ee7a97571225)
 
+## End Blocker Duration  
+
+*cosmos_end_blocker*  
+
+This metric measures the time taken to execute the end blocker for different modules (e.g., evmstaking, gov, staking) within the Cosmos SDK. End blockers are critical functions that are run at the end of each block in the blockchain to finalize state changes and apply governance, staking, and other processes. The metric uses different quantiles (0.5, 0.9, 0.99) to show the distribution of execution times, providing insights into the efficiency of the end blockers.   
+Value: duration of the end blocker execution for different modules in the Cosmos SDK
+![image](https://github.com/user-attachments/assets/31c4e8b0-9d7d-4d21-8cf0-6bfbea433fef)
+
 ## Token Distribution and Staking
 _________________________________
 
@@ -124,8 +132,6 @@ Value: number of undelegation transactions for the Cosmos staking module
 Monitors the depth of the staking queue in an EVM-based staking system. A queue depth of zero means that all staking requests have been processed and there are no outstanding transactions. Monitoring this metric is important for understanding the network's ability to handle staking requests efficiently and identifying any delays or congestion in the staking process. A growing queue depth may signal potential bottlenecks in processing staking transactions.  
 Value: number of pending staking or delegation requests waiting to be processed
 ![image](https://github.com/user-attachments/assets/8604c005-f099-43ce-97e6-29d84e813885)
-
-
 
 
 
