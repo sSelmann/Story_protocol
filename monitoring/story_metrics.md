@@ -65,6 +65,15 @@ This metric measures the total count of block proposals that the node has receiv
 Value: total number of proposals received by the node since the process started, categorized by status ('accepted' or 'rejected').  
 ![image](https://github.com/user-attachments/assets/20436329-e905-487e-a8f4-ee7a97571225)
 
+## Begin Blocker Duration
+
+*cosmos_begin_blocker*  
+
+This metric measures the time taken to execute the begin blocker for various modules (e.g., distribution, mint, slashing, staking, upgrade). Begin blockers are executed at the start of each block to update the blockchain state and apply necessary logic before transactions are processed. The metric provides different quantiles (0.5, 0.9, 0.99) to show the distribution of execution times for each module. Monitoring this metric helps assess the performance of each module and identify potential bottlenecks that may impact the speed of block processing.
+Value: duration of the begin blocker execution for different modules in the Cosmos SDK.  
+![image](https://github.com/user-attachments/assets/94c26b6c-0107-4200-892c-34653c1db2ac)
+
+
 ## End Blocker Duration  
 
 *cosmos_end_blocker*  
