@@ -158,7 +158,7 @@ Value: total power of the validators who are absent in the consensus process.
 *cometbft_consensus_missing_validators_power*  
 
 It measures the total voting power (stake) of validators that are absent in the network consensus process with the chain_id=“iliad-0”.This metric indicates the total amount of consensus power (in terms of stake) that has been lost due to the absence of certain validators. It is crucial to assess the impact that the absence of these validators has on the security and stability of the network, as more absent voting power can weaken the consensus of the blockchain.
-Value: total voting power (stake) of validators who are absent in the consensus process in the network 
+Value: total voting power (stake) of validators who are absent in the consensus process in the network.   
 ![image](https://github.com/user-attachments/assets/a98e5ffa-6428-4a15-ba04-3e6e53211659)
 
 ## Validator Set Updates 
@@ -166,6 +166,15 @@ Value: total voting power (stake) of validators who are absent in the consensus 
 *cometbft_state_validator_set_updates*  
 
 This metric counts how many times the validator set has been updated by the application. Validator set updates occur when validators join, leave, or their power changes, affecting the composition of the active validators responsible for consensus. Monitoring this metric is crucial for understanding the dynamics of validator participation and network governance. A high number of updates may indicate frequent changes in validator status, which can affect network stability and security.  
-Value: umber of updates to the validator set since the node process started.
+Value: number of updates to the validator set since the node process started.  
 ![image](https://github.com/user-attachments/assets/cd42671b-3d4f-4de0-aa6d-a976d6c921cb)
+
+## Consensus Parameter Updates  
+
+*cometbft_state_consensus_param_updates*  
+
+This metric counts how many times the application has updated the consensus parameters. These parameters define critical settings for the consensus process, such as block size, timeouts, and validator requirements. Monitoring this metric helps identify changes in the rules that govern the network's consensus mechanism. A high number of updates could indicate frequent tuning of network settings, which may affect how the network reaches consensus and how efficiently it operates.  
+Value: number of updates to the consensus parameters since the node process started.  
+![image](https://github.com/user-attachments/assets/1cc55753-fbd8-41fa-bc2c-3bc13c49fe64)
+
 
