@@ -109,4 +109,24 @@ Tracks the number of redelegation transactions initiated in the Cosmos staking m
 Value: number of redelegation transactions for the Cosmos staking module
 ![image](https://github.com/user-attachments/assets/e6950839-6274-449a-b979-8697d29ba543)
 
+## Staking Undelegate Transactions   
+
+*cosmos_tx_msg__cosmos_staking_v1beta1_MsgUndelegate*  
+
+Tracks the number of undelegation transactions initiated in the Cosmos staking module. Displays the total amount of tokens undelegated 
+Value: number of undelegation transactions for the Cosmos staking module
+![image](https://github.com/user-attachments/assets/96a77a37-d53b-48da-8e07-346021d89719)
+
+## Staking Queue Depth  
+
+*evmstaking_queue_depth*  
+
+Monitors the depth of the staking queue in an EVM-based staking system. A queue depth of zero means that all staking requests have been processed and there are no outstanding transactions. Monitoring this metric is important for understanding the network's ability to handle staking requests efficiently and identifying any delays or congestion in the staking process. A growing queue depth may signal potential bottlenecks in processing staking transactions.  
+Value: number of pending staking or delegation requests waiting to be processed
+![image](https://github.com/user-attachments/assets/8604c005-f099-43ce-97e6-29d84e813885)
+
+
+
+
+
  
