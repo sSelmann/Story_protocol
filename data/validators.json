@@ -110,6 +110,91 @@
   "tools_url": {
     "Bech32 Tool": "https://tools.synergynodes.com/"
   }
-}
+},
+  {
+  "name": "Coha05",
+  "webservices": "https://services.tech-coha05.xyz/networks/story/",
+  "x": "Coha05_",
+  "validatorlogo": "coha05.jpg",
+  "explorer": "",
+  "peers": "b37eff82c86e867f8bf4df1199fbd90cc411b9dd@story-testnet-peer.tech-coha05.xyz:36656",
+  "seeds": "",
+  "api": "",
+  "rpc": "https://story-cosmos-testnet-rpc.tech-coha05.xyz",
+  "evm-rpc": "https://story-evm-testnet-rpc.tech-coha05.xyz",
+  "wss_cosmos": "",
+  "wss_evm": "",
+  "grpc": "",
+  "snapshot": "https://services.tech-coha05.xyz/networks/story/snapshot.html",
+  "addrbook": "",
+  "tools": "Telegram block height alert ",
+  "tools_url": {
+    "Bech32 Tool": " https://t.me/storyval_bot"
+  },
+    "content":{
+    "Install guide": "https://services.tech-coha05.xyz/networks/story/install.html"
+    }
+  },
+  {
+  "name": "Crouton Digital",
+  "webservices": "https://crouton.digital/services/testnets/storyprotocol",
+  "x": "CroutonDigital",
+  "validatorlogo": "crouton.png",
+  "explorer": "",
+  "peers": "",
+  "seeds": "",
+  "api": "",
+  "rpc": "https://story-testnet-cosmos-rpc.crouton.digital/",
+  "evm-rpc": "",
+  "wss_cosmos": "",
+  "wss_evm": "",
+  "grpc": "",
+  "snapshot": "https://storage.crouton.digital/testnet/story/snapshots/story_latest.tar.lz4",
+  "addrbook": "",
+  "tools": "",
+  "tools_url": {
+    "Bech32 Tool": ""
+  }
+},
+   {
+    "name": "BlackNodes",
+    "webservices": "https://services.blacknodes.net/Story-Testnet/",
+    "x": "BlackNodesHQ",
+    "validatorlogo": "blacknodes.jpg",
+     "addrbook": "https://files4.blacknodes.net/story-testnet/addrbook.json",
+    "explorer": "https://explorer.blacknodes.net/Story-Testnet",
+    "peers": "c5d5626a9da3a3ff7dc65c5b973b758a1a9ee13b@65.108.229.11:53656",
+    "rpc": "https://story-testnet-rpc.blacknodes.net",
+    "api": "https://story-testnet-api.blacknodes.net",
+     "evm-rpc": "https://story-testnet-evm-rpc.blacknodes.net",
+    "wss_cosmos": "",
+   "wss_evm": "wss://ws-story-testnet-evm-rpc.blacknodes.net",
+   "grpc": "",
+   "snapshot": "https://services.blacknodes.net/Story-Testnet/",
+    "tools": "Node Monitoring",
+    "tools_url": {
+       "Node Monitoring": "https://services.blacknodes.net/Story-Testnet/"
+      }
+    },
+   {
+    "name": "TrustedPoint",
+    "webservices": "",
+    "x": "Trusted_Point",
+    "validatorlogo": "trustedpoint.jpg",
+     "addrbook": "",
+    "explorer": "",
+    "peers": "",
+    "rpc": "",
+    "api": "https://api-story-testnet.trusted-point.com/",
+     "evm-rpc": "",
+    "wss_cosmos": "",
+   "wss_evm": "",
+   "grpc": "",
+   "snapshot": "",
+    "tools": "",
+    "tools_url": {
+       "API ": "https://api-story-testnet.trusted-point.com/"
+      }
+    }
 
 ]
