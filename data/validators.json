@@ -34,7 +34,7 @@
     "tools": "peers scanner",
     "tools_url": {
       "peers scanner": "https://itrocket.net/services/testnet/story/",
-      "easy snapshot installation, 3 servers":"source <(curl -s https://itrocket.net/api/testnet/story/autosnap/)"
+      "AutoSnap: easy snapshot installation":"https://itrocket.net/services/testnet/story/#auto-snapshot"
     }
   },
   {
