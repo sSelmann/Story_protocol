@@ -196,6 +196,16 @@
     "tools_url": {
        "API ": "https://api-story-testnet.trusted-point.com/"
       }
+    },
+   {
+    "name": "Nodes.Guru",
+    "webservices": "https://nodes.guru/testnets/story",
+    "x": "NodesGuru",
+    "validatorlogo": "nodesguru.png",
+    "explorer": "https://testnet.story.explorers.guru/",
+    "content":{
+    "Setup Guide": "https://nodes.guru/testnets/story/setup-guide/en"
     }
+}
 
 ]
