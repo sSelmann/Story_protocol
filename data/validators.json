@@ -15,8 +15,10 @@
     "wss_evm": "wss://story-jsonrpc.mandragora.io",
     "snapshot": "",
     "addrbook": "https://snapshots.kjnodes.com/story-testnet/addrbook.json",
-    "tools": "",
-    "tools_url": {}
+    "tools": "public-rpc",
+    "tools_url": {
+      "public-rpc": "https://services.kjnodes.com/testnet/story/public-rpc/"
+    }
   },
   {
     "name": "itrocket",
@@ -192,7 +194,7 @@
    "wss_evm": "",
    "grpc": "",
    "snapshot": "",
-    "tools": "",
+    "tools": "API",
     "tools_url": {
        "API ": "https://api-story-testnet.trusted-point.com/"
       }
