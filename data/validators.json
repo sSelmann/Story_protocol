@@ -1,5 +1,67 @@
 [
   {
+    "name": "B-Harvest",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "",
+    "rpc": "https://story-rpc.bharvest.io",
+    "grpc": "",
+    "evm-rpc": "",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "snapshot": "",
+    "addrbook": "",
+    "tools": "Real-time Validator Performance",
+    "tools_url": {
+      "Real-time Validator Performance": "https://tenderdutory.bharvest.io/"
+    }
+  },
+  {
+    "name": "F5 Nodes",
+    "webservices": "https://wiki.f5nodes.com/story-protocol/",
+    "x": "f5nodes",
+    "validatorlogo": "f5.jpg",
+    "explorer": "",
+    "peers": "e6af3829b07b81090378d278cc3225892a504785@149.102.136.72:26656",
+    "snapshot": "https://story-testnet-rpc.f5nodes.com",
+    "api": "",
+    "rpc": "https://story-testnet-rpc.f5nodes.com",
+    "grpc": "",
+    "evm-rpc": "",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "addrbook": "https://wiki.f5nodes.com/story-protocol/sync/snapshot",
+    "tools": "Archive Infra and Snapshots",
+    "tools_url": {
+      "Archive Infra and Snapshots": "https://f5nodes.com/"
+    }
+  },
+  {
+    "name": "ITRocket",
+    "webservices": "https://itrocket.net/services/testnet/story/",
+    "x": "itrocket_team",
+    "validatorlogo": "itrocket.jpg",
+    "explorer": "",
+    "peers": "2f372238bf86835e8ad68c0db12351833c40e8ad@story-testnet-peer.itrocket.net:26656",
+    "seeds": "51ff395354c13fab493a03268249a74860b5f9cc@story-testnet-seed.itrocket.net:26656",
+    "api": "https://story-testnet-api.itrocket.net",
+    "rpc": "https://story-testnet-rpc.itrocket.net",
+    "grpc": "",
+    "evm-rpc": "https://story-testnet-evm.itrocket.net:443",
+    "wss_cosmos": "wss://story-testnet-rpc.itrocket.net/websocket",
+    "wss_evm": "wss://story-testnet-wss.itrocket.net",
+    "snapshot": "https://itrocket.net/services/testnet/story/",
+    "addrbook": "https://server-5.itrocket.net/testnet/story/addrbook.json",
+    "tools": "RPC Scanner",
+    "tools_url": {
+      "RPC Scanner": "https://itrocket.net/services/testnet/story/public-rpc"
+    }
+  },
+  {
     "name": "kjnodes",
     "webservices": "https://services.kjnodes.com/testnet/story/",
     "x": "kjnodes",
@@ -15,242 +77,93 @@
     "wss_evm": "wss://story-jsonrpc.mandragora.io",
     "snapshot": "",
     "addrbook": "https://snapshots.kjnodes.com/story-testnet/addrbook.json",
-    "tools": "public-rpc",
+    "tools": "RPC Scanner",
     "tools_url": {
-      "public-rpc": "https://services.kjnodes.com/testnet/story/public-rpc/"
+      "RPC Scanner": "https://services.kjnodes.com/testnet/story/public-rpc/"
     }
   },
   {
-    "name": "itrocket",
-    "webservices": "https://itrocket.net/services/testnet/story/",
-    "x": "itrocket_team",
-    "validatorlogo": "itrocket.jpg",
-    "explorer": "",
-    "peers": "2f372238bf86835e8ad68c0db12351833c40e8ad@story-testnet-peer.itrocket.net:26656",
-    "seeds": "51ff395354c13fab493a03268249a74860b5f9cc@story-testnet-seed.itrocket.net:26656",
-    "api": "",
-    "rpc": "https://story-testnet-rpc.itrocket.net",
-    "grpc": "",
-    "snapshot": "https://itrocket.net/services/testnet/story/",
-    "addrbook": "https://server-5.itrocket.net/testnet/story/addrbook.json",
-    "tools": "peers scanner",
-    "tools_url": {
-      "peers scanner": "https://itrocket.net/services/testnet/story/",
-      "AutoSnap: easy snapshot installation":"https://itrocket.net/services/testnet/story/#auto-snapshot"
-    }
-  },
-  {
-    "name": "ContributionDAO",
-    "webservices": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
-    "x": "contributedao",
-    "validatorlogo": "contributiondao.jpg",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
-    "snapshot": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
-    "addrbook": "",
-    "tools": "guide",
-    "tools_url": {
-      "guide": "https://services.contributiondao.com/testnet/story-protocol/snapshots"
-    }
-  },
-  {
-    "name": "Daniel Mandragora",
-    "webservices": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR",
-    "x": "mandragora_spem",
-    "validatorlogo": "mandragora.jpg",
-    "explorer": "",
-    "peers": "f16c644a6d19798e482edcfe5bd5728a22aa5e0d@65.108.103.184:26656",
-    "seeds": "6a07e2f396519b55ea05f195bac7800b451983c0@story-seed.mandragora.io:26656",
-    "api": "",
-    "rpc": "story-rpc.mandragora.io",
-    "grpc": "",
-    "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR",
-    "addrbook": "https://raw.githubusercontent.com/McDaan/general/main/story/addrbook.json",
-    "tools": "guide",
-    "tools_url": {
-      "guide": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR"
-    }
-  },
-  {
-    "name": "Joseph Tran Services",
-    "webservices": "https://service.josephtran.xyz/testnet/story/services",
-    "x": "",
-    "validatorlogo": "joseph.jpg",
-    "explorer": "",
-    "peers": "9fc21eaa5f39f3611875a951775c5b1ebdf032ee@peer-story.josephtran.xyz:26656",
-    "seeds": "",
-    "api": "",
-    "rpc": "https://rpc-story.josephtran.xyz",
-    "grpc": "",
-    "snapshot": "https://service.josephtran.xyz/testnet/story/snapshot",
-    "addrbook": "",
-    "tools": "guide",
-    "tools_url": {
-      "guide": "https://service.josephtran.xyz/testnet/story/installation"
-    }   
-  },
-  {
-  "name": "SynergyNodes",
-  "webservices": "https://www.synergynodes.com/service/storytest",
-  "x": "SynergyNodes",
-  "validatorlogo": "synergynodes.png",
-  "explorer": "",
-  "peers": "",
-  "seeds": "",
-  "api": "https://story-testnet-api.synergynodes.com",
-  "rpc": "https://story-testnet-rpc.synergynodes.com",
-  "evm-rpc": "https://story-testnet-evm.synergynodes.com",
-  "wss_cosmos": "wss://story-testnet-rpc.synergynodes.com/websocket",
-  "wss_evm": "wss://story-testnet-evm.synergynodes.com",
-  "grpc": "storytest.grpc.synergynodes.com:443",
-  "snapshot": "https://www.synergynodes.com/service/storytest",
-  "addrbook": "https://support.synergynodes.com/addrbook/story_testnet/addrbook.json",
-  "tools": "Bech32 Tool",
-  "tools_url": {
-    "Bech32 Tool": "https://tools.synergynodes.com/"
-  }
-},
-  {
-  "name": "Coha05",
-  "webservices": "https://services.tech-coha05.xyz/networks/story/",
-  "x": "Coha05_",
-  "validatorlogo": "coha05.jpg",
-  "explorer": "",
-  "peers": "b37eff82c86e867f8bf4df1199fbd90cc411b9dd@story-testnet-peer.tech-coha05.xyz:36656",
-  "seeds": "",
-  "api": "",
-  "rpc": "https://story-cosmos-testnet-rpc.tech-coha05.xyz",
-  "evm-rpc": "https://story-evm-testnet-rpc.tech-coha05.xyz",
-  "wss_cosmos": "",
-  "wss_evm": "",
-  "grpc": "",
-  "snapshot": "https://services.tech-coha05.xyz/networks/story/snapshot.html",
-  "addrbook": "",
-  "tools": "Telegram block height alert ",
-  "tools_url": {
-    "Bech32 Tool": " https://t.me/storyval_bot"
-  },
-    "content":{
-    "Install guide": "https://services.tech-coha05.xyz/networks/story/install.html"
-    }
-  },
-  {
-  "name": "Crouton Digital",
-  "webservices": "https://crouton.digital/services/testnets/storyprotocol",
-  "x": "CroutonDigital",
-  "validatorlogo": "crouton.jpg",
-  "explorer": "",
-  "peers": "",
-  "seeds": "",
-  "api": "",
-  "rpc": "https://story-testnet-cosmos-rpc.crouton.digital/",
-  "evm-rpc": "",
-  "wss_cosmos": "",
-  "wss_evm": "",
-  "grpc": "",
-  "snapshot": "https://storage.crouton.digital/testnet/story/snapshots/story_latest.tar.lz4",
-  "addrbook": "",
-  "tools": "",
-  "tools_url": {
-    "Bech32 Tool": ""
-  }
-},
-   {
-    "name": "BlackNodes",
-    "webservices": "https://services.blacknodes.net/Story-Testnet/",
-    "x": "BlackNodesHQ",
-    "validatorlogo": "blacknodes.jpg",
-     "addrbook": "https://files4.blacknodes.net/story-testnet/addrbook.json",
-    "explorer": "https://explorer.blacknodes.net/Story-Testnet",
-    "peers": "c5d5626a9da3a3ff7dc65c5b973b758a1a9ee13b@65.108.229.11:53656",
-    "rpc": "https://story-testnet-rpc.blacknodes.net",
-    "api": "https://story-testnet-api.blacknodes.net",
-     "evm-rpc": "https://story-testnet-evm-rpc.blacknodes.net",
-    "wss_cosmos": "",
-   "wss_evm": "wss://ws-story-testnet-evm-rpc.blacknodes.net",
-   "grpc": "",
-   "snapshot": "https://services.blacknodes.net/Story-Testnet/",
-    "tools": "Node Monitoring",
-    "tools_url": {
-       "Node Monitoring": "https://services.blacknodes.net/Story-Testnet/"
-      }
-    },
-   {
-    "name": "TrustedPoint",
+    "name": "Alikome",
     "webservices": "",
-    "x": "Trusted_Point",
-    "validatorlogo": "trustedpoint.jpg",
-     "addrbook": "",
+    "x": "",
+    "validatorlogo": "",
     "explorer": "",
     "peers": "",
-    "rpc": "",
-    "api": "https://api-story-testnet.trusted-point.com/",
-     "evm-rpc": "",
-    "wss_cosmos": "",
-   "wss_evm": "",
-   "grpc": "",
-   "snapshot": "",
-    "tools": "API",
-    "tools_url": {
-       "API ": "https://api-story-testnet.trusted-point.com/"
-      }
-    },
-   {
-    "name": "Nodes.Guru",
-    "webservices": "https://nodes.guru/testnets/story",
-    "x": "NodesGuru",
-    "validatorlogo": "nodesguru.png",
-    "explorer": "https://testnet.story.explorers.guru/",
-    "content":{
-    "Setup Guide": "https://nodes.guru/testnets/story/setup-guide/en"
-    }
-},
-   {
-    "name": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
-    "webservices": "https://utsa.gitbook.io/services/testnet/story-protocol",
-    "x": "lesnik13utsa",
-    "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
-    "addrbook": "",
-    "explorer": "",
-    "peers": "",
-    "rpc": "https://t-story.archive.rpc.utsa.tech/",
-    "api": "https://t-story.archive.api.utsa.tech/",
-     "evm-rpc": "https://t-story.archive.evm.utsa.tech:443",
-    "wss_cosmos": "",
-   "wss_evm": "https://t-story.archive.wss.utsa.tech:443",
-   "grpc": "",
-   "archive-snapshot": "https://utsa.gitbook.io/services/testnet/story-protocol/snapshot",
-    "tools": "State sync",
-     "tools_url": {
-       "State sync": "https://utsa.gitbook.io/services/testnet/story-protocol/state-sync"
-      },
-    "content":{
-    "Install guide": "https://utsa.gitbook.io/services/testnet/story-protocol/installation"
-    }   
-},
-  {
-    "name": "F5 Nodes",
-    "webservices": "https://wiki.f5nodes.com/story-protocol/",
-    "x": "f5nodes",
-    "validatorlogo": "f5.jpg",
-    "addrbook": "https://wiki.f5nodes.com/story-protocol/sync/snapshot",
-    "explorer": "",
-    "peers": "e6af3829b07b81090378d278cc3225892a504785@149.102.136.72:26656",
-    "snapshot": "https://story-testnet-rpc.f5nodes.com",
+    "seeds": "",
     "api": "",
-     "evm-rpc": "",
+    "rpc": "",
+    "grpc": "",
+    "evm-rpc": "",
     "wss_cosmos": "",
-   "wss_evm": "",
-   "grpc": "",
-   "archive-snapshot": "",
-    "tools": "Nodes Wiky Story",
-     "tools_url": {
-       "Nodes Wiky Story": "https://wiki.f5nodes.com/story-protocol/"
-      }
+    "wss_evm": "",
+    "snapshot": "",
+    "addrbook": "",
+    "tools": "Bash Node Manager",
+    "tools_url": {
+      "Bash Node Manager": "https://github.com/alikome/Story-protocol-node-tools"
     }
-
+  },
+  {
+    "name": "Synergy Nodes",
+    "webservices": "https://www.synergynodes.com/service/storytest",
+    "x": "SynergyNodes",
+    "validatorlogo": "synergynodes.png",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "https://story-testnet-api.synergynodes.com",
+    "rpc": "https://story-testnet-rpc.synergynodes.com",
+    "evm-rpc": "https://story-testnet-evm.synergynodes.com",
+    "wss_cosmos": "wss://story-testnet-rpc.synergynodes.com/websocket",
+    "wss_evm": "wss://story-testnet-evm.synergynodes.com",
+    "grpc": "storytest.grpc.synergynodes.com:443",
+    "snapshot": "https://www.synergynodes.com/service/storytest",
+    "addrbook": "https://support.synergynodes.com/addrbook/story_testnet/addrbook.json",
+    "tools": "Story Testnet Tenderduty Dashboard",
+    "tools_url": {
+      "Story Testnet Tenderduty Dashboard": "https://story-testnet-tenderduty.synergynodes.com/"
+    }
+  },
+  {
+    "name": "Cumulo",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "",
+    "rpc": "https://story-testnet-rpc.cumulo.me",
+    "grpc": "",
+    "evm-rpc": "https://story-testnet-evm.cumulo.me",
+    "wss_cosmos": "wss://story-testnet-rpc.cumulo.me/websocket",
+    "wss_evm": "wss://story-testnet-wss.cumulo.me",
+    "snapshot": "",
+    "addrbook": "",
+    "tools": "Story Front-Chain Dashboard",
+    "tools_url": {
+      "Story Front-Chain Dashboard": "https://story.frontchain.cumulo.pro/"
+    }
+  },
+  {
+    "name": "openbitlab",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "",
+    "rpc": "https://story-testnet-rpc.openbitlab.com",
+    "grpc": "",
+    "evm-rpc": "https://story-testnet-jsonrpc.openbitlab.com",
+    "wss_cosmos": "wss://story-testnet-rpc.openbitlab.com/websocket",
+    "wss_evm": "wss://story-testnet-wss.openbitlab.com",
+    "snapshot": "",
+    "addrbook": "",
+    "tools": "Story Node Monitor",
+    "tools_url": {
+      "Story Node Monitor": "https://github.com/openbitlab/srvcheck"
+    }
+  }
 ]
