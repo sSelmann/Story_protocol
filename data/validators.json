@@ -208,6 +208,30 @@
     "content":{
     "Setup Guide": "https://nodes.guru/testnets/story/setup-guide/en"
     }
-}
+},
+   {
+    "name": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
+    "webservices": "https://utsa.gitbook.io/services/testnet/story-protocol",
+    "x": "lesnik13utsa",
+    "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
+    "addrbook": "",
+    "explorer": "",
+    "peers": "",
+    "rpc": "https://t-story.archive.rpc.utsa.tech/",
+    "api": "https://t-story.archive.api.utsa.tech/",
+     "evm-rpc": "https://t-story.archive.evm.utsa.tech:443",
+    "wss_cosmos": "",
+   "wss_evm": "https://t-story.archive.wss.utsa.tech:443",
+   "grpc": "",
+   "archive-snapshot": "https://utsa.gitbook.io/services/testnet/story-protocol/snapshot",
+    "tools": "State sync",
+     "tools_url": {
+       "State sync": "https://utsa.gitbook.io/services/testnet/story-protocol/state-sync"
+      }
+    "content":{
+    "Install guide": "https://utsa.gitbook.io/services/testnet/story-protocol/installation"
+    }
+    
+    }
 
 ]
