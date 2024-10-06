@@ -20,26 +20,26 @@
       "RPC Scanner": "https://itrocket.net/services/testnet/story/public-rpc"
     }
   },
-   {
+  {
     "name": "BlackNodes",
     "webservices": "https://services.blacknodes.net/Story-Testnet/",
     "x": "BlackNodesHQ",
     "validatorlogo": "blacknodes.jpg",
-     "addrbook": "https://files4.blacknodes.net/story-testnet/addrbook.json",
+    "addrbook": "https://files4.blacknodes.net/story-testnet/addrbook.json",
     "explorer": "https://explorer.blacknodes.net/Story-Testnet",
     "peers": "c5d5626a9da3a3ff7dc65c5b973b758a1a9ee13b@65.108.229.11:53656",
     "rpc": "https://story-testnet-rpc.blacknodes.net",
     "api": "https://story-testnet-api.blacknodes.net",
-     "evm-rpc": "https://story-testnet-evm-rpc.blacknodes.net",
+    "evm-rpc": "https://story-testnet-evm-rpc.blacknodes.net",
     "wss_cosmos": "",
-   "wss_evm": "wss://ws-story-testnet-evm-rpc.blacknodes.net",
-   "grpc": "",
-   "snapshot": "https://services.blacknodes.net/Story-Testnet/",
+    "wss_evm": "wss://ws-story-testnet-evm-rpc.blacknodes.net",
+    "grpc": "",
+    "snapshot": "https://services.blacknodes.net/Story-Testnet/",
     "tools": "Node Monitoring",
     "tools_url": {
-       "Node Monitoring": "https://services.blacknodes.net/Story-Testnet/"
-      }
-    },
+      "Node Monitoring": "https://services.blacknodes.net/Story-Testnet/"
+    }
+  },
   {
     "name": "Mandragora",
     "webservices": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Story-Protocol---Mandragoras-infrastructure-services",
@@ -198,7 +198,7 @@
       "guide": "https://service.josephtran.xyz/testnet/story/installation"
     }
   },
- {
+  {
     "name": "Aldebaranode",
     "webservices": "",
     "x": "",
@@ -420,7 +420,7 @@
       "RPC Scanner": "https://services.kjnodes.com/testnet/story/public-rpc/"
     }
   },
-   {
+  {
     "name": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀",
     "webservices": "https://utsa.gitbook.io/services/testnet/story-protocol",
     "x": "lesnik13utsa",
@@ -430,48 +430,47 @@
     "peers": "",
     "rpc": "https://t-story.archive.rpc.utsa.tech/",
     "api": "https://t-story.archive.api.utsa.tech/",
-     "evm-rpc": "https://t-story.archive.evm.utsa.tech:443",
+    "evm-rpc": "https://t-story.archive.evm.utsa.tech:443",
     "wss_cosmos": "",
-   "wss_evm": "https://t-story.archive.wss.utsa.tech:443",
-   "grpc": "",
-   "archive-snapshot": "https://utsa.gitbook.io/services/testnet/story-protocol/snapshot",
+    "wss_evm": "https://t-story.archive.wss.utsa.tech:443",
+    "grpc": "",
+    "archive-snapshot": "https://utsa.gitbook.io/services/testnet/story-protocol/snapshot",
     "tools": "State sync",
-     "tools_url": {
-       "State sync": "https://utsa.gitbook.io/services/testnet/story-protocol/state-sync"
-      },
-    "content":{
-    "Install guide": "https://utsa.gitbook.io/services/testnet/story-protocol/installation"
-    }   
-},
+    "tools_url": {
+      "State sync": "https://utsa.gitbook.io/services/testnet/story-protocol/state-sync"
+    },
+    "content": {
+      "Install guide": "https://utsa.gitbook.io/services/testnet/story-protocol/installation"
+    }
+  },
   {
     "name": "Nodes.Guru",
     "webservices": "https://nodes.guru/testnets/story",
     "x": "NodesGuru",
     "validatorlogo": "nodesguru.png",
     "explorer": "https://testnet.story.explorers.guru/",
-    "content":{
-    "Setup Guide": "https://nodes.guru/testnets/story/setup-guide/en"
-    },
-    {
+    "content": {
+      "Setup Guide": "https://nodes.guru/testnets/story/setup-guide/en"
+    }
+  },
+  {
     "name": "TrustedPoint",
     "webservices": "",
     "x": "Trusted_Point",
     "validatorlogo": "trustedpoint.jpg",
-     "addrbook": "",
+    "addrbook": "",
     "explorer": "",
     "peers": "",
     "rpc": "",
     "api": "https://api-story-testnet.trusted-point.com/",
-     "evm-rpc": "",
+    "evm-rpc": "",
     "wss_cosmos": "",
-   "wss_evm": "",
-   "grpc": "",
-   "snapshot": "",
+    "wss_evm": "",
+    "grpc": "",
+    "snapshot": "",
     "tools": "API",
     "tools_url": {
-       "API ": "https://api-story-testnet.trusted-point.com/"
-      }
+      "API": "https://api-story-testnet.trusted-point.com/"
     }
-
-
+  }
 ]
