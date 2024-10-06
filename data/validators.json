@@ -412,6 +412,27 @@
     "explorer": "https://testnet.story.explorers.guru/",
     "content":{
     "Setup Guide": "https://nodes.guru/testnets/story/setup-guide/en"
+    },
+    {
+    "name": "TrustedPoint",
+    "webservices": "",
+    "x": "Trusted_Point",
+    "validatorlogo": "trustedpoint.jpg",
+     "addrbook": "",
+    "explorer": "",
+    "peers": "",
+    "rpc": "",
+    "api": "https://api-story-testnet.trusted-point.com/",
+     "evm-rpc": "",
+    "wss_cosmos": "",
+   "wss_evm": "",
+   "grpc": "",
+   "snapshot": "",
+    "tools": "API",
+    "tools_url": {
+       "API ": "https://api-story-testnet.trusted-point.com/"
+      }
     }
+
 
 ]
