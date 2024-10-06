@@ -24,7 +24,7 @@
     "name": "F5 Nodes",
     "webservices": "https://wiki.f5nodes.com/story-protocol/",
     "x": "f5nodes",
-    "validatorlogo": "f5.jpg",
+    "validatorlogo": "f5nodes.jpg",
     "explorer": "",
     "peers": "e6af3829b07b81090378d278cc3225892a504785@149.102.136.72:26656",
     "snapshot": "https://story-testnet-rpc.f5nodes.com",
