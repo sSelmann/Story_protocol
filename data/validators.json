@@ -33,7 +33,8 @@
     "addrbook": "https://server-5.itrocket.net/testnet/story/addrbook.json",
     "tools": "peers scanner",
     "tools_url": {
-      "peers scanner": "https://itrocket.net/services/testnet/story/"
+      "peers scanner": "https://itrocket.net/services/testnet/story/",
+      "easy snapshot installation, 3 servers":"source <(curl -s https://itrocket.net/api/testnet/story/autosnap/)"
     }
   },
   {
