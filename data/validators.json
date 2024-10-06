@@ -20,6 +20,26 @@
       "RPC Scanner": "https://itrocket.net/services/testnet/story/public-rpc"
     }
   },
+   {
+    "name": "BlackNodes",
+    "webservices": "https://services.blacknodes.net/Story-Testnet/",
+    "x": "BlackNodesHQ",
+    "validatorlogo": "blacknodes.jpg",
+     "addrbook": "https://files4.blacknodes.net/story-testnet/addrbook.json",
+    "explorer": "https://explorer.blacknodes.net/Story-Testnet",
+    "peers": "c5d5626a9da3a3ff7dc65c5b973b758a1a9ee13b@65.108.229.11:53656",
+    "rpc": "https://story-testnet-rpc.blacknodes.net",
+    "api": "https://story-testnet-api.blacknodes.net",
+     "evm-rpc": "https://story-testnet-evm-rpc.blacknodes.net",
+    "wss_cosmos": "",
+   "wss_evm": "wss://ws-story-testnet-evm-rpc.blacknodes.net",
+   "grpc": "",
+   "snapshot": "https://services.blacknodes.net/Story-Testnet/",
+    "tools": "Node Monitoring",
+    "tools_url": {
+       "Node Monitoring": "https://services.blacknodes.net/Story-Testnet/"
+      }
+    },
   {
     "name": "Mandragora",
     "webservices": "",
@@ -136,6 +156,24 @@
     "tools": "",
     "tools_url": {
       "Bech32 Tool": ""
+    }
+  },
+  {
+    "name": "ContributionDAO",
+    "webservices": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
+    "x": "contributedao",
+    "validatorlogo": "contributiondao.jpg",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "",
+    "rpc": "",
+    "grpc": "",
+    "snapshot": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
+    "addrbook": "",
+    "tools": "guide",
+    "tools_url": {
+      "guide": "https://services.contributiondao.com/testnet/story-protocol/snapshots"
     }
   },
   {
