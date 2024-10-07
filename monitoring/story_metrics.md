@@ -270,3 +270,24 @@ Value: amount of gas used in transactions.
 Indicates the amount of gas requested in the transactions. Shows the gas that users estimated would be needed for their transactions.  
 Value: amount of gas requested in the transactions
 ![image](https://github.com/user-attachments/assets/cd96ce53-1659-454f-a671-a469b5cb6912)
+
+## Mempool
+_________________________________
+
+## Mempool Size
+
+*cometbft_mempool_size*  
+
+Monitors the number of uncommitted transactions in the mempool. The mempool is a temporary holding area for transactions that have been submitted but not yet confirmed. A larger mempool size indicates that there are many transactions waiting to be processed, which may suggest network congestion or delays in block production. Monitoring this helps assess the network's ability to process transactions efficiently and manage load.  
+Value:   current number of transactions waiting to be included in a block.  
+![image](https://github.com/user-attachments/assets/c4a639cc-f39f-4868-94aa-25dbdede15b7)
+
+## Mempool Size in Bytes 
+
+*cometbft_mempool_size_bytes*  
+
+This metric measures the total memory footprint of the mempool, indicating the combined size of all uncommitted transactions in bytes. It is useful for understanding how much data is being held in the mempool at any given time. Monitoring the size in bytes can provide insights into memory usage and help ensure that the node is not overwhelmed by a large volume of transactions, which could lead to performance issues.  
+Value:   
+
+
+
