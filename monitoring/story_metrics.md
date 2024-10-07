@@ -246,3 +246,17 @@ Records the total number of transactions performed. Helps to measure overall net
 Value: total number of transactions performed.  
 ![image](https://github.com/user-attachments/assets/5159a769-9657-4cd1-8c1f-c50244964892)
 
+## Gas Used  
+
+*cosmos_tx_gas_used*  
+
+Indicates the amount of gas used in transactions. Reflects the gas consumed by recent transactions, which can show the efficiency of transactions.  
+Value: amount of gas used in transactions.  
+![image](https://github.com/user-attachments/assets/e30a8d04-edb8-4ca1-8af5-7371d8c00bef)
+
+## Gas Wanted  
+
+*cosmos_tx_gas_wanted*  
+
+Indicates the amount of gas requested in the transactions. Shows the gas that users estimated would be needed for their transactions.  
+Value: amount of gas requested in the transactions
