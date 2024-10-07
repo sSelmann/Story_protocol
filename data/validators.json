@@ -56,7 +56,8 @@
     "wss_evm": "wss://story-wss.mandragora.io",
     "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
     "archive-snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
-    "addrbook": "https://snapshots.mandragora.io/addrbook.json"    
+    "addrbook": "https://snapshots.mandragora.io/addrbook.json"
+  },    
   {
     "name": "BlockHub",
     "webservices": "",
