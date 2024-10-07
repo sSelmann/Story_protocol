@@ -287,7 +287,14 @@ Value:   current number of transactions waiting to be included in a block.
 *cometbft_mempool_size_bytes*  
 
 This metric measures the total memory footprint of the mempool, indicating the combined size of all uncommitted transactions in bytes. It is useful for understanding how much data is being held in the mempool at any given time. Monitoring the size in bytes can provide insights into memory usage and help ensure that the node is not overwhelmed by a large volume of transactions, which could lead to performance issues.  
-Value:   
+Value: total size of the mempool in bytes. 
+![image](https://github.com/user-attachments/assets/3988cd4a-f731-4f01-b123-2f48ce71a4b0)
 
+## P2P Metrics 
 
+*cometbft_p2p_message_receive_bytes_total*  
+
+This metric records the total amount of data, in bytes, received for different types of messages exchanged in the P2P network of a CometBFT (Tendermint) blockchain. Each message type serves a specific function, such as block requests, votes, proposals, and consensus steps. Monitoring the volume of data received for each message type is important for understanding network traffic and detecting any unusual patterns that may indicate performance issues or potential attacks. A higher number of bytes in certain message types, such as consensus_BlockPart or consensus_Vote, could reflect high activity in the consensus process, while spikes in other message types could signal issues.  
+Value: total number of bytes received for each message type in the peer-to-peer (P2P) network.  
+![image](https://github.com/user-attachments/assets/97d3c3b6-8ff1-41fa-bcac-83b9f500cc2e)
 
