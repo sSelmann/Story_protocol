@@ -238,4 +238,11 @@ Value: total number of successfully executed transactions in the network.
 ![image](https://github.com/user-attachments/assets/604a6dbd-6dc1-446d-8fd2-7f0a34835936)
 
 
+## Transaction Count 
+
+*cosmos_tx_count*
+
+Records the total number of transactions performed. Helps to measure overall network activity by counting all transactions processed.  
+Value: total number of transactions performed.  
+![image](https://github.com/user-attachments/assets/5159a769-9657-4cd1-8c1f-c50244964892)
 
