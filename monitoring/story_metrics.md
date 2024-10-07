@@ -175,6 +175,7 @@ Value: number of updates to the validator set since the node process started.
 
 This metric counts how many times the application has updated the consensus parameters. These parameters define critical settings for the consensus process, such as block size, timeouts, and validator requirements. Monitoring this metric helps identify changes in the rules that govern the network's consensus mechanism. A high number of updates could indicate frequent tuning of network settings, which may affect how the network reaches consensus and how efficiently it operates.  
 Value: number of updates to the consensus parameters since the node process started.  
-![image](https://github.com/user-attachments/assets/1cc55753-fbd8-41fa-bc2c-3bc13c49fe64)
+![image](https://github.com/user-attachments/assets/140aa820-9572-444d-9e76-3659d5481f27)
+
 
 
