@@ -32,6 +32,15 @@ This metric provides the size of individual blocks processed by the node. It ref
 Value: size of each block in bytes.  
 ![image](https://github.com/user-attachments/assets/a4c5f097-4548-4003-b73e-17efc45ba56c)
 
+## Peers Connected
+
+*cometbft_p2p_peers*  
+
+Monitors the number of peers connected to the node in the P2P network. However, monitoring the number of peers is essential to detect if there are too few (which might signal network partition or connectivity issues) or too many (which could lead to resource strain on the node). Maintaining an optimal number of peers ensures efficient block propagation, consensus participation, and overall network performance.  
+Value: number of peers that are connected to the node. A higher number of peers can indicate good network connectivity, ensuring a healthy and distributed exchange of information.  
+![image](https://github.com/user-attachments/assets/4402c7b4-9a50-4b6c-8b1f-9b066ed71417)
+
+
 ## State Block  Processing Time  
 
 *cometbft_state_block_processing_time_bucket*  
