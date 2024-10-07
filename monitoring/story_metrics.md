@@ -193,4 +193,49 @@ This metric helps identify validators that are engaging in byzantine behavior, s
 Value: number of validators that attempted to double-sign.  
 ![image](https://github.com/user-attachments/assets/4c75f1a6-7b88-4f6c-80c3-9e2e03de92ec)
 
+## Duplicate Block Part   
+
+*cometbft_consensus_duplicate_block_part*  
+
+This metric captures instances where a block part has been received multiple times, which could indicate potential inefficiencies or network issues. Monitoring this helps in identifying redundant data transmissions and optimizing network bandwidth.  
+Value: number of times a duplicate block part has been received.  
+![image](https://github.com/user-attachments/assets/d2d2cc58-9d53-4f91-b4d7-d89823d6c074)
+
+## Duplicate Vote   
+
+*cometbft_consensus_duplicate_vote*  
+
+This metric provides insight into how often duplicate votes are encountered during consensus. It could indicate potential misbehavior or inefficiencies in the voting process. Monitoring duplicate votes helps ensure the consensus protocol runs smoothly and efficiently.  
+Value: number of times duplicate votes have been received.  
+![image](https://github.com/user-attachments/assets/6689e2d1-230d-4b85-9a5b-df6ee3e9b787)
+
+
+## Transactions & gas  
+_________________________________
+
+## Number of Transactions 
+
+*cometbft_consensus_num_txs*  
+
+Helps to understand the network activity and the load of transactions processed by the node.  
+Value: Nº transactions in the most recent block.
+![image](https://github.com/user-attachments/assets/aeb1cf68-4158-428a-97e4-fcfb6db1117d)
+
+## Total Transactions   
+
+*cometbft_consensus_total_txs*  
+
+Indicates the total number of transactions processed in the chain by this node so far.
+Value: total number of transactions processed by the node
+![image](https://github.com/user-attachments/assets/64dd988e-7255-4156-a315-ae07e5981338)
+
+## Successful Transactions
+
+*cosmos_tx_successful*
+
+This metric provides insight into the overall reliability and performance of the blockchain, tracking how many transactions have been completed without errors.  
+Value: total number of successfully executed transactions in the network.  
+![image](https://github.com/user-attachments/assets/604a6dbd-6dc1-446d-8fd2-7f0a34835936)
+
+
 
