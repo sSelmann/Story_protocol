@@ -298,3 +298,13 @@ This metric records the total amount of data, in bytes, received for different t
 Value: total number of bytes received for each message type in the peer-to-peer (P2P) network.  
 ![image](https://github.com/user-attachments/assets/97d3c3b6-8ff1-41fa-bcac-83b9f500cc2e)
 
+
+## P2P Message Send Bytes Total
+
+*cometbft_p2p_message_send_bytes_total*  
+
+This metric records the total volume of data, in bytes, that is being sent by the node for different message types over the P2P network. These message types are crucial for network operations, such as block responses, votes, consensus steps, and peer exchanges. Monitoring the bytes sent for each message type helps assess network bandwidth usage and detect potential bottlenecks or issues in message propagation. A high amount of data sent for messages like consensus_BlockPart or consensus_Vote reflects heavy network activity, especially during consensus processes. Tracking this helps ensure the node is not overwhelmed by sending too much data at once, which could degrade performance.  
+Value: total number of bytes sent for each message type in the peer-to-peer (P2P) network.
+![image](https://github.com/user-attachments/assets/69ee9a21-bf4e-4df6-a19a-2a76d7191401)
+
+
