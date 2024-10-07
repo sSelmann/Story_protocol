@@ -142,6 +142,15 @@ Monitors the depth of the staking queue in an EVM-based staking system. A queue 
 Value: number of pending staking or delegation requests waiting to be processed.  
 ![image](https://github.com/user-attachments/assets/8604c005-f099-43ce-97e6-29d84e813885)
 
+## Staking Queue Depth 
+
+*evmstaking_queue_depth*  
+
+Monitors the depth of the staking queue in an EVM-based staking system. A higher queue depth indicates that there are multiple staking or delegation requests waiting to be executed, which may point to a potential delay or bottleneck in processing. Monitoring this metric helps ensure that staking operations are being handled efficiently and provides insight into the network's ability to process staking requests in a timely manner.
+Value: number of pending staking or delegation requests waiting to be processed in the staking queue.  
+![image](https://github.com/user-attachments/assets/c877dce3-493c-456a-a0a0-f6e8465f76fd)
+
+
 ## Validator data
 _________________________________
 
