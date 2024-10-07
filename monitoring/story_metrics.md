@@ -260,3 +260,4 @@ Value: amount of gas used in transactions.
 
 Indicates the amount of gas requested in the transactions. Shows the gas that users estimated would be needed for their transactions.  
 Value: amount of gas requested in the transactions
+![image](https://github.com/user-attachments/assets/cd96ce53-1659-454f-a671-a469b5cb6912)
