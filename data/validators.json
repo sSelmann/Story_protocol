@@ -128,9 +128,7 @@
     "wss_cosmos": "wss://lightnode-rpc-story.grandvalleys.com/websocket",
     "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
     "snapshot": "",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {}
+    "addrbook": ""
   },
   {
     "name": "CroutonDigital",
@@ -207,9 +205,7 @@
     "wss_cosmos": "wss://ws-story-testnet.aldebaranode.xyz",
     "wss_evm": "wss://ws-storyevm-testnet.aldebaranode.xyz",
     "snapshot": "",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {}
+    "addrbook": ""   
   },
   {
     "name": "Cumulo",
@@ -268,9 +264,7 @@
     "wss_cosmos": "wss://story.rpc-archive.t.stavr.tech/websocket",
     "wss_evm": "wss://story.wss-archive.t.stavr.tech",
     "snapshot": "",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {}
+    "addrbook": ""   
   },
   {
     "name": "STAKEME",
@@ -287,10 +281,8 @@
     "wss_cosmos": "",
     "wss_evm": "",
     "snapshot": "",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {}
-  },
+    "addrbook": ""
+    },
   {
     "name": "Aura Network",
     "webservices": "",
@@ -484,7 +476,7 @@
     "snapshot": "",
     "tools": "StoryEmpirexBot",
     "tools_url": {
-      "StoryEmpirexBot": " https://t.me/StoryEmpirexBot"
+      "StoryEmpirexBot": "https://t.me/StoryEmpirexBot"
     }
   }
 ]
