@@ -472,5 +472,25 @@
     "tools_url": {
       "API": "https://api-story-testnet.trusted-point.com/"
     }
+  },
+  {
+    "name": "Empirex",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "empirex.jpg",
+    "addrbook": "",
+    "explorer": "",
+    "peers": "",
+    "rpc": "",
+    "api": "",
+    "evm-rpc": "",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "grpc": "",
+    "snapshot": "",
+    "tools": "StoryEmpirexBot",
+    "tools_url": {
+      "StoryEmpirexBot": " https://t.me/StoryEmpirexBot"
+    }
   }
 ]
