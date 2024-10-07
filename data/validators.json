@@ -56,10 +56,7 @@
     "wss_evm": "wss://story-wss.mandragora.io",
     "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
     "archive-snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
-    "addrbook": "https://snapshots.mandragora.io/addrbook.json",
-    "tools": "",
-    "tools_url": {}
-  },
+    "addrbook": "https://snapshots.mandragora.io/addrbook.json"    
   {
     "name": "BlockHub",
     "webservices": "",
@@ -75,9 +72,7 @@
     "wss_cosmos": "wss://story-testnet-rpc.blockhub.id/websocket",
     "wss_evm": "wss://story-testnet-wss.blockhub.id",
     "snapshot": "",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {}
+    "addrbook": ""    
   },
   {
     "name": "Coha05",
@@ -116,9 +111,7 @@
     "wss_cosmos": "wss://story-rpc-cosmos.originstake.com/websocket",
     "wss_evm": "wss://story-wss01.originstake.com",
     "snapshot": "",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {}
+    "addrbook": ""
   },
   {
     "name": "Grand Valley",
