@@ -79,7 +79,7 @@ Value: duration of the begin blocker execution for different modules in the Cosm
 *cosmos_end_blocker*  
 
 This metric measures the time taken to execute the end blocker for different modules (e.g., evmstaking, gov, staking) within the Cosmos SDK. End blockers are critical functions that are run at the end of each block in the blockchain to finalize state changes and apply governance, staking, and other processes. The metric uses different quantiles (0.5, 0.9, 0.99) to show the distribution of execution times, providing insights into the efficiency of the end blockers.   
-Value: duration of the end blocker execution for different modules in the Cosmos SDK
+Value: duration of the end blocker execution for different modules in the Cosmos SDK.  
 ![image](https://github.com/user-attachments/assets/31c4e8b0-9d7d-4d21-8cf0-6bfbea433fef)
 
 ## Token Distribution and Staking
@@ -115,7 +115,7 @@ Value: number of times staking delegations have been reallocated from one valida
 *cosmos_tx_msg__cosmos_staking_v1beta1_MsgDelegate*
 
 Tracks the number of delegation transactions for the Cosmos staking module. Displays the total amount of tokens delegated in the network .  
-Value: number of delegation transactions for the Cosmos staking module
+Value: number of delegation transactions for the Cosmos staking module.  
 ![image](https://github.com/user-attachments/assets/f88c8c0b-f9e7-48fc-8054-9d4b36d72a28)
 
 ## Staking Redelegate Transactions  
@@ -123,7 +123,7 @@ Value: number of delegation transactions for the Cosmos staking module
 *cosmos_tx_msg__cosmos_staking_v1beta1_MsgBeginRedelegate*
 
 Tracks the number of redelegation transactions initiated in the Cosmos staking module. Displays the total amount of tokens involved in redelegation.  
-Value: number of redelegation transactions for the Cosmos staking module
+Value: number of redelegation transactions for the Cosmos staking module.  
 ![image](https://github.com/user-attachments/assets/e6950839-6274-449a-b979-8697d29ba543)
 
 ## Staking Undelegate Transactions   
@@ -131,7 +131,7 @@ Value: number of redelegation transactions for the Cosmos staking module
 *cosmos_tx_msg__cosmos_staking_v1beta1_MsgUndelegate*  
 
 Tracks the number of undelegation transactions initiated in the Cosmos staking module. Displays the total amount of tokens undelegated 
-Value: number of undelegation transactions for the Cosmos staking module
+Value: number of undelegation transactions for the Cosmos staking module.  
 ![image](https://github.com/user-attachments/assets/96a77a37-d53b-48da-8e07-346021d89719)
 
 ## Staking Queue Depth  
@@ -139,7 +139,7 @@ Value: number of undelegation transactions for the Cosmos staking module
 *evmstaking_queue_depth*  
 
 Monitors the depth of the staking queue in an EVM-based staking system. A queue depth of zero means that all staking requests have been processed and there are no outstanding transactions. Monitoring this metric is important for understanding the network's ability to handle staking requests efficiently and identifying any delays or congestion in the staking process. A growing queue depth may signal potential bottlenecks in processing staking transactions.  
-Value: number of pending staking or delegation requests waiting to be processed
+Value: number of pending staking or delegation requests waiting to be processed.  
 ![image](https://github.com/user-attachments/assets/8604c005-f099-43ce-97e6-29d84e813885)
 
 ## Validator data
@@ -150,7 +150,7 @@ _________________________________
 *cometbft_consensus_missing_validators*  
 
 This metric shows the voting power (stake) that absent validators represent. A high power of absent validators can have a negative impact on the security and decentralization of the network, as it reduces the available consensus power.
-Value: total power of the validators who are absent in the consensus process.
+Value: total power of the validators who are absent in the consensus process.  
 ![image](https://github.com/user-attachments/assets/83e0aa42-1f02-44ab-bba0-e0fe7fbbe281)
 
 ## Total Power of Missing Validators   
