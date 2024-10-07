@@ -177,5 +177,20 @@ This metric counts how many times the application has updated the consensus para
 Value: number of updates to the consensus parameters since the node process started.  
 ![image](https://github.com/user-attachments/assets/140aa820-9572-444d-9e76-3659d5481f27)
 
+## Byzantine Validators Power  
+
+*cometbft_consensus_byzantine_validators_power*
+
+This metric indicates the total voting power of validators that have attempted to double-sign. It’s important for assessing the potential impact of byzantine activities on network consensus. A higher value could signal a significant threat to the network’s stability.  
+Value: total power of byzantine validators
+![image](https://github.com/user-attachments/assets/ec6d6d71-aebd-45e0-b72e-4e669c113f9c)
+
+## Byzantine Validators 
+
+*cometbft_consensus_byzantine_validators*  
+
+This metric helps identify validators that are engaging in byzantine behavior, such as attempting to create conflicting blocks. Monitoring this is crucial for maintaining the network’s integrity and security, as byzantine validators can potentially disrupt consensus.  
+Value: number of validators that attempted to double-sign.  
+![image](https://github.com/user-attachments/assets/4c75f1a6-7b88-4f6c-80c3-9e2e03de92ec)
 
 
