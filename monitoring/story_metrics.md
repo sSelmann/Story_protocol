@@ -182,7 +182,7 @@ Value: number of updates to the consensus parameters since the node process star
 *cometbft_consensus_byzantine_validators_power*
 
 This metric indicates the total voting power of validators that have attempted to double-sign. It’s important for assessing the potential impact of byzantine activities on network consensus. A higher value could signal a significant threat to the network’s stability.  
-Value: total power of byzantine validators
+Value: total power of byzantine validators.  
 ![image](https://github.com/user-attachments/assets/ec6d6d71-aebd-45e0-b72e-4e669c113f9c)
 
 ## Byzantine Validators 
