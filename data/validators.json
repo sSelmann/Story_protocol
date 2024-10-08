@@ -285,7 +285,11 @@
     "wss_cosmos": "",
     "wss_evm": "",
     "snapshot": "",
-    "addrbook": ""
+    "addrbook": "",
+    "tools": "Story Node Monitor",
+    "tools_url": {
+      "Network Node Map": "https://testnet.storyscan.app/network"
+    }
     },
   {
     "name": "Aura Network",
