@@ -255,11 +255,11 @@
   },
   {
     "name": "STAVR",
-    "webservices": "",
+    "webservices": "https://story-tools.stavr.tech/",
     "x": "",
     "validatorlogo": "",
     "explorer": "",
-    "peers": "",
+    "peers": "https://story-tools.stavr.tech/peer/",
     "seeds": "",
     "api": "",
     "rpc": "https://story.rpc-archive.t.stavr.tech:443",
@@ -267,8 +267,13 @@
     "evm-rpc": "https://story.evm.t.stavr.tech:443",
     "wss_cosmos": "wss://story.rpc-archive.t.stavr.tech/websocket",
     "wss_evm": "wss://story.wss-archive.t.stavr.tech",
-    "snapshot": "",
-    "addrbook": ""   
+    "snapshot": "https://story-tools.stavr.tech/",
+    "addrbook": "",
+    "tools": "RPC Locator,Story Map",
+    "tools_url": {
+      "RPC Locator": "https://story-tools.stavr.tech/scanner/",
+      "Story Map": "https://story-tools.stavr.tech/map/"
+    }
   },
   {
     "name": "STAKEME",
