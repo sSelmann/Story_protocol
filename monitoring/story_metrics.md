@@ -50,6 +50,15 @@ These metrics are fundamental for monitoring and diagnosing the performance and 
 Value: histogram representing block times  
 ![image](https://github.com/user-attachments/assets/3d683ee0-9dfa-4d4d-b95f-db394582366a)
 
+## Average Block Processing Time
+
+*cometbft_state_block_processing_time_sum / cometbft_state_block_processing_time_count*  
+
+This metric provides the average time it takes for the node to process a block, calculated by dividing the total block processing time (cometbft_state_block_processing_time_sum) by the total number of blocks processed (cometbft_state_block_processing_time_count). Monitoring the average block processing time is crucial for evaluating the efficiency of block finalization. If the average time increases, it may indicate potential performance bottlenecks or issues with the node's processing power. Keeping the average block processing time within an optimal range helps ensure the smooth functioning of the network and avoids delays in transaction finalization.
+Value: average time spent processing each block.  
+![image](https://github.com/user-attachments/assets/bd8b0066-2e52-4e0a-9c80-97a8f0d5fb84)
+
+
 ## Chain Size  
 
 *cometbft_consensus_chain_size_bytes*
