@@ -245,7 +245,7 @@ _________________________________
 *cometbft_consensus_num_txs*  
 
 Helps to understand the network activity and the load of transactions processed by the node.  
-Value: Nº transactions in the most recent block.
+Value: Nº transactions in the most recent block.  
 ![image](https://github.com/user-attachments/assets/aeb1cf68-4158-428a-97e4-fcfb6db1117d)
 
 ## Total Transactions   
@@ -253,7 +253,7 @@ Value: Nº transactions in the most recent block.
 *cometbft_consensus_total_txs*  
 
 Indicates the total number of transactions processed in the chain by this node so far.
-Value: total number of transactions processed by the node
+Value: total number of transactions processed by the node.  
 ![image](https://github.com/user-attachments/assets/64dd988e-7255-4156-a315-ae07e5981338)
 
 ## Successful Transactions
