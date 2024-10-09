@@ -367,7 +367,7 @@ Value:   current number of transactions waiting to be included in a block.
 *cometbft_mempool_size_bytes*  
 
 This metric measures the total memory footprint of the mempool, indicating the combined size of all uncommitted transactions in bytes. It is useful for understanding how much data is being held in the mempool at any given time. Monitoring the size in bytes can provide insights into memory usage and help ensure that the node is not overwhelmed by a large volume of transactions, which could lead to performance issues.  
-Value: total size of the mempool in bytes. 
+Value: total size of the mempool in bytes.   
 ![image](https://github.com/user-attachments/assets/3988cd4a-f731-4f01-b123-2f48ce71a4b0)
 
 ## P2P Metrics 
