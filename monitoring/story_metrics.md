@@ -1,5 +1,67 @@
 # Story Node Metrics FAQ
 
+# Índice
+
+1. [Story Node Metrics FAQ](#story-node-metrics-faq)
+   - [Sync Status](#sync-status)
+   - [Consensus Height](#consensus-height)
+   - [Latest Block Height](#latest-block-height)
+   - [Block Size](#block-size)
+   - [Peers Connected](#peers-connected)
+   - [State Block Processing Time](#state-block-processing-time)
+   - [Average Block Processing Time](#average-block-processing-time)
+   - [Chain Size](#chain-size)
+   - [Late Votes](#late-votes)
+   - [Proposal Receive Count](#proposal-receive-count)
+   - [Begin Blocker Duration](#begin-blocker-duration)
+   - [End Blocker Duration](#end-blocker-duration)
+   
+2. [Token Distribution and Staking](#token-distribution-and-staking)
+   - [Staking Delegate](#staking-delegate)
+   - [Staking Undelegate](#staking-undelegate)
+   - [Staking Redelegate](#staking-redelegate)
+   - [Staking Delegate Transactions](#staking-delegate-transactions)
+   - [Staking Redelegate Transactions](#staking-redelegate-transactions)
+   - [Staking Undelegate Transactions](#staking-undelegate-transactions)
+   - [Staking Queue Depth](#staking-queue-depth)
+   - [Staking Queue Depth](#staking-queue-depth-1)
+
+3. [Validator Data](#validator-data)
+   - [Nº Missing Validators](#n-missing-validators)
+   - [Total Power of Missing Validators](#total-power-of-missing-validators)
+   - [Validator Set Updates](#validator-set-updates)
+   - [Consensus Parameter Updates](#consensus-parameter-updates)
+   - [Byzantine Validators Power](#byzantine-validators-power)
+   - [Byzantine Validators](#byzantine-validators)
+   - [Duplicate Block Part](#duplicate-block-part)
+   - [Duplicate Vote](#duplicate-vote)
+
+4. [Transactions & Gas](#transactions--gas)
+   - [Number of Transactions](#number-of-transactions)
+   - [Total Transactions](#total-transactions)
+   - [Successful Transactions](#successful-transactions)
+   - [Transaction Count](#transaction-count)
+   - [Gas Used](#gas-used)
+   - [Gas Wanted](#gas-wanted)
+
+5. [Mempool](#mempool)
+   - [Mempool Size](#mempool-size)
+   - [Mempool Size in Bytes](#mempool-size-in-bytes)
+
+6. [P2P Metrics](#p2p-metrics)
+   - [P2P Message Receive Bytes Total](#p2p-message-receive-bytes-total)
+   - [P2P Message Send Bytes Total](#p2p-message-send-bytes-total)
+
+7. [System Metrics](#system-metrics)
+   - [Runtime Free Count](#runtime-free-count)
+   - [GC Pause Time](#gc-pause-time)
+   - [Number of Goroutines](#number-of-goroutines)
+   - [System Bytes](#system-bytes)
+   - [Process Memory in Use](#process-memory-in-use)
+
+
+_______________________________________________
+
 ## Sync Status  
 
 *cometbft_blocksync_syncing*  
