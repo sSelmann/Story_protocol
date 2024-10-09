@@ -392,6 +392,7 @@
     "wss_evm": "wss://story-testnet-evm.synergynodes.com",
     "grpc": "storytest.grpc.synergynodes.com:443",
     "snapshot": "https://www.synergynodes.com/service/storytest",
+    "archive-snapshot": "https://www.synergynodes.com/service/storytest",
     "addrbook": "https://support.synergynodes.com/addrbook/story_testnet/addrbook.json",
     "tools": "Story Testnet Tenderduty Dashboard",
     "tools_url": {
