@@ -325,4 +325,25 @@ This metric records the total volume of data, in bytes, that is being sent by th
 Value: total number of bytes sent for each message type in the peer-to-peer (P2P) network.
 ![image](https://github.com/user-attachments/assets/69ee9a21-bf4e-4df6-a19a-2a76d7191401)
 
+## System Metrics  
+_________________________________
+
+## Runtime Free Count 
+
+*cosmos_runtime_free_count*  
+
+Indicates how many memory free operations have been performed by the runtime since the start of the process, helping to understand the efficiency of memory usage.
+Value: number of times memory was freed in the system.  
+![image](https://github.com/user-attachments/assets/2c471bc5-819c-4bef-bfd1-bbe0824fa7ec)
+
+## GC Pause Time 
+
+*cosmos_runtime_gc_pause_ns*  
+
+Measures how long the rubbish collector (GC) has paused execution. Allows to evaluate the impact of rubbish collection on system performance by showing how long it is paused to free memory.
+Value: time that the garbage collector (GC) has paused the execution of a garbage collection operation.  
+![image](https://github.com/user-attachments/assets/383baf06-c844-45e3-80ca-237b0b7049aa)
+
+
+
 
