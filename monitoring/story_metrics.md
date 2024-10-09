@@ -344,6 +344,27 @@ Measures how long the rubbish collector (GC) has paused execution. Allows to eva
 Value: time that the garbage collector (GC) has paused the execution of a garbage collection operation.  
 ![image](https://github.com/user-attachments/assets/383baf06-c844-45e3-80ca-237b0b7049aa)
 
+## Number of Goroutines   
 
+*cosmos_runtime_num_goroutines*  
 
+Indicates the number of goroutines running. Reflects the number of concurrent tasks active on the system, providing a view of concurrency.  
+Value: number of goroutines in execution.  
+![image](https://github.com/user-attachments/assets/a8d33ddf-e504-4fd8-8391-7f39d06e4bd4)
+
+## System Bytes 
+
+*cosmos_runtime_sys_bytes*  
+
+Displays the total amount of memory allocated by the system. Reflects the total memory in use by runtime and other system resources. 
+Value: memory allocated by the system.  
+![image](https://github.com/user-attachments/assets/697ebac6-6d9b-46af-adaf-2e0db05007d9)
+
+## Process Memory in Use  
+
+*cosmos_runtime_alloc_bytes*  
+
+This metric indicates how many bytes of memory the process is currently using. It is essential for monitoring the node's memory usage, as a significant increase could affect its performance and stability. The metric helps to detect potential problems related to memory management, which can lead to optimisation of system resource usage.  
+Value: amount of memory allocated and still in use in the process.  
+![image](https://github.com/user-attachments/assets/2ea5b809-71d2-42b3-ab57-fc5952f9401c)
 
