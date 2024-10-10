@@ -5,7 +5,7 @@ This repository contains detailed information about Avail metrics and the associ
 
 ## First steps  
 
-Modify the config.toml file
+Modify the config.toml file in $HOME/.story/story/
 
 ```bash
 prometheus = true
@@ -19,3 +19,15 @@ Restart node:
 sudo systemctl restart story
 sudo journalctl -u story -f
 ```
+
+Check prometheus:
+Open a browser and use the url: 26660
+http://(your node IP)/26660
+
+Or check it on your server:
+```bash
+curl http://localhost:26660/metrics
+```
+
+
+
