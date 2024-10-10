@@ -5,5 +5,12 @@
         "notification": "https://discordapp.com/channels/1133510822975512708/1275601994987470860/1290157248945066046",
         "link": "https://github.com/piplabs/story/releases/tag/v0.10.1",
         "type": "Upgrade"
+    },
+    {
+        "date": "10/10/24",
+        "event": "Story v0.11.1 Required Upgrade",
+        "notification": "https://discordapp.com/channels/1133510822975512708/1277308829478162595/1293733790773940224",
+        "link": "https://github.com/piplabs/story/releases/tag/v0.11.1",
+        "type": "Upgrade"
     }
 ]
