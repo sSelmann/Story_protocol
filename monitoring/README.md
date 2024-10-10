@@ -59,9 +59,11 @@ For a complete description of the available metrics, check out the metrics docum
 
 The Grafana dashboard for Story metrics provides an interactive, real-time visualization of all relevant data. This dashboard facilitates continuous monitoring of the network's status and quick identification of any potential issues.
 
-You can download the Grafana dashboard from the link below:
+You can download the Grafana dashboard from the links below:
 
 [![Grafana Dashboard](https://img.shields.io/badge/Grafana%20Dashboard-Download-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Avail-tools/blob/main/avail-metrics/Avail%20Metrics%20Cumulo%20v2-1723220570495.json)
 
+
+[![Official Grafana Dashboard](https://img.shields.io/badge/Grafana%20Dashboard-Official%20Download-blue?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/grafana/dashboards/22059-story-dashboard-by-cumulo/)
 ---
 
