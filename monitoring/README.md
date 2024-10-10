@@ -28,6 +28,7 @@ Or check it on your server:
 ```bash
 curl http://localhost:26660/metrics
 ```
+![image](https://github.com/user-attachments/assets/22b1c52e-c9b9-4d94-bfa8-b3cd3166d0f3)
 
 
 
