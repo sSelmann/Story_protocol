@@ -20,7 +20,7 @@ sudo systemctl restart story
 sudo journalctl -u story -f
 ```
 
-Check prometheus:
+Check Prometheus:
 Open a browser and use the url: 26660
 http://(your node IP)/26660
 
