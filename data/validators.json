@@ -494,5 +494,25 @@
     "tools_url": {
       "StoryEmpirexBot": "https://t.me/StoryEmpirexBot"
     }
+  },
+  {
+    "name": "Pro-Nodes75",
+    "webservices": "https://services.node75.org/chains/story-testnet",
+    "x": "theNode75",
+    "validatorlogo": "pronodes75.png",
+    "addrbook": "",
+    "explorer": "",
+    "peers": "95937ce9971e81f61c3249f50404868bcedc77e7@peer.story.testnet.node75.org:27136",
+    "rpc": "https://rpc-archive.story.testnet.node75.org",
+    "api": "",
+    "seeds": "86bd5cb6e762f673f1706e5889e039d5406b4b90@seed.story.testnet.node75.org:35616",
+    "evm-rpc": "https://evm-rpc-archive.story.testnet.node75.org",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "grpc": "",
+    "snapshot": "https://snap.story.testnet.node75.org/",
+    "content": {
+      "How to setup/move the node to PebbleDB": "https://services.node75.org/papers/guide_setup_story_pebbledb"
+    }
   }
 ]
