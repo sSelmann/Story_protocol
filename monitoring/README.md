@@ -5,3 +5,10 @@ This repository contains detailed information about Avail metrics and the associ
 
 ## First steps  
 
+Modify the config.toml file
+
+```bash
+prometheus = true
+prometheus_listen_addr = ":26660"
+```
+![image](https://github.com/user-attachments/assets/fafc4510-efd8-4799-a304-4ed6e6970ef4)
