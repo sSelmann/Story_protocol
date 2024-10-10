@@ -227,9 +227,10 @@
     "wss_evm": "wss://story-testnet-wss.cumulo.me",
     "snapshot": "",
     "addrbook": "",
-    "tools": "Story Front-Chain Dashboard",
+    "tools": "Story Front-Chain Dashboard, Story Metrics and Grafana Dashboard",
     "tools_url": {
-      "Story Front-Chain Dashboard": "https://story.frontchain.cumulo.pro/"
+      "Story Front-Chain Dashboard": "https://story.frontchain.cumulo.pro/",
+      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/"
     }
   },
   {
@@ -414,6 +415,7 @@
     "wss_cosmos": "",
     "wss_evm": "",
     "snapshot": "",
+    "archive-snapshot": "https://services.kjnodes.com/testnet/story/snapshot/",
     "addrbook": "https://snapshots.kjnodes.com/story-testnet/addrbook.json",
     "tools": "RPC Scanner",
     "tools_url": {
