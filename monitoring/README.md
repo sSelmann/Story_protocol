@@ -30,5 +30,14 @@ curl http://localhost:26660/metrics
 ```
 ![image](https://github.com/user-attachments/assets/22b1c52e-c9b9-4d94-bfa8-b3cd3166d0f3)
 
+## Configure Prometheus  
 
+Log in to your Prometheus server and edit the configuration file:
+/etc/prometheus/prometheus.yml
+
+```bash
+- job_name: storyRPC
+  static_configs:
+  - targets: ['(your node IP):26662']
+```
 
