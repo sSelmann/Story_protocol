@@ -1,7 +1,7 @@
 # Story Metrics and Grafana Dashboard
 ![PortadaGithub (3)](https://github.com/user-attachments/assets/57b006a4-1d59-4b90-8447-0ccbca335ae1)
 
-This repository contains detailed information about Avail metrics and the associated Grafana dashboard.  
+This repository contains detailed information about Story metrics and the associated Grafana dashboard.  
 
 ## First steps  
 
