@@ -1,6 +1,6 @@
 # Story Node Metrics FAQ
 
-# Índice
+# Index
 
 1. [Story Node Metrics FAQ](#story-node-metrics-faq)
    - [Sync Status](#sync-status)
