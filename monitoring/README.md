@@ -38,7 +38,7 @@ Log in to your Prometheus server and edit the configuration file:
 ```bash
 - job_name: storyRPC
   static_configs:
-  - targets: ['(your node IP):26662']
+  - targets: ['(your node IP):26660']
 ```
 
 Restart Prometheus:
