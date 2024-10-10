@@ -1,4 +1,5 @@
 # Story Metrics and Grafana Dashboard
+![PortadaGithub](https://github.com/user-attachments/assets/60ef7f27-7271-4cc1-b2a2-65a8f9356b5f)
 
 
 This repository contains detailed information about Avail metrics and the associated Grafana dashboard.  
@@ -53,7 +54,7 @@ Story metrics provide essential information for monitoring and evaluating the pe
 
 For a complete description of the available metrics, check out the metrics document below.
 
-[![Metrics](https://img.shields.io/badge/Metrics-View%20Metrics-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Avail-tools/blob/main/avail-metrics/metrics.md)
+[![Metrics](https://img.shields.io/badge/Metrics-View%20Metrics-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/story_metrics.md)
 
 ## Grafana Dashboard
 
