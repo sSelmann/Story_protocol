@@ -463,7 +463,7 @@
     "addrbook": "",
     "explorer": "",
     "peers": "",
-    "rpc": "",
+    "rpc": "https://rpc-story-testnet.trusted-point.com/",
     "api": "https://api-story-testnet.trusted-point.com/",
     "evm-rpc": "",
     "wss_cosmos": "",
