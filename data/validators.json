@@ -514,5 +514,31 @@
     "content": {
       "How to setup/move the node to PebbleDB": "https://services.node75.org/papers/guide_setup_story_pebbledb"
     }
+  },
+  {
+    "name": "TTT Capital",
+    "webservices": "https://services.tienthuattoan.com/testnet/story",
+    "x": "TTTcapital",
+    "validatorlogo": "tttcapital.png",
+    "addrbook": "",
+    "explorer": "",
+    "peers": "3d0360c49a8cd3142cc255fc54a326fd6ea4245d@94.141.161.175:26656",
+    "rpc": "",
+    "api": "",
+    "seeds": "269caa385a94f551bd7550093c64d724680bcdeb@story-testnet-rpc.tienthuattoan.com:30656",
+    "evm-rpc": "",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "grpc": "",
+    "snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot",
+    "archive-snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot-archive",
+    "content": {
+      "Installation": "https://services.tienthuattoan.com/testnet/story/installation"
+    }.
+    "tools": "Network Scan.Decentralization Map",
+    "tools_url": {
+      "Network Scan": "https://services.tienthuattoan.com/testnet/story/public-rpc",
+      "Decentralization Map": "https://services.tienthuattoan.com/testnet/story/map"
+    }
   }
 ]
