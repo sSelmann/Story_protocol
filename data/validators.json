@@ -535,7 +535,7 @@
     "content": {
       "Installation": "https://services.tienthuattoan.com/testnet/story/installation"
     }.
-    "tools": "Network Scan.Decentralization Map",
+    "tools": "Network Scan, Decentralization Map",
     "tools_url": {
       "Network Scan": "https://services.tienthuattoan.com/testnet/story/public-rpc",
       "Decentralization Map": "https://services.tienthuattoan.com/testnet/story/map"
