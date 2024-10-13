@@ -534,7 +534,7 @@
     "archive-snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot-archive",
     "content": {
       "Installation": "https://services.tienthuattoan.com/testnet/story/installation"
-    }.
+    },
     "tools": "Network Scan, Decentralization Map",
     "tools_url": {
       "Network Scan": "https://services.tienthuattoan.com/testnet/story/public-rpc",
