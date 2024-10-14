@@ -540,5 +540,33 @@
       "Network Scan": "https://services.tienthuattoan.com/testnet/story/public-rpc",
       "Decentralization Map": "https://services.tienthuattoan.com/testnet/story/map"
     }
+  },
+  {
+    "name": "baconvalley",
+    "webservices": "https://github.com/hubofvalley/Testnet-Guides/tree/main/Story%20Protocol",
+    "x": "bacvalley",
+    "validatorlogo": "bacvalley.jpg",
+    "addrbook": "",
+    "explorer": "",
+    "peers": "",
+    "rpc": "",
+    "api": "",
+    "seeds": "",
+    "evm-rpc": "",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "grpc": "",
+    "snapshot": "",
+    "archive-snapshot": "",
+    "content": {
+      "Installation": ""
+    },
+    "tools": "Automatic story node installation using cosmovisor ",
+    "tools_url": {
+      "Automatic story node installation using cosmovisor ": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/resources/node-install.sh"
+    },
+    "content": {
+      "Story Protocol Testnet Guide": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/README.md"
+    }
   }
 ]
