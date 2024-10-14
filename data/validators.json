@@ -414,8 +414,8 @@
     "evm-rpc": "",
     "wss_cosmos": "",
     "wss_evm": "",
-    "snapshot": "",
-    "archive-snapshot": "https://services.kjnodes.com/testnet/story/snapshot/",
+    "snapshot": "https://services.kjnodes.com/testnet/story/snapshot/",
+    "archive-snapshot": "https://services.kjnodes.com/testnet/story/snapshot-archive/",
     "addrbook": "https://snapshots.kjnodes.com/story-testnet/addrbook.json",
     "tools": "RPC Scanner",
     "tools_url": {
