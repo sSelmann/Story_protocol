@@ -85,9 +85,9 @@ go version
 ```bash
 cd $HOME
 rm -rf story
-#git clone https://github.com/piplabs/story.git
-#cd story
-#git checkout v0.9.11
+git clone https://github.com/piplabs/story.git
+cd story
+git checkout v0.9.11
 #make build
 ```
 
