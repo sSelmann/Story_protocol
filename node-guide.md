@@ -83,27 +83,24 @@ go version
 
 ## Install piplabs
 ```bash
+# install Story
 cd $HOME
 rm -rf story
-git clone https://github.com/piplabs/story.git
+git clone https://github.com/piplabs/story
 cd story
-git checkout v0.9.11
-#make build
+git checkout v0.11.0
+go build -o story ./client 
+mv $HOME/story/story $HOME/go/bin/
 ```
 
 ## Download Story-Geth binary
 ```bash
 cd $HOME
-rm -rf story-geth
-#git clone https://github.com/piplabs/story-geth.git
-#cd story-geth
-#git checkout v0.9.2
-#make geth
-wget -O geth-linux-amd64-0.9.2-ea9f0d2.tar.gz https://story-geth-binaries.s3.us-west-1.amazonaws.com/geth-public/geth-linux-amd64-0.9.2-ea9f0d2.tar.gz 
-tar xvf geth-linux-amd64-0.9.2-ea9f0d2.tar.gz
-sudo chmod +x geth-linux-amd64-0.9.2-ea9f0d2/geth
-sudo mv geth-linux-amd64-0.9.2-ea9f0d2/geth /usr/local/bin/story-geth
-#SEEDS="81987895a11f6689ada254c6b57932ab7ed909b6@54.241.167.190:26656,010fb4de28667725a4fef26cdc7f9452cc34b16d@54.176.175.48:26656,e9b4bc203197b62cc7e6a80a64742e752f4210d5@54.193.250.204:26656,68b9145889e7576b652ca68d985826abd46ad660@18.166.164.232:26656"
+wget -O geth https://github.com/piplabs/story-geth/releases/download/v0.9.4/geth-linux-amd64
+chmod +x $HOME/geth
+mv $HOME/geth ~/go/bin/
+[ ! -d "$HOME/.story/story" ] && mkdir -p "$HOME/.story/story"
+[ ! -d "$HOME/.story/geth" ] && mkdir -p "$HOME/.story/geth"
 story-geth version
 ```
 
@@ -145,7 +142,7 @@ EOF
 
 ## Create story service file  
 ```bash
-sudo tee /etc/systemd/system/$NODE.service > /dev/null <<EOF  
+sudo tee /etc/systemd/system/story.service > /dev/null <<EOF  
 [Unit]
 Description=Story consensus daemon
 After=network-online.target
