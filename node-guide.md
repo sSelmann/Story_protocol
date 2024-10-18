@@ -58,13 +58,27 @@ sudo apt install curl git make jq build-essential gcc unzip wget lz4 aria2 -y
 ```bash
 cd $HOME
 VERSION=1.23.0
+
+# Remove any previous Go installation
+sudo rm -rf /usr/local/go
+
+# Download and install the specified version of Go
 wget -O go.tar.gz https://go.dev/dl/go$VERSION.linux-amd64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go.tar.gz && rm go.tar.gz
+sudo tar -C /usr/local -xzf go.tar.gz
+rm go.tar.gz
+
+# Update environment variables to use the new Go installation
 echo 'export GOROOT=/usr/local/go' >> $HOME/.bash_profile
 echo 'export GOPATH=$HOME/go' >> $HOME/.bash_profile
 echo 'export GO111MODULE=on' >> $HOME/.bash_profile
-echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile && . $HOME/.bash_profile
+echo 'export PATH=$GOROOT/bin:$GOPATH/bin:$PATH' >> $HOME/.bash_profile
+
+# Reload the bash profile to apply the changes
+source $HOME/.bash_profile
+
+# Verify the installation
 go version
+
 ```
 
 ## Install piplabs
