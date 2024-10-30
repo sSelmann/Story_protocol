@@ -20,27 +20,7 @@
       "RPC Scanner": "https://itrocket.net/services/testnet/story/public-rpc"
     }
   },
-  {
-    "name": "BlackNodes",
-    "webservices": "https://services.blacknodes.net/Story-Testnet/",
-    "x": "BlackNodesHQ",
-    "validatorlogo": "blacknodes.jpg",
-    "addrbook": "https://files4.blacknodes.net/story-testnet/addrbook.json",
-    "explorer": "https://explorer.blacknodes.net/Story-Testnet",
-    "peers": "c5d5626a9da3a3ff7dc65c5b973b758a1a9ee13b@65.108.229.11:53656",
-    "rpc": "https://story-testnet-rpc.blacknodes.net",
-    "api": "https://story-testnet-api.blacknodes.net",
-    "evm-rpc": "https://story-testnet-evm-rpc.blacknodes.net",
-    "wss_cosmos": "",
-    "wss_evm": "wss://ws-story-testnet-evm-rpc.blacknodes.net",
-    "grpc": "",
-    "snapshot": "https://services.blacknodes.net/Story-Testnet/",
-    "tools": "Node Monitoring",
-    "tools_url": {
-      "Node Monitoring": "https://services.blacknodes.net/Story-Testnet/"
-    }
-  },
-  {
+   {
     "name": "Mandragora",
     "webservices": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Story-Protocol---Mandragoras-infrastructure-services",
     "x": "mandragora_spem",
@@ -62,23 +42,6 @@
       "Lost My Validator": "https://github.com/McDaan/general/blob/main/story/lostmyvalidator.sh"
     }
   },    
-  {
-    "name": "BlockHub",
-    "webservices": "",
-    "x": "",
-    "validatorlogo": "ndeo.jpg",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "https://story-testnet-api.blockhub.id",
-    "rpc": "https://story-testnet-rpc.blockhub.id",
-    "grpc": "",
-    "evm-rpc": "https://story-testnet-jsonrpc.blockhub.id",
-    "wss_cosmos": "wss://story-testnet-rpc.blockhub.id/websocket",
-    "wss_evm": "wss://story-testnet-wss.blockhub.id",
-    "snapshot": "",
-    "addrbook": ""    
-  },
   {
     "name": "Coha05",
     "webservices": "https://services.tech-coha05.xyz/networks/story/",
@@ -102,60 +65,7 @@
       "Install guide": "https://services.tech-coha05.xyz/networks/story/install.html"
     }
   },
-  {
-    "name": "OriginStake",
-    "webservices": "",
-    "x": "OriginStake",
-    "validatorlogo": "originStake.jpg",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "https://story-api-cosmos.originstake.com",
-    "rpc": "https://story-rpc-cosmos.originstake.com",
-    "evm-rpc": "https://story-rpc01.originstake.com",
-    "wss_cosmos": "wss://story-rpc-cosmos.originstake.com/websocket",
-    "wss_evm": "wss://story-wss01.originstake.com",
-    "snapshot": "",
-    "addrbook": ""
-  },
-  {
-    "name": "Grand Valley",
-    "webservices": "",
-    "x": "",
-    "validatorlogo": "ndeo.jpg",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "https://lightnode-api-story.grandvalleys.com",
-    "rpc": "https://lightnode-rpc-story.grandvalleys.com",
-    "evm-rpc": "https://lightnode-json-rpc-story.grandvalleys.com",
-    "wss_cosmos": "wss://lightnode-rpc-story.grandvalleys.com/websocket",
-    "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
-    "snapshot": "",
-    "addrbook": ""
-  },
-  {
-    "name": "CroutonDigital",
-    "webservices": "https://crouton.digital/services/testnets/storyprotocol",
-    "x": "CroutonDigital",
-    "validatorlogo": "crouton.jpg",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "https://story-testnet-cosmos-rest.crouton.digital",
-    "rpc": "https://story-testnet-cosmos-rpc.crouton.digital/",
-    "grpc": "",
-    "evm-rpc": "https://story-testnet-evm-rpc.crouton.digital",
-    "wss_cosmos": "wss://story-testnet-cosmos-ws.crouton.digital/websocket",
-    "wss_evm": "wss://story-testnet-evm-ws.crouton.digital",
-    "snapshot": "https://storage.crouton.digital/testnet/story/snapshots/story_latest.tar.lz4",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {
-      "Bech32 Tool": ""
-    }
-  },
-  {
+   {
     "name": "ContributionDAO",
     "webservices": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
     "x": "contributedao",
@@ -194,24 +104,7 @@
       "guide": "https://service.josephtran.xyz/testnet/story/installation"
     }
   },
-  {
-    "name": "Aldebaranode",
-    "webservices": "",
-    "x": "",
-    "validatorlogo": "ndeo.jpg",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "",
-    "rpc": "https://rpc-story-testnet.aldebaranode.xyz",
-    "grpc": "",
-    "evm-rpc": "https://rpc-storyevm-testnet.aldebaranode.xyz",
-    "wss_cosmos": "wss://ws-story-testnet.aldebaranode.xyz",
-    "wss_evm": "wss://ws-storyevm-testnet.aldebaranode.xyz",
-    "snapshot": "",
-    "addrbook": ""   
-  },
-  {
+   {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story/",
     "x": "Cumulo_pro",
@@ -233,28 +126,7 @@
       "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/"
     }
   },
-  {
-    "name": "Openbitlab",
-    "webservices": "https://openbitlab.com/network/75/Story",
-    "x": "Openbitlab_node",
-    "validatorlogo": "openbitlab.png",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "",
-    "rpc": "https://story-testnet-rpc.openbitlab.com",
-    "grpc": "",
-    "evm-rpc": "https://story-testnet-jsonrpc.openbitlab.com",
-    "wss_cosmos": "wss://story-testnet-rpc.openbitlab.com/websocket",
-    "wss_evm": "wss://story-testnet-wss.openbitlab.com",
-    "snapshot": "",
-    "addrbook": "",
-    "tools": "Story Node Monitor",
-    "tools_url": {
-      "Story Node Monitor": "https://github.com/openbitlab/srvcheck"
-    }
-  },
-  {
+   {
     "name": "STAVR",
     "webservices": "https://story-tools.stavr.tech/",
     "x": "",
@@ -298,46 +170,6 @@
     }
     },
   {
-    "name": "Aura Network",
-    "webservices": "",
-    "x": "AuraNetworkHQ",
-    "validatorlogo": "aura.jpg",
-    "explorer": "https://story.aurascan.io",
-    "peers": "",
-    "seeds": "",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
-    "evm-rpc": "https://story-testnet.aura.network",
-    "wss_cosmos": "",
-    "wss_evm": "",
-    "snapshot": "",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {}
-  },
-  {
-    "name": "B-Harvest",
-    "webservices": "",
-    "x": "B__Harvest",
-    "validatorlogo": "bharvest.jpg",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "",
-    "rpc": "https://story-rpc.bharvest.io",
-    "grpc": "",
-    "evm-rpc": "",
-    "wss_cosmos": "",
-    "wss_evm": "",
-    "snapshot": "",
-    "addrbook": "",
-    "tools": "Real-time Validator Performance",
-    "tools_url": {
-      "Real-time Validator Performance": "https://tenderdutory.bharvest.io/"
-    }
-  },
-  {
     "name": "F5 Nodes",
     "webservices": "https://wiki.f5nodes.com/story-protocol/",
     "x": "f5nodes",
@@ -357,28 +189,7 @@
       "Archive Infra and Snapshots": "https://f5nodes.com/"
     }
   },
-  {
-    "name": "Alikome",
-    "webservices": "",
-    "x": "",
-    "validatorlogo": "ndeo.jpg",
-    "explorer": "",
-    "peers": "",
-    "seeds": "",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
-    "evm-rpc": "",
-    "wss_cosmos": "",
-    "wss_evm": "",
-    "snapshot": "",
-    "addrbook": "",
-    "tools": "Bash Node Manager",
-    "tools_url": {
-      "Bash Node Manager": "https://github.com/alikome/Story-protocol-node-tools"
-    }
-  },
-  {
+   {
     "name": "Synergy Nodes",
     "webservices": "https://www.synergynodes.com/service/storytest",
     "x": "SynergyNodes",
@@ -475,27 +286,7 @@
       "API": "https://api-story-testnet.trusted-point.com/"
     }
   },
-  {
-    "name": "Empirex",
-    "webservices": "",
-    "x": "",
-    "validatorlogo": "empirex.png",
-    "addrbook": "",
-    "explorer": "",
-    "peers": "",
-    "rpc": "",
-    "api": "",
-    "evm-rpc": "",
-    "wss_cosmos": "",
-    "wss_evm": "",
-    "grpc": "",
-    "snapshot": "",
-    "tools": "StoryEmpirexBot",
-    "tools_url": {
-      "StoryEmpirexBot": "https://t.me/StoryEmpirexBot"
-    }
-  },
-  {
+   {
     "name": "Pro-Nodes75",
     "webservices": "https://services.node75.org/chains/story-testnet",
     "x": "theNode75",
@@ -513,60 +304,6 @@
     "snapshot": "https://snap.story.testnet.node75.org/",
     "content": {
       "How to setup/move the node to PebbleDB": "https://services.node75.org/papers/guide_setup_story_pebbledb"
-    }
-  },
-  {
-    "name": "TTT Capital",
-    "webservices": "https://services.tienthuattoan.com/testnet/story",
-    "x": "TTTcapital",
-    "validatorlogo": "tttcapital.jpg",
-    "addrbook": "",
-    "explorer": "",
-    "peers": "3d0360c49a8cd3142cc255fc54a326fd6ea4245d@94.141.161.175:26656",
-    "rpc": "",
-    "api": "",
-    "seeds": "269caa385a94f551bd7550093c64d724680bcdeb@story-testnet-rpc.tienthuattoan.com:30656",
-    "evm-rpc": "",
-    "wss_cosmos": "",
-    "wss_evm": "",
-    "grpc": "",
-    "snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot",
-    "archive-snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot-archive",
-    "content": {
-      "Installation": "https://services.tienthuattoan.com/testnet/story/installation"
-    },
-    "tools": "Network Scan, Decentralization Map",
-    "tools_url": {
-      "Network Scan": "https://services.tienthuattoan.com/testnet/story/public-rpc",
-      "Decentralization Map": "https://services.tienthuattoan.com/testnet/story/map"
-    }
-  },
-  {
-    "name": "baconvalley",
-    "webservices": "https://github.com/hubofvalley/Testnet-Guides/tree/main/Story%20Protocol",
-    "x": "bacvalley",
-    "validatorlogo": "bacvalley.jpg",
-    "addrbook": "",
-    "explorer": "",
-    "peers": "",
-    "rpc": "",
-    "api": "",
-    "seeds": "",
-    "evm-rpc": "",
-    "wss_cosmos": "",
-    "wss_evm": "",
-    "grpc": "",
-    "snapshot": "",
-    "archive-snapshot": "",
-    "content": {
-      "Installation": ""
-    },
-    "tools": "Automatic story node installation using cosmovisor ",
-    "tools_url": {
-      "Automatic story node installation using cosmovisor ": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/resources/node-install.sh"
-    },
-    "content": {
-      "Story Protocol Testnet Guide": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/README.md"
     }
   }
 ]
