@@ -318,5 +318,17 @@
     "wss_cosmos": "wss://rpc-story.rawakinode.tech/websocket",
     "wss_evm": "wss://evm-ws-story.rawakinode.tech"
     
+  },
+   {
+    "name": "Node9X",
+    "webservices": "https://service.node9x.com/testnet/story-protocol/service-and-snapshot",
+    "x": "0xchicharito",
+    "validatorlogo": "node9x.jpg",
+    "rpc": "https://rpc-story.node9x.com",
+    "api": "https://api-story.node9x.com",
+    "evm-rpc": "https://evm-rpc-story.node9x.com/",
+    "wss_cosmos": "wss://rpc-story.node9x.com/websocket",
+    "wss_evm": " wss://wss-story.node9x.com",
+    "snapshot": "https://service.node9x.com/testnet/story-protocol/service-and-snapshot"
   }
 ]
