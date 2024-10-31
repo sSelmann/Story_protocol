@@ -306,5 +306,17 @@
     "content": {
       "How to setup/move the node to PebbleDB": "https://services.node75.org/papers/guide_setup_story_pebbledb"
     }
+  },
+   {
+    "name": "Rawakinode",
+    "webservices": "",
+    "x": "rawakinode",
+    "validatorlogo": "rawakinode.jpg",
+    "rpc": "https://rpc-story.rawakinode.tech",
+    "api": "https://api-story.rawakinode.tech",
+    "evm-rpc": "https://rpc-evm-story.rawakinode.tech",
+    "wss_cosmos": "wss://rpc-story.rawakinode.tech/websocket",
+    "wss_evm": "wss://evm-ws-story.rawakinode.tech"
+    
   }
 ]
