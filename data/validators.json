@@ -247,10 +247,11 @@
     "wss_cosmos": "",
     "wss_evm": "https://t-story.archive.wss.utsa.tech:443",
     "grpc": "",
-    "archive-snapshot": "https://utsa.gitbook.io/services/testnet/story-protocol/snapshot",
+    "snapshot": "https://utsa.gitbook.io/services/testnet/story-protocol/snapshot",
     "tools": "State sync",
     "tools_url": {
-      "State sync": "https://utsa.gitbook.io/services/testnet/story-protocol/state-sync"
+      "State sync": "https://utsa.gitbook.io/services/testnet/story-protocol/state-sync",
+      "Grafana Dashboard": "https://github.com/lesnikutsa/story/tree/main/dashboard"
     },
     "content": {
       "Install guide": "https://utsa.gitbook.io/services/testnet/story-protocol/installation"
