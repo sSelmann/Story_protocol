@@ -330,5 +330,20 @@
     "wss_cosmos": "wss://rpc-story.node9x.com/websocket",
     "wss_evm": " wss://wss-story.node9x.com",
     "snapshot": "https://service.node9x.com/testnet/story-protocol/service-and-snapshot"
-  }
+  },
+  {
+    "name": "CroutonDigital",
+    "webservices": "https://crouton.digital/services/testnets/storyprotocol",
+    "x": "CroutonDigital",
+    "validatorlogo": "crouton.jpg",
+    "api": "https://story-testnet-cosmos-rest.crouton.digital",
+    "rpc": "https://story-testnet-cosmos-rpc.crouton.digital/",
+    "grpc": "",
+    "evm-rpc": "https://story-testnet-evm-rpc.crouton.digital",
+    "wss_cosmos": "wss://story-testnet-cosmos-ws.crouton.digital/websocket",
+    "wss_evm": "wss://story-testnet-evm-ws.crouton.digital",
+    "snapshot": "https://storage.crouton.digital/testnet/story/snapshots/story_latest.tar.lz4",
+    "addrbook": "https://storage.crouton.digital/testnet/story/files/addrbook.json"   
+}
+
 ]
