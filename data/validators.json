@@ -386,7 +386,8 @@
     },
     "tools": "Grafana oneline script",
     "tools_url": {
-      "Grafana oneline script": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/resources/story_validator_node_install_odyssey.sh"
+      "Grafana oneline script": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/resources/story_validator_node_install_odyssey.sh",
+      "Grafana Story Protocol Public Monitoring": "https://grafana-monitor.grandvalleys.com/d/story-test-public/grand-valley-public-story-monitoring-dashboard?orgId=1&refresh=5s"
     }
   }
 ]
