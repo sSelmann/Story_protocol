@@ -142,10 +142,11 @@
     "wss_evm": "wss://story.wss-archive.t.stavr.tech",
     "snapshot": "https://story-tools.stavr.tech/",
     "addrbook": "",
-    "tools": "RPC Locator,Story Map",
+    "tools": "RPC Locator,Story Map,Story Upgrade",
     "tools_url": {
       "RPC Locator": "https://story-tools.stavr.tech/scanner/",
-      "Story Map": "https://story-tools.stavr.tech/map/"
+      "Story Map": "https://story-tools.stavr.tech/map/",
+      "Story Upgrade": "https://story-tools.stavr.tech/upgrade/"
     }
   },
   {
