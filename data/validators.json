@@ -234,6 +234,9 @@
       "RPC Scanner": "https://services.kjnodes.com/testnet/story/public-rpc/",
       "Story Node Monitoring": "https://github.com/kjnodes/story-node-monitoring",
       "Story Node Manager": "https://github.com/kjnodes/story-node-configuration"
+    },
+    "content": {
+      "Node setup guide": "https://services.kjnodes.com/testnet/story/installation"
     }
   },
   {
