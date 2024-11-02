@@ -359,6 +359,15 @@
   "tools_url": {
     "Grafana oneline script": "https://github.com/encipher88/story-grafana/"
   }
+},
+{
+  "validator": "Luciola",
+  "image": "luciola.jpg",
+  "twitter": "luciolaKami",
+  "cosmos_rpc": "https://story-cosmos.fireflynode.xyz",
+  "evm_json_rpc": "https://story-evm.fireflynode.xyz",
+  "cosmos_rest": "https://api-story.fireflynode.xyz",
+  "cosmos_ws": "wss://story-cosmos.fireflynode.xyz/websocket",
+  "evm_ws": "wss://ws.story-evm.fireflynode.xyz"
 }
-
 ]
