@@ -369,5 +369,24 @@
   "cosmos_rest": "https://api-story.fireflynode.xyz",
   "cosmos_ws": "wss://story-cosmos.fireflynode.xyz/websocket",
   "evm_ws": "wss://ws.story-evm.fireflynode.xyz"
-}
+},
+  {
+    "name": "Grand Valley",
+    "webservices": "",
+    "x": "bacvalley",
+    "validatorlogo": "bacvalley.jpg",
+   "api": "https://lightnode-api-story.grandvalleys.com",
+    "rpc": "https://lightnode-rpc-story.grandvalleys.com",
+    "evm-rpc": "https://lightnode-json-rpc-story.grandvalleys.com",
+    "wss_cosmos": "wss://lightnode-rpc-story.grandvalleys.com/websocket",
+    "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
+    "snapshot": "",
+    "content": {
+      "Story Protocol Testnet Guide": "https://github.com/hubofvalley/Testnet-Guides/tree/main/Story%20Protocol"
+    },
+    "tools": "Grafana oneline script",
+    "tools_url": {
+      "Grafana oneline script": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/resources/story_validator_node_install_odyssey.sh"
+    }
+  }
 ]
