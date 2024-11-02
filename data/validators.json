@@ -350,25 +350,25 @@
   "name": "eNcipher",
   "twitter": "encipher88",
   "validatorlogo": "encipher.jpg",
-  "cosmos_rpc": "https://rpc.story.encipher88.tech",
-  "evm_json_rpc": "https://rpc-evm.story.encipher88.tech",
-  "cosmos_rest": "https://api.story.encipher88.tech",
-  "cosmos_ws": "wss://rpc.story.encipher88.tech/websocket",
-  "evm_ws": "wss://rpc-evm.story.encipher88.tech/websocket",
+  "rpc": "https://rpc.story.encipher88.tech",
+  "evm-rpc": "https://rpc-evm.story.encipher88.tech",
+  "api": "https://api.story.encipher88.tech",
+  "wss_cosmos": "wss://rpc.story.encipher88.tech/websocket",
+  "wss_evm": "wss://rpc-evm.story.encipher88.tech/websocket",
   "tools": "Grafana oneline script",
   "tools_url": {
     "Grafana oneline script": "https://github.com/encipher88/story-grafana/"
   }
 },
 {
-  "validator": "Luciola",
+  "name": "Luciola",
   "image": "luciola.jpg",
   "twitter": "luciolaKami",
-  "cosmos_rpc": "https://story-cosmos.fireflynode.xyz",
-  "evm_json_rpc": "https://story-evm.fireflynode.xyz",
-  "cosmos_rest": "https://api-story.fireflynode.xyz",
-  "cosmos_ws": "wss://story-cosmos.fireflynode.xyz/websocket",
-  "evm_ws": "wss://ws.story-evm.fireflynode.xyz"
+  "rpc": "https://story-cosmos.fireflynode.xyz",
+  "evm-rpc": "https://story-evm.fireflynode.xyz",
+  "api": "https://api-story.fireflynode.xyz",
+  "wss_cosmos": "wss://story-cosmos.fireflynode.xyz/websocket",
+  "wss_evm": "wss://ws.story-evm.fireflynode.xyz"
 },
   {
     "name": "Grand Valley",
