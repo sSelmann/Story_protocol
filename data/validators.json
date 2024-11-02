@@ -346,7 +346,7 @@
     "addrbook": "https://storage.crouton.digital/testnet/story/files/addrbook.json"   
 },
   {
-  "validator": "eNcipher",
+  "name": "eNcipher",
   "twitter": "encipher88",
   "validatorlogo": "encipher.jpg",
   "cosmos_rpc": "https://rpc.story.encipher88.tech",
