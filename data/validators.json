@@ -44,25 +44,25 @@
   },    
   {
     "name": "Coha05",
-    "webservices": "https://services.tech-coha05.xyz/networks/story/",
+    "webservices": "https://spidernode.net/docs/story/service/",
     "x": "Coha05_",
     "validatorlogo": "coha05.jpg",
     "explorer": "",
-    "peers": "b37eff82c86e867f8bf4df1199fbd90cc411b9dd@story-testnet-peer.tech-coha05.xyz:36656",
+    "peers": "6ce2c47d983c50375dbf11137f1bfe4a97b703e8@story-odyssey-peer.spidernode.net:36656",
     "seeds": "",
-    "api": "https://api-story-testnet.tech-coha05.xyz",
-    "rpc": "https://story-cosmos-testnet-rpc.tech-coha05.xyz",
-    "evm-rpc": "https://story-evm-testnet-rpc.tech-coha05.xyz",
-    "wss_cosmos": "wss://story-cosmos-testnet-rpc.tech-coha05.xyz/websocket",
-    "wss_evm": "wss://story-wss-evm.tech-coha05.xy",
-    "snapshot": "https://services.tech-coha05.xyz/networks/story/snapshot.html",
+    "api": "https://story-api-odyssey.spidernode.net",
+    "rpc": "https://story-cosmos-rpc.spidernode.net",
+    "evm-rpc": "https://odyssey-evm.spidernode.net/",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "snapshot": "https://spidernode.net/docs/story/snapshot",
     "addrbook": "",
     "tools": "Telegram block height alert",
     "tools_url": {
       "Bech32 Tool": "https://t.me/storyval_bot"
     },
     "content": {
-      "Install guide": "https://services.tech-coha05.xyz/networks/story/install.html"
+      "Install guide": "https://spidernode.net/docs/story/install"
     }
   },
    {
