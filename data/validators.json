@@ -362,7 +362,7 @@
 },
 {
   "name": "Luciola",
-  "image": "luciola.jpg",
+  "validatorlogo": "luciola.jpg",
   "twitter": "luciolaKami",
   "rpc": "https://story-cosmos.fireflynode.xyz",
   "evm-rpc": "https://story-evm.fireflynode.xyz",
