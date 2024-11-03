@@ -13,11 +13,18 @@
     "evm-rpc": "https://story-testnet-evm.itrocket.net:443",
     "wss_cosmos": "wss://story-testnet-rpc.itrocket.net/websocket",
     "wss_evm": "wss://story-testnet-wss.itrocket.net",
+    "custom api": "https://api-story-testnet.itrocket.net",
     "snapshot": "https://itrocket.net/services/testnet/story/",
+    "archive-snapshot": "https://itrocket.net/services/testnet/story/#snapshot-archive",
     "addrbook": "https://server-5.itrocket.net/testnet/story/addrbook.json",
     "tools": "RPC Scanner",
     "tools_url": {
-      "RPC Scanner": "https://itrocket.net/services/testnet/story/public-rpc"
+      "RPC Scanner": "https://itrocket.net/services/testnet/story/public-rpc",
+      "Peers Scanner": "https://itrocket.net/services/testnet/story/#peers-scanner",
+      "Node setup guide": "https://itrocket.net/services/testnet/story/installation",
+      "Monitoring Script": "https://itrocket.net/services/testnet/story/monitoring/",
+      "Decentralization Analytics": "https://itrocket.net/services/testnet/story/decentralization",
+      "Story Metrics and Grafana Dashboard": "https://github.com/itrocket-team/testnet_guides/tree/main/story/monitoring"
     }
   },
    {
