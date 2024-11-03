@@ -14,11 +14,7 @@
     "wss_cosmos": "wss://story-wss.oneiricts.com:8445/websocket",
     "wss_evm": "wss://story-wss.oneiricts.com:8445",
     "snapshot": "",
-    "addrbook": "",
-    "tools": "",
-    "tools_url": {
-      "RPC Scanner": ""
-    }
+    "addrbook": ""
   },
   {
     "name": "ITRocket",
