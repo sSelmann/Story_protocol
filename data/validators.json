@@ -450,5 +450,24 @@
     "evm-rpc": "https://evm-rpc-story.ongtrong.xyz",
     "wss_cosmos": "wss://rpc-story.ongtrong.xyz/websocket",
     "wss_evm": "wss://wss-story.ongtrong.xyz"
+    },
+  {
+    "name": "Aldebaranode",
+    "webservices": "https://docs.aldebaranode.xyz/guide/testnet/story/installation",
+    "x": "",
+    "validatorlogo": "aldebaranode.png",
+    "explorer": "",
+    "peers": "4288f128242ccab26a4328c2e162a3edcd969e50@181.214.147.86:26656",
+    "api": "https://api-story-testnet.aldebaranode.xyz",
+    "rpc": "https://rpc-story-testnet.aldebaranode.xyz",
+    "grpc": "",
+    "evm-rpc": "https://rpc-storyevm-testnet.aldebaranode.xyz",
+    "wss_cosmos": "wss://rpc-story-testnet.aldebaranode.xyz/websocket",
+    "wss_evm": "wss://ws-storyevm-testnet.aldebaranode.xyz",
+    "tools": "RPC Scanner & Peers Geolocation",
+    "tools_url": {
+      "RPC Scanner & Peers Geolocation": "https://scan.aldebaranode.xyz",
+      "Grafana Dashboard Config": "https://github.com/Aldebaranode/monitoring-dashboard/blob/main/story/dashboard.json"
     }
+  }
 ]
