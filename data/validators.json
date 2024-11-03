@@ -21,10 +21,12 @@
     "tools_url": {
       "RPC Scanner": "https://itrocket.net/services/testnet/story/public-rpc",
       "Peers Scanner": "https://itrocket.net/services/testnet/story/#peers-scanner",
-      "Node setup guide": "https://itrocket.net/services/testnet/story/installation",
       "Monitoring Script": "https://itrocket.net/services/testnet/story/monitoring/",
       "Decentralization Analytics": "https://itrocket.net/services/testnet/story/decentralization",
       "Story Metrics and Grafana Dashboard": "https://github.com/itrocket-team/testnet_guides/tree/main/story/monitoring"
+    },
+    "content": {
+      "Node setup guide": "https://itrocket.net/services/testnet/story/installation"
     }
   },
    {
