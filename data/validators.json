@@ -218,20 +218,25 @@
     "x": "kjnodes",
     "validatorlogo": "kjnodes.jpg",
     "explorer": "",
-    "peers": "",
-    "seeds": "",
+    "peers": "d5519e378247dfb61dfe90652d1fe3e2b3005a5b@story-testnet.rpc.kjnodes.com:26656",
+    "seeds": "3f472746f46493309650e5a033076689996c8881@story-testnet.rpc.kjnodes.com:26659",
     "api": "https://story-testnet.api.kjnodes.com",
     "rpc": "https://story-testnet.rpc.kjnodes.com",
     "grpc": "story-testnet.grpc.kjnodes.com:443",
-    "evm-rpc": "",
-    "wss_cosmos": "",
-    "wss_evm": "",
+    "evm-rpc": "https://story-testnet.jsonrpc.kjnodes.com",
+    "wss_cosmos": "wss://story-testnet.rpc.kjnodes.com/websocket",
+    "wss_evm": "wss://story-testnet.jsonrpc.kjnodes.com",
     "snapshot": "https://services.kjnodes.com/testnet/story/snapshot/",
     "archive-snapshot": "https://services.kjnodes.com/testnet/story/snapshot-archive/",
     "addrbook": "https://snapshots.kjnodes.com/story-testnet/addrbook.json",
     "tools": "RPC Scanner",
     "tools_url": {
-      "RPC Scanner": "https://services.kjnodes.com/testnet/story/public-rpc/"
+      "RPC Scanner": "https://services.kjnodes.com/testnet/story/public-rpc/",
+      "Story Node Monitoring": "https://github.com/kjnodes/story-node-monitoring",
+      "Story Node Manager": "https://github.com/kjnodes/story-node-configuration"
+    },
+    "content": {
+      "Node setup guide": "https://services.kjnodes.com/testnet/story/installation"
     }
   },
   {
