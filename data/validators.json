@@ -5,7 +5,7 @@
     "x": "OneiricStake",
     "validatorlogo": "oneiricstake.jpg",
     "explorer": "",
-    "peers": "49a03c2c4b3da9cc1c4a5887303d31daa8d2bfc8@story-endpoint.oneiricts.com:26956",
+    "peers": "49a03c2c4b3da9cc1c4a5887303d31daa8d2bfc8@story-endpoint.oneiricts.com:8445",
     "seeds": "",
     "api": "https://story-api.oneiricts.com:8445",
     "rpc": "https://story-rpc.oneiricts.com:8445",
