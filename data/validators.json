@@ -1,4 +1,25 @@
 [
+   {
+    "name": "Oneiric Stake",
+    "webservices": "https://x.com/OneiricStake",
+    "x": "OneiricStake",
+    "validatorlogo": "oneiricstake.jpg",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "https://story-api.oneiricts.com:8445",
+    "rpc": "https://story-rpc.oneiricts.com:8445",
+    "grpc": "",
+    "evm-rpc": "https://story-endpoint.oneiricts.com:8445",
+    "wss_cosmos": "wss://story-wss.oneiricts.com:8445/websocket",
+    "wss_evm": "wss://story-wss.oneiricts.com:8445",
+    "snapshot": "",
+    "addrbook": "",
+    "tools": "",
+    "tools_url": {
+      "RPC Scanner": ""
+    }
+  },
   {
     "name": "ITRocket",
     "webservices": "https://itrocket.net/services/testnet/story/",
