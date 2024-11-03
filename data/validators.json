@@ -449,6 +449,6 @@
     "api": "https://api-story.ongtrong.xyz",
     "evm-rpc": "https://evm-rpc-story.ongtrong.xyz",
     "wss_cosmos": "wss://rpc-story.ongtrong.xyz/websocket",
-    "wss_evm": "wss://wss-story.ongtrong.xyz",
+    "wss_evm": "wss://wss-story.ongtrong.xyz"
     }
 ]
