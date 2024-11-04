@@ -154,6 +154,27 @@
     }
   },
    {
+    "name": "Endorphine Stake",
+    "webservices": "https://endorphinestake.com",
+    "x": "endorphinestake",
+    "validatorlogo": "endorphinestake.png",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "https://story-api.endorphinestake.com",
+    "rpc": "https://story-rpc.endorphinestake.com",
+    "grpc": "",
+    "evm-rpc": "https://story-evm.endorphinestake.com",
+    "wss_cosmos": "https://story-evm.endorphinestake.com",
+    "wss_evm": "wss://story-evm-ws.endorphinestake.com",
+    "snapshot": "https://storyprotocol-snapshots.endorphinestake.com",
+    "addrbook": "",
+    "tools": "Snapshots App, Autoload script",
+    "tools_url": {
+      "Snapshots App": "https://storyprotocol-snapshots.endorphinestake.com"
+    } 
+  },
+   {
     "name": "STAVR",
     "webservices": "https://story-tools.stavr.tech/",
     "x": "",
