@@ -101,6 +101,7 @@
     "seeds": "",
     "api": "",
     "rpc": "https://story-testnet-rpc.contributiondao.com",
+    "evm-rpc": "https://story-testnet-el.contributiondao.com",
     "grpc": "",
     "snapshot": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
     "addrbook": "",
