@@ -99,7 +99,7 @@
     "explorer": "",
     "peers": "",
     "seeds": "",
-    "api": "",
+    "api": "https://story-testnet-api.contributiondao.com",
     "rpc": "https://story-testnet-rpc.contributiondao.com",
     "evm-rpc": "https://story-testnet-el.contributiondao.com",
     "grpc": "",
