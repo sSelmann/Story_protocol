@@ -100,7 +100,7 @@
     "peers": "",
     "seeds": "",
     "api": "",
-    "rpc": "",
+    "rpc": "https://story-testnet-rpc.contributiondao.com",
     "grpc": "",
     "snapshot": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
     "addrbook": "",
