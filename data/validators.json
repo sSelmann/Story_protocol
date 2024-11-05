@@ -233,9 +233,10 @@
     "wss_cosmos": "",
     "wss_evm": "",
     "addrbook": "https://wiki.f5nodes.com/story-protocol/sync/snapshot",
-    "tools": "Archive Infra and Snapshots",
+    "tools": "Archive Infra and Snapshots,Tenderduty Dashboard for Odyssey",
     "tools_url": {
-      "Archive Infra and Snapshots": "https://f5nodes.com/"
+      "Archive Infra and Snapshots": "https://f5nodes.com/".
+      "Tenderduty Dashboard for Odyssey": "https://story-tenderduty.endorphinestake.com/"
     }
   },
    {
