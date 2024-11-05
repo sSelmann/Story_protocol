@@ -511,5 +511,24 @@
     "tools_url": {
       "Node Monitoring": "https://services.blacknodes.net/Story-Testnet/"
     }
-  }
+  },
+   {
+    "name": "NODEJUMPER",
+    "x": "nodejumper",
+    "validatorlogo": "nodejumper.jpg",
+    "webservices": "https://app.nodejumper.io/story-testnet",
+    "guides": {
+        "Guide": "https://app.nodejumper.io/story-testnet/installation"
+    },
+    "public_endpoints": "https://app.nodejumper.io/story-testnet",
+    "genesis": "https://app.nodejumper.io/story-testnet",
+    "seed_node": "https://app.nodejumper.io/story-testnet",
+    "peers": "https://app.nodejumper.io/story-testnet",
+    "snapshot": "https://app.nodejumper.io/story-testnet/sync",
+     "tools": "Decentralization Map,Public rpcs",
+     "tools_url": {
+        "decentralization_map": "https://app.nodejumper.io/story-testnet/map",
+         "public_rpcs": "https://api.nodejumper.io/api/v1/story-testnet/rpcs"
+    }
+},
 ]
