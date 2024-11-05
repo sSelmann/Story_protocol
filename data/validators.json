@@ -530,5 +530,5 @@
         "decentralization_map": "https://app.nodejumper.io/story-testnet/map",
          "public_rpcs": "https://api.nodejumper.io/api/v1/story-testnet/rpcs"
     }
-},
+}
 ]
