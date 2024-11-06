@@ -155,7 +155,7 @@
   },
    {
     "name": "Endorphine Stake",
-    "webservices": "https://endorphinestake.com",
+    "webservices": ",
     "x": "endorphinestake",
     "validatorlogo": "endorphinestake.jpg",
     "explorer": "",
@@ -165,13 +165,14 @@
     "rpc": "https://story-rpc.endorphinestake.com",
     "grpc": "",
     "evm-rpc": "https://story-evm.endorphinestake.com",
-    "wss_cosmos": "https://story-evm.endorphinestake.com",
+    "wss_cosmos": "wss://story-ws.endorphinestake.com/websocket",
     "wss_evm": "wss://story-evm-ws.endorphinestake.com",
     "snapshot": "https://storyprotocol-snapshots.endorphinestake.com",
     "addrbook": "",
-    "tools": "Snapshots App, Autoload script",
+    "tools": "Snapshots App, Autoload script, Tenderduty Dashboard",
     "tools_url": {
       "Snapshots App": "https://storyprotocol-snapshots.endorphinestake.com"
+      "Tenderduty Dashboard": "https://story-tenderduty.endorphinestake.com"
     } 
   },
    {
