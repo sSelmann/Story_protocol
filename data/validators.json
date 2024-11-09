@@ -541,5 +541,19 @@
   "api": "https://story-api.smartinvest.guru",
   "wss_cosmos": "wss://story-rpc.smartinvest.guru/websocket",
   "wss_evm": "wss://story-geth-wss.smartinvest.guru"
+},
+   {
+  "name": "TTTcapital",
+  "validatorlogo": "TTTcapital.jpg",
+  "twitter": "TTTcapital",
+  "webservices": "https://services.tienthuattoan.com/testnet/story/",
+  "rpc": "",
+  "snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot",
+  "archive-snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot-archive",
+    "tools": "Decentralization Map,Public RPC",
+     "tools_url": {
+        "decentralization_map": "https://services.tienthuattoan.com/testnet/story/map",
+        "Public RPC": "https://services.tienthuattoan.com/testnet/story/public-rpc"
+    }
 }
 ]
