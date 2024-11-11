@@ -428,7 +428,7 @@
     "name": "Grand Valley",
     "webservices": "",
     "x": "bacvalley",
-    "validatorlogo": "bacvalley.jpg",
+    "validatorlogo": "grandvalley.png",
    "api": "https://lightnode-api-story.grandvalleys.com",
     "rpc": "https://lightnode-rpc-story.grandvalleys.com",
     "evm-rpc": "https://lightnode-json-rpc-story.grandvalleys.com",
@@ -440,7 +440,7 @@
     },
     "tools": "Valley Of Story by Grand Valley,Grafana Story Protocol Public Monitoring",
     "tools_url": {
-      "Valley Of Story by Grand Valley": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/resources/story_validator_node_install_odyssey.sh",
+      "Valley Of Story by Grand Valley": "https://github.com/hubofvalley/Testnet-Guides/blob/main/Story%20Protocol/README.md#valley-of-story-story-protocol-tools-created-by-grand-valley",
       "Grafana Story Protocol Public Monitoring [username: valley] [password: letsbuidlstorytogether]": "https://grafana-monitor.grandvalleys.com/d/story-test-public/grand-valley-public-story-monitoring-dashboard?orgId=1&refresh=5s"
     }
   },
