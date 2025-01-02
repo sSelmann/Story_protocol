@@ -1,5 +1,5 @@
 [
-   {
+  {
     "name": "Oneiric Stake",
     "webservices": "",
     "x": "OneiricStake",
@@ -46,7 +46,7 @@
       "Node setup guide": "https://itrocket.net/services/testnet/story/installation"
     }
   },
-   {
+  {
     "name": "Mandragora",
     "webservices": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Story-Protocol---Mandragoras-infrastructure-services",
     "x": "mandragora_spem",
@@ -67,7 +67,7 @@
     "tools_url": {
       "Lost My Validator": "https://github.com/McDaan/general/blob/main/story/lostmyvalidator.sh"
     }
-  },    
+  },
   {
     "name": "Coha05",
     "webservices": "https://spidernode.net/docs/story/service/",
@@ -91,7 +91,7 @@
       "Install guide": "https://spidernode.net/docs/story/install"
     }
   },
-   {
+  {
     "name": "ContributionDAO",
     "webservices": "https://services.contributiondao.com/testnet/story-protocol/snapshots",
     "x": "contributedao",
@@ -131,7 +131,7 @@
       "guide": "https://service.josephtran.xyz/testnet/story/installation"
     }
   },
-   {
+  {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story/",
     "x": "Cumulo_pro",
@@ -153,7 +153,7 @@
       "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/"
     }
   },
-   {
+  {
     "name": "Endorphine Stake",
     "webservices": "",
     "x": "endorphinestake",
@@ -173,9 +173,9 @@
     "tools_url": {
       "Snapshots App": "https://storyprotocol-snapshots.endorphinestake.com",
       "Tenderduty Dashboard": "https://story-tenderduty.endorphinestake.com"
-    } 
+    }
   },
-   {
+  {
     "name": "STAVR",
     "webservices": "https://story-tools.stavr.tech/",
     "x": "",
@@ -218,7 +218,7 @@
     "tools_url": {
       "Network Node Map": "https://testnet.storyscan.app/network"
     }
-    },
+  },
   {
     "name": "F5 Nodes",
     "webservices": "https://wiki.f5nodes.com/story-protocol/",
@@ -239,7 +239,7 @@
       "Archive Infra and Snapshots": "https://f5nodes.com/"
     }
   },
-   {
+  {
     "name": "Synergy Nodes",
     "webservices": "https://www.synergynodes.com/service/storytest",
     "x": "SynergyNodes",
@@ -342,7 +342,7 @@
       "API": "https://api-story-testnet.trusted-point.com/"
     }
   },
-   {
+  {
     "name": "Pro-Nodes75",
     "webservices": "https://services.node75.org/chains/story-testnet",
     "x": "theNode75",
@@ -362,7 +362,7 @@
       "How to setup/move the node to PebbleDB": "https://services.node75.org/papers/guide_setup_story_pebbledb"
     }
   },
-   {
+  {
     "name": "Rawakinode",
     "webservices": "",
     "x": "rawakinode",
@@ -372,9 +372,8 @@
     "evm-rpc": "https://rpc-evm-story.rawakinode.tech",
     "wss_cosmos": "wss://rpc-story.rawakinode.tech/websocket",
     "wss_evm": "wss://evm-ws-story.rawakinode.tech"
-    
   },
-   {
+  {
     "name": "Node9X",
     "webservices": "https://service.node9x.com/testnet/story-protocol/service-and-snapshot",
     "x": "0xchicharito",
@@ -383,7 +382,7 @@
     "api": "https://api-story.node9x.com",
     "evm-rpc": "https://evm-rpc-story.node9x.com/",
     "wss_cosmos": "wss://rpc-story.node9x.com/websocket",
-    "wss_evm": " wss://wss-story.node9x.com",
+    "wss_evm": "wss://wss-story.node9x.com",
     "snapshot": "https://service.node9x.com/testnet/story-protocol/service-and-snapshot"
   },
   {
@@ -398,38 +397,38 @@
     "wss_cosmos": "wss://story-testnet-cosmos-ws.crouton.digital/websocket",
     "wss_evm": "wss://story-testnet-evm-ws.crouton.digital",
     "snapshot": "https://storage.crouton.digital/testnet/story/snapshots/story_latest.tar.lz4",
-    "addrbook": "https://storage.crouton.digital/testnet/story/files/addrbook.json"   
-},
+    "addrbook": "https://storage.crouton.digital/testnet/story/files/addrbook.json"
+  },
   {
-  "name": "eNcipher",
-  "twitter": "encipher88",
-  "validatorlogo": "encipher.jpg",
-  "rpc": "https://rpc.story.encipher88.tech",
-  "evm-rpc": "https://rpc-evm.story.encipher88.tech",
-  "api": "https://api.story.encipher88.tech",
-  "wss_cosmos": "wss://rpc.story.encipher88.tech/websocket",
-  "wss_evm": "wss://rpc-evm.story.encipher88.tech/websocket",
-  "tools": "Grafana oneline script",
-  "tools_url": {
-    "Grafana oneline script": "https://github.com/encipher88/story-grafana/"
-  }
-},
-{
-  "name": "Luciola",
-  "validatorlogo": "luciola.jpg",
-  "twitter": "luciolaKami",
-  "rpc": "https://story-cosmos.fireflynode.xyz",
-  "evm-rpc": "https://story-evm.fireflynode.xyz",
-  "api": "https://api-story.fireflynode.xyz",
-  "wss_cosmos": "wss://story-cosmos.fireflynode.xyz/websocket",
-  "wss_evm": "wss://ws.story-evm.fireflynode.xyz"
-},
+    "name": "eNcipher",
+    "twitter": "encipher88",
+    "validatorlogo": "encipher.jpg",
+    "rpc": "https://rpc.story.encipher88.tech",
+    "evm-rpc": "https://rpc-evm.story.encipher88.tech",
+    "api": "https://api.story.encipher88.tech",
+    "wss_cosmos": "wss://rpc.story.encipher88.tech/websocket",
+    "wss_evm": "wss://rpc-evm.story.encipher88.tech/websocket",
+    "tools": "Grafana oneline script",
+    "tools_url": {
+      "Grafana oneline script": "https://github.com/encipher88/story-grafana/"
+    }
+  },
+  {
+    "name": "Luciola",
+    "validatorlogo": "luciola.jpg",
+    "twitter": "luciolaKami",
+    "rpc": "https://story-cosmos.fireflynode.xyz",
+    "evm-rpc": "https://story-evm.fireflynode.xyz",
+    "api": "https://api-story.fireflynode.xyz",
+    "wss_cosmos": "wss://story-cosmos.fireflynode.xyz/websocket",
+    "wss_evm": "wss://ws.story-evm.fireflynode.xyz"
+  },
   {
     "name": "Grand Valley",
     "webservices": "",
     "x": "bacvalley",
     "validatorlogo": "grandvalley.png",
-   "api": "https://lightnode-api-story.grandvalleys.com",
+    "api": "https://lightnode-api-story.grandvalleys.com",
     "rpc": "https://lightnode-rpc-story.grandvalleys.com",
     "evm-rpc": "https://lightnode-json-rpc-story.grandvalleys.com",
     "wss_cosmos": "wss://lightnode-rpc-story.grandvalleys.com/websocket",
@@ -460,7 +459,7 @@
       "Story Node Dashboard": "https://github.com/BlockchainsHub/Testnet/blob/main/Story/dashboard.md"
     }
   },
-    {
+  {
     "name": "StraiveVN",
     "webservices": "https://www.straive.com/",
     "x": "Trongbtc",
@@ -473,7 +472,7 @@
     "evm-rpc": "https://evm-rpc-story.ongtrong.xyz",
     "wss_cosmos": "wss://rpc-story.ongtrong.xyz/websocket",
     "wss_evm": "wss://wss-story.ongtrong.xyz"
-    },
+  },
   {
     "name": "Aldebaranode",
     "webservices": "https://docs.aldebaranode.xyz/guide/testnet/story/installation",
@@ -493,7 +492,7 @@
       "Grafana Dashboard Config": "https://github.com/Aldebaranode/monitoring-dashboard/blob/main/story/dashboard.json"
     }
   },
-   {
+  {
     "name": "BlackNodes",
     "webservices": "https://services.blacknodes.net/Story-Testnet/",
     "x": "BlackNodesHQ",
@@ -513,47 +512,90 @@
       "Node Monitoring": "https://services.blacknodes.net/Story-Testnet/"
     }
   },
-   {
+  {
     "name": "NODEJUMPER",
     "x": "nodejumper",
     "validatorlogo": "nodejumper.jpg",
     "webservices": "https://app.nodejumper.io/story-testnet",
     "guides": {
-        "Guide": "https://app.nodejumper.io/story-testnet/installation"
+      "Guide": "https://app.nodejumper.io/story-testnet/installation"
     },
     "public_endpoints": "https://app.nodejumper.io/story-testnet",
     "genesis": "https://app.nodejumper.io/story-testnet",
     "seed_node": "https://app.nodejumper.io/story-testnet",
     "peers": "https://app.nodejumper.io/story-testnet",
     "snapshot": "https://app.nodejumper.io/story-testnet/sync",
-     "tools": "Decentralization Map,Public rpcs",
-     "tools_url": {
-        "decentralization_map": "https://app.nodejumper.io/story-testnet/map",
-         "public_rpcs": "https://api.nodejumper.io/api/v1/story-testnet/rpcs"
+    "tools": "Decentralization Map,Public rpcs",
+    "tools_url": {
+      "decentralization_map": "https://app.nodejumper.io/story-testnet/map",
+      "public_rpcs": "https://api.nodejumper.io/api/v1/story-testnet/rpcs"
     }
-},
-   {
-  "name": "smartinvest.eth",
-  "validatorlogo": "smartinvesteth.jpg",
-  "twitter": "smartinvesteth",
-  "rpc": "https://story-rpc.smartinvest.guru",
-  "evm-rpc": "https://story-geth-rpc.smartinvest.guru",
-  "api": "https://story-api.smartinvest.guru",
-  "wss_cosmos": "wss://story-rpc.smartinvest.guru/websocket",
-  "wss_evm": "wss://story-geth-wss.smartinvest.guru"
-},
-   {
-  "name": "TTTcapital",
-  "validatorlogo": "tttcapital.jpg",
-  "twitter": "TTTcapital",
-  "webservices": "https://services.tienthuattoan.com/testnet/story/",
-  "rpc": "",
-  "snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot",
-  "archive-snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot-archive",
+  },
+  {
+    "name": "smartinvest.eth",
+    "validatorlogo": "smartinvesteth.jpg",
+    "twitter": "smartinvesteth",
+    "rpc": "https://story-rpc.smartinvest.guru",
+    "evm-rpc": "https://story-geth-rpc.smartinvest.guru",
+    "api": "https://story-api.smartinvest.guru",
+    "wss_cosmos": "wss://story-rpc.smartinvest.guru/websocket",
+    "wss_evm": "wss://story-geth-wss.smartinvest.guru"
+  },
+  {
+    "name": "TTTcapital",
+    "validatorlogo": "tttcapital.jpg",
+    "twitter": "TTTcapital",
+    "webservices": "https://services.tienthuattoan.com/testnet/story/",
+    "rpc": "",
+    "snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot",
+    "archive-snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot-archive",
     "tools": "Decentralization Map,Public RPC",
-     "tools_url": {
-        "decentralization_map": "https://services.tienthuattoan.com/testnet/story/map",
-        "Public RPC": "https://services.tienthuattoan.com/testnet/story/public-rpc"
+    "tools_url": {
+      "decentralization_map": "https://services.tienthuattoan.com/testnet/story/map",
+      "Public RPC": "https://services.tienthuattoan.com/testnet/story/public-rpc"
     }
-}
+  },
+  {
+    "name": "DTEAM",
+    "webservices": "https://dteam.tech/services/testnet/overview/story",
+    "x": "dteamtech",
+    "validatorlogo": "https://raw.githubusercontent.com/DTEAMTECH/identity/refs/heads/main/new_logo_filled2.png",
+    "explorer": "",
+    "peers": "dc60dd34a95b92188b00e027bfd956552c029ac2@peer.story.testnet.dteam.tech:37656",
+    "seeds": "6fc1491d5b8b859c1fafbe129fe4c0f842836a79@seed.story.testnet.dteam.tech:32656",
+    "api": {
+      "first": "https://api.story.testnet.dteam.tech",
+      "second": "https://api-2.story.testnet.dteam.tech",
+      "third": "https://api-3.story.testnet.dteam.tech"
+    },
+    "rpc": {
+      "first": "https://rpc.story.testnet.dteam.tech",
+      "second": "https://rpc-2.story.testnet.dteam.tech",
+      "third": "https://rpc-3.story.testnet.dteam.tech"
+    },
+    "evm-rpc": {
+      "first": "https://evm-rpc.story.testnet.dteam.tech",
+      "second": "https://evm-rpc-2.story.testnet.dteam.tech",
+      "third": "https://evm-rpc-3.story.testnet.dteam.tech"
+    },
+    "wss_cosmos": {
+      "first": "wss://rpc.story.testnet.dteam.tech/websocket",
+      "second": "wss://rpc-2.story.testnet.dteam.tech/websocket",
+      "third": "wss://rpc-3.story.testnet.dteam.tech/websocket"
+    },
+    "wss_evm": {
+      "first": "wss://evm-rpc.wss.story.testnet.dteam.tech",
+      "second": "wss://evm-rpc-2.wss.story.testnet.dteam.tech",
+      "third": "wss://evm-rpc-3.wss.story.testnet.dteam.tech"
+    },
+    "snapshot": "https://dteam.tech/services/testnet/snapshot/story?type=pruned",
+    "archive-snapshot": "https://dteam.tech/services/testnet/snapshot/story?type=archive",
+    "addrbook": "https://download.dteam.tech/story/testnet/addrbook",
+    "tools": "IP Graph Explorer, Story Installer, Chat GPT Plugin",
+    "tools_url": {
+      "IP Graph Explorer": "https://graph-story.app",
+      "Story Installer": "https://github.com/DTEAMTECH/story-installer",
+      "Chat GPT Plugin": "https://chatgpt.com/g/g-673b6f19371481919fe8b41d62d0d83d-story-protocol-assistant-by-dteam"
+    }
+  }
 ]
