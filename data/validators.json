@@ -534,7 +534,7 @@
   {
     "name": "smartinvest.eth",
     "validatorlogo": "smartinvesteth.jpg",
-    "twitter": "smartinvesteth",
+    "x": "smartinvesteth",
     "rpc": "https://story-rpc.smartinvest.guru",
     "evm-rpc": "https://story-geth-rpc.smartinvest.guru",
     "api": "https://story-api.smartinvest.guru",
@@ -544,7 +544,7 @@
   {
     "name": "TTTcapital",
     "validatorlogo": "tttcapital.jpg",
-    "twitter": "TTTcapital",
+    "x": "TTTcapital",
     "webservices": "https://services.tienthuattoan.com/testnet/story/",
     "rpc": "",
     "snapshot": "https://services.tienthuattoan.com/testnet/story/snapshot",
