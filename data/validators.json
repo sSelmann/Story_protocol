@@ -554,5 +554,48 @@
       "decentralization_map": "https://services.tienthuattoan.com/testnet/story/map",
       "Public RPC": "https://services.tienthuattoan.com/testnet/story/public-rpc"
     }
+  },
+  {
+    "name": "DTEAM",
+    "webservices": "https://dteam.tech/services/testnet/overview/story",
+    "x": "dteamtech",
+    "validatorlogo": "https://raw.githubusercontent.com/DTEAMTECH/identity/refs/heads/main/new_logo_filled2.png",
+    "explorer": "",
+    "peers": "dc60dd34a95b92188b00e027bfd956552c029ac2@peer.story.testnet.dteam.tech:37656",
+    "seeds": "6fc1491d5b8b859c1fafbe129fe4c0f842836a79@seed.story.testnet.dteam.tech:32656",
+    "api": {
+      "first": "https://api.story.testnet.dteam.tech",
+      "second": "https://api-2.story.testnet.dteam.tech",
+      "third": "https://api-3.story.testnet.dteam.tech"
+    },
+    "rpc": {
+      "first": "https://rpc.story.testnet.dteam.tech",
+      "second": "https://rpc-2.story.testnet.dteam.tech",
+      "third": "https://rpc-3.story.testnet.dteam.tech"
+    },
+    "evm-rpc": {
+      "first": "https://evm-rpc.story.testnet.dteam.tech",
+      "second": "https://evm-rpc-2.story.testnet.dteam.tech",
+      "third": "https://evm-rpc-3.story.testnet.dteam.tech"
+    },
+    "wss_cosmos": {
+      "first": "wss://rpc.story.testnet.dteam.tech/websocket",
+      "second": "wss://rpc-2.story.testnet.dteam.tech/websocket",
+      "third": "wss://rpc-3.story.testnet.dteam.tech/websocket"
+    },
+    "wss_evm": {
+      "first": "wss://evm-rpc.wss.story.testnet.dteam.tech",
+      "second": "wss://evm-rpc-2.wss.story.testnet.dteam.tech",
+      "third": "wss://evm-rpc-3.wss.story.testnet.dteam.tech"
+    },
+    "snapshot": "https://dteam.tech/services/testnet/snapshot/story?type=pruned",
+    "archive-snapshot": "https://dteam.tech/services/testnet/snapshot/story?type=archive",
+    "addrbook": "https://download.dteam.tech/story/testnet/addrbook",
+    "tools": "IP Graph Explorer, Story Installer, Chat GPT Plugin",
+    "tools_url": {
+      "IP Graph Explorer": "https://graph-story.app",
+      "Story Installer": "https://github.com/DTEAMTECH/story-installer",
+      "Chat GPT Plugin": "https://chatgpt.com/g/g-673b6f19371481919fe8b41d62d0d83d-story-protocol-assistant-by-dteam"
+    }
   }
 ]
