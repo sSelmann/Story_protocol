@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Oneiric Stake",
+    "webservices": "",
+    "x": "OneiricStake",
+    "validatorlogo": "oneiricstake.jpg",
+    "explorer": "",
+    "peers": "49a03c2c4b3da9cc1c4a5887303d31daa8d2bfc8@story-endpoint.oneiricts.com:8445",
+    "seeds": "",
+    "api": "https://story-api.oneiricts.com:8445",
+    "rpc": "https://story-rpc.oneiricts.com:8445",
+    "grpc": "",
+    "evm-rpc": "https://story-endpoint.oneiricts.com:8445",
+    "wss_cosmos": "wss://story-wss.oneiricts.com:8445/websocket",
+    "wss_evm": "wss://story-wss.oneiricts.com:8445",
+    "snapshot": "",
+    "addrbook": ""
+  },
+  {
+    "name": "Mandragora",
+    "webservices": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Story-Protocol---Mandragoras-infrastructure-services",
+    "x": "mandragora_spem",
+    "validatorlogo": "mandragora.jpg",
+    "explorer": "",
+    "peers": "f16c644a6d19798e482edcfe5bd5728a22aa5e0d@65.108.103.184:26656",
+    "seeds": "b6fb541c80d968931602710342dedfe1f5c577e3@story-seed.mandragora.io:23656",
+    "api": "https://story-api.mandragora.io",
+    "rpc": "https://story-rpc.mandragora.io",
+    "grpc": "",
+    "evm-rpc": "https://story-rpc-evm.mandragora.io",
+    "wss_cosmos": "wss://story-rpc.mandragora.io/websocket",
+    "wss_evm": "wss://story-wss.mandragora.io",
+    "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
+    "archive-snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
+    "addrbook": "https://snapshots.mandragora.io/addrbook.json",
+    "tools": "Lost My Validator",
+    "tools_url": {
+      "Lost My Validator": "https://github.com/McDaan/general/blob/main/story/lostmyvalidator.sh"
+    }
+  }
+  ]
+  
