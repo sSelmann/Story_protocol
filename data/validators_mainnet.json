@@ -76,7 +76,24 @@
      "content": {
       "Node setup guide": "https://nodestake.org/story"
      }
+    },
+  {
+    "name": "Joseph Tran Services",
+    "webservices": "https://j-node.net/testnet/story/installation/",
+    "x": "",
+    "validatorlogo": "joseph.jpg",
+    "api": "https://api-story.j-node.net",
+    "rpc": "https://rpc-story.j-node",
+    "grpc": "",
+    "evm-rpc": "https://evm-rpc-story.j-node.net",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "snapshot": "https://j-node.net/mainnet/story/snapshot",
+    "addrbook": "",
+    "tools_url": {
+      "guide": "https://j-node.net/mainnet/story/installation/"
     }
+  }
   
   ]
   
