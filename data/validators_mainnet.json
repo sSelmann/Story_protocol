@@ -93,7 +93,19 @@
     "tools_url": {
       "guide": "https://j-node.net/mainnet/story/installation/"
     }
-  }
+  },
+   {
+    "name": "Grand Valley",
+    "webservices": "",
+    "x": "bacvalley",
+    "validatorlogo": "grandvalley.png",
+    "api": "https://lightnode-api-mainnet-story.grandvalleys.com",
+    "rpc": "https://lightnode-rpc-mainnet-story.grandvalleys.com",
+    "evm-rpc": "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
+    "wss_cosmos": "wss://lightnode-rpc-mainnet-story.grandvalleys.com/websocket",
+    "wss_evm": "wss://lightnode-wss-mainnet-story.grandvalleys.com",
+    "snapshot": ""
+   }
   
   ]
   
