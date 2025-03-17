@@ -45,7 +45,7 @@
     "api": "https://api.story.silentvalidator.com",
     "rpc": "https://rpc.story.silentvalidator.com",
     "grpc": "grpc.story.silentvalidator.com:443",
-    "jsonrpc": "https://evm-rpc.story.silentvalidator.com",
+    "evm_rpc": "https://evm-rpc.story.silentvalidator.com",
      "addrbook": "https://services.silentvalidator.com/docs/mainnets/story/Addrbook",
     "peers": "https://services.silentvalidator.com/docs/mainnets/story/Peers",
     "snapshot": "https://services.silentvalidator.com/docs/mainnets/story/snapshots/Pruned-Snapshots",
@@ -104,7 +104,24 @@
     "wss_cosmos": "wss://lightnode-rpc-mainnet-story.grandvalleys.com/websocket",
     "wss_evm": "wss://lightnode-wss-mainnet-story.grandvalleys.com",
     "snapshot": ""
-   }
+   },
+   {
+    "name": "Cumulo",
+    "webservices": "https://cumulo.pro/services/story/",
+    "x": "Cumulo_pro",
+    "validatorlogo": "cumulo.jpg",
+    "peers": "a6d49faf6e1200cade89cb6260c878c38b153c9a@109.228.57.155:26646",
+    "seeds": "",
+    "api": "https://api.story.cumulo.me",
+    "rpc": "https://rpc.story.cumulo.me",
+    "grpc": "grpc.story.cumulo.me",
+    "evm-rpc": "https://evm.story.cumulo.me",
+    "snapshot": "",
+    "addrbook": "",
+    "tools_url": {
+      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/"
+    }
+  }
   
   ]
   
