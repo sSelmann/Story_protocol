@@ -58,6 +58,25 @@
       "Story Ansible": "https://services.silentvalidator.com/docs/mainnets/story/Tools#story-ansible",
       "Story Grafana Dashboard": "https://services.silentvalidator.com/docs/mainnets/story/Tools#story-grafana-dashboard"
     }
-}
+},
+  {
+    "name": "NodeStake",
+    "webservices": "https://nodestake.org/story",
+    "x": "NodeStake_top",
+    "validatorlogo": "nodestake.jpg",
+    "explorer": "",
+    "peers": "https://ss.story.nodestake.org/peers.txt",
+    "seeds": "327fb4151de9f78f29ff10714085e347a4e3c836@rpc.story.nodestake.org:666",
+    "api": "https://api.story.nodestake.org:443",
+    "rpc": "https://rpc.story.nodestake.org:443",
+    "grpc": "grpc.story.nodestake.org:443",
+    "snapshot": "https://nodestake.org/story",
+    "addrbook": "https://ss.story.nodestake.org/addrbook.json",
+    "evm-rpc": "https://evmrpc.story.nodestake.org",
+     "content": {
+      "Node setup guide": "https://nodestake.org/story"
+     }
+    }
+  
   ]
   
