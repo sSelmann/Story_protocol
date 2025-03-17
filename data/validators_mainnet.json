@@ -37,6 +37,27 @@
     "tools_url": {
       "Lost My Validator": "https://github.com/McDaan/general/blob/main/story/lostmyvalidator.sh"
     }
-  }
+  },
+  {
+    "name": "SILENT",
+    "webservices": "https://services.silentvalidator.com/docs/category/story",
+    "x": "EthExploring",
+    "validatorlogo": "silent.jpg",
+    "api": "https://api.story.silentvalidator.com",
+    "rpc": "https://rpc.story.silentvalidator.com",
+    "grpc": "grpc.story.silentvalidator.com:443",
+    "jsonrpc": "https://evm-rpc.story.silentvalidator.com",
+     "addrbook": "https://services.silentvalidator.com/docs/mainnets/story/Addrbook",
+    "peers": "https://services.silentvalidator.com/docs/mainnets/story/Peers",
+    "snapshot": "https://services.silentvalidator.com/docs/mainnets/story/snapshots/Pruned-Snapshots",
+     "content": {
+      "Node setup guide": "https://services.silentvalidator.com/docs/mainnets/story/Installation"
+    },
+    "tools_url": {
+      "Story Node Finder": "https://services.silentvalidator.com/docs/mainnets/story/Tools#story-node-finder",
+      "Story Ansible": "https://services.silentvalidator.com/docs/mainnets/story/Tools#story-ansible",
+      "Story Grafana Dashboard": "https://services.silentvalidator.com/docs/mainnets/story/Tools#story-grafana-dashboard"
+    }
+}
   ]
   
