@@ -54,5 +54,20 @@
       "Story Ansible": "https://services.silentvalidator.com/docs/Testnets/story/Tools#story-ansible",
       "Story Grafana Dashboard": "https://services.silentvalidator.com/docs/Testnets/story/Tools#story-grafana-dashboard"
     }
-}
+},
+   {
+    "name": "Grand Valley",
+    "webservices": "",
+    "x": "bacvalley",
+    "validatorlogo": "grandvalley.png",
+    "api": "https://lightnode-api-story.grandvalleys.com",
+    "rpc": "https://lightnode-json-rpc-story.grandvalleys.com",
+    "evm_rpc": "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
+    "wss_cosmos": "wss://lightnode-rpc-story.grandvalleys.com/websocket",
+    "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
+    "peers": "7e311e22cff1a0d39c3758e342fa4c2ee1aea461@peer-story.grandvalleys.com:28656"
+   },
+    "content": {
+      "Node setup guide": "https://github.com/hubofvalley/Testnet-Guides/tree/main/Story%20Protocol"
+    }
 ]
