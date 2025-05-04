@@ -34,5 +34,25 @@
      "content": {
       "Node setup guide": "https://nodestake.org/story"
      }
+    },
+    {
+    "name": "SILENT",
+    "webservices": "https://services.silentvalidator.com/docs/category/story-1",
+    "x": "EthExploring",
+    "validatorlogo": "silent.jpg",
+    "api": "https://aeneid.api.story.silentvalidator.com",
+    "rpc": "https://aeneid.rpc.story.silentvalidator.com",
+    "grpc": "aeneid.grpc.story.silentvalidator.com:443",
+    "evm_rpc": "https://aeneid.evm-rpc.story.silentvalidator.com",
+     "addrbook": "https://services.silentvalidator.com/docs/Testnets/story/Addrbook",
+    "snapshot": "https://services.silentvalidator.com/docs/category/snapshots-1",
+     "content": {
+      "Node setup guide": "https://services.silentvalidator.com/docs/Testnets/story/Installation"
+    },
+    "tools_url": {
+      "Story Node Finder": "https://services.silentvalidator.com/docs/Testnets/story/Tools#story-node-finder",
+      "Story Ansible": "https://services.silentvalidator.com/docs/Testnets/story/Tools#story-ansible",
+      "Story Grafana Dashboard": "https://services.silentvalidator.com/docs/Testnets/story/Tools#story-grafana-dashboard"
     }
+}
 ]
