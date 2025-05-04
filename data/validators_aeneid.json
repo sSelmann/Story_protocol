@@ -87,5 +87,21 @@
     "tools_url": {
         "Auto Install Tool": "https://github.com/coinsspor/Story-Aeneid"
     }    
- }
+ },
+   {
+    "name": "Cumulo",
+    "webservices": "https://cumulo.pro/story-aeneid/",
+    "x": "Cumulo_pro",
+    "validatorlogo": "cumulo.jpg",
+    "rpc": "https://rpc.story-aeneid.cumulo.me",
+    "grpc": "",
+    "evm-rpc": "https://json-rpc.story-aeneid.cumulo.me",
+    "wss_cosmos": "wss://rpc.story-aeneid.cumulo.me/websocket",
+    "wss_evm": "ws-evm.story-aeneid.cumulo.me",
+    "api": "api.story-aeneid.cumulo.me",
+    "tools": "Story Metrics and Grafana Dashboard",
+    "tools_url": {
+      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/"
+    }
+  }
 ]
