@@ -61,7 +61,7 @@
     "x": "bacvalley",
     "validatorlogo": "grandvalley.png",
     "api": "https://lightnode-api-story.grandvalleys.com",
-    "rpc": "https://lightnode-json-rpc-story.grandvalleys.com",
+    "rpc": "https://lightnode-rpc-story.grandvalleys.com",
     "evm_rpc": "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
     "wss_cosmos": "wss://lightnode-rpc-story.grandvalleys.com/websocket",
     "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
