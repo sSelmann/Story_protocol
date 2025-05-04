@@ -1,0 +1,20 @@
+[
+   {
+    "name": "Coha05",
+    "webservices": "https://spidernode.net/docs/story/service/",
+    "x": "Coha05_",
+    "validatorlogo": "coha05.png",
+    "explorer": "",
+    "seeds": "",
+    "api": "https://story-api-mainnet.spidernode.net",
+    "rpc": "https://story-cosmos-rpc.spidernode.net",
+    "evm-rpc": "https://story-evm-rpc.spidernode.net",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "snapshot": "https://spidernode.net/docs/story/snapshot-testnet",
+    "addrbook": "",
+    "content": {
+      "Install guide": "https://spidernode.net/docs/story/install-testnet"
+    }
+  }
+]
