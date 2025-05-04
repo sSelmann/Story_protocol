@@ -69,5 +69,23 @@
    },
     "content": {
       "Node setup guide": "https://github.com/hubofvalley/Testnet-Guides/tree/main/Story%20Protocol"
-    }
+    }.
+     {
+    "name": "coinsspor",
+    "webservices": "https://github.com/coinsspor/Story-Aeneid",
+    "x": "coinsspor",
+    "validatorlogo": "coinsspor.jpg",
+    "evm": "https://story-aeneid-testnet-evm.coinsspor.com/",
+    "api": "https://story-aeneid-testnet-api.coinsspor.com/",
+    "rpc": "https://story-aeneid-testnet-rpc.coinsspor.com/",
+    "json_rpc": "https://warden-chiado-json-rpc.coinsspor.com",
+    "grpc": "",
+    "wss_cosmos": "wss://story-aeneid-testnet-rpc.coinsspor.com/websocket",
+    "addrbook": "",
+    "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
+    "tools": "Auto Install Tool",
+    "tools_url": {
+        "Auto Install Tool": "https://github.com/coinsspor/Story-Aeneid"
+    }    
+ }
 ]
