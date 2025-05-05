@@ -102,6 +102,9 @@
     "snapshot": "https://services.mictonode.com/story-aeneid/snapshot",
     "content": {
         "Installation Guide": "https://services.mictonode.com/story-aeneid/installation"
+    },
+      "tools_url": {
+       "Story Auto Upgrade": "https://services.mictonode.com/story-aeneid/auto-update"
     }
 },
    {
