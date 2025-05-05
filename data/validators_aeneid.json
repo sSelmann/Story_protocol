@@ -8,7 +8,7 @@
     "seeds": "",
     "api": "https://story-api-mainnet.spidernode.net",
     "rpc": "https://story-cosmos-rpc.spidernode.net",
-    "evm-rpc": "https://story-evm-rpc.spidernode.net",
+    "evm": "https://story-evm-rpc.spidernode.net",
     "wss_cosmos": "",
     "wss_evm": "",
     "snapshot": "https://spidernode.net/docs/story/snapshot-testnet",
@@ -30,7 +30,7 @@
     "grpc": "grpc.story-t.nodestake.org:443",
     "snapshot": "https://nodestake.org/story",
     "addrbook": "https://ss.story-t.nodestake.org/addrbook.json",
-    "evm_rpc": "https://evmrpc-t.story.nodestake.org",
+    "evm": "https://evmrpc-t.story.nodestake.org",
      "content": {
       "Node setup guide": "https://nodestake.org/story"
      }
@@ -43,7 +43,7 @@
     "api": "https://aeneid.api.story.silentvalidator.com",
     "rpc": "https://aeneid.rpc.story.silentvalidator.com",
     "grpc": "aeneid.grpc.story.silentvalidator.com:443",
-    "evm_rpc": "https://aeneid.evm-rpc.story.silentvalidator.com",
+    "evm": "https://aeneid.evm-rpc.story.silentvalidator.com",
      "addrbook": "https://services.silentvalidator.com/docs/Testnets/story/Addrbook",
     "snapshot": "https://services.silentvalidator.com/docs/category/snapshots-1",
      "content": {
@@ -114,7 +114,7 @@
     "validatorlogo": "cumulo.jpg",
     "rpc": "https://rpc.story-aeneid.cumulo.me",
     "grpc": "",
-    "evm-rpc": "https://json-rpc.story-aeneid.cumulo.me",
+    "evm": "https://json-rpc.story-aeneid.cumulo.me",
     "wss_cosmos": "wss://rpc.story-aeneid.cumulo.me/websocket",
     "wss_evm": "ws-evm.story-aeneid.cumulo.me",
     "api": "api.story-aeneid.cumulo.me",
