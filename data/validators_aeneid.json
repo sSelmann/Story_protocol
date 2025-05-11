@@ -161,5 +161,19 @@
     "content": {
         "Installation Guide": "https://itrocket.net/services/testnet/story/installation/"
     }
+  },
+     {
+  "name": "cryptomolot",
+  "webservices": "https://cryptomolot.gitbook.io/cryptomolot-docs/testnets/story-protocol",
+  "x": "cryptomolot",
+  "validatorlogo": "cryptomolot.jpg",
+  "tools": "Monitoring tool",
+  "tools_url": {
+    "Monitoring tool": "https://cryptomolot.gitbook.io/cryptomolot-docs/testnets/story-protocol/monitoring-tool"
+  },
+  "content":{
+    "Installation Guide": "https://cryptomolot.gitbook.io/cryptomolot-docs/testnets/story-protocol",
+    "Cheatsheet": "https://cryptomolot.gitbook.io/cryptomolot-docs/testnets/story-protocol/cheatsheet"
   }
+}
 ]
