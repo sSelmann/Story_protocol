@@ -122,5 +122,19 @@
     "tools_url": {
       "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/"
     }
-  }
+  },
+   {
+    "name": "CoreNode",
+    "webservices": "https://services.corenodehq.xyz/testnet/story-tesnet",
+    "x": "corenodeHQ",
+    "validatorlogo": "corenode.jpg",
+    "api": "",
+    "rpc": "",
+    "evm": "",
+    "snapshot": "",
+    "websocket": "",
+    "content": {
+        "Installation Guide": "https://services.corenodehq.xyz/testnet/story-tesnet"
+    }
+   }
 ]
