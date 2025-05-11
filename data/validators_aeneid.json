@@ -136,5 +136,30 @@
     "content": {
         "Installation Guide": "https://services.corenodehq.xyz/testnet/story-tesnet"
     }
-   }
+   },
+    {
+  "name": "ITRocket",
+  "webservices": "https://itrocket.net/services/testnet/story/",
+  "x": "itrocket_team",
+  "validatorlogo": "itrocket.png",
+  "peers": "01f8a2148a94f0267af919d2eab78452c90d9864@story-testnet-peer.itrocket.net:52656",
+  "seeds": "46b7995b0b77515380000b7601e6fc21f783e16f@story-testnet-seed.itrocket.net:52656",
+  "api": "https://story-testnet-api.itrocket.net",
+  "rpc": "https://story-testnet-rpc.itrocket.net",
+  "grpc": "",
+  "websocket": "wss://story-testnet-rpc.itrocket.net/websocket",
+  "evm": "https://story-testnet-evm.itrocket.net:443",
+  "evm-wss":"wss://story-testnet-wss.itrocket.net",
+  "snapshot": "https://itrocket.net/services/testnet/story/",
+  "snapshot_archival": "https://itrocket.net/services/testnet/story/",
+  "tools": "Validator Analytics, Validators Performance Dashboard, Peer scanner",
+ "tools_url": {
+  "Validator Analytics": "",
+  "Validators Performance Dashboard": "https://itrocket.net/services/testnet/story/analytics/validators-performance/?mode=full&range=last3months",
+  "Peer scanner": ""
+    },
+    "content": {
+        "Installation Guide": "https://itrocket.net/services/testnet/story/installation/"
+    }
+  }
 ]
