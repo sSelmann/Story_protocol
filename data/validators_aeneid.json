@@ -183,15 +183,18 @@
     "x": "stakeme_pro",
     "validatorlogo": "stakeme.jpg",
     "explorer": "https://aeneid.storyscan.app/validators",
-    "peers": "",
-    "seeds": "",
-    "api": "",
-    "rpc": "",
-    "grpc": "",
-    "evm-rpc": "",
-    "wss_cosmos": "",
-    "wss_evm": "",
-    "snapshot": "",
     "addrbook": ""
+  },
+    {
+    "name": "NODESYNC",
+    "webservices": "",
+    "x": "nodesync_top",
+    "validatorlogo": "nodesync.jpg",
+    "explorer": "",
+    "addrbook": "",
+    "tools": "Story testnet Telegram bot",
+    "tools_url": {
+      "Story testnet Telegram bot": "https://t.me/NS_COSMOS_MONITORING_BOT"
+    }
   }
 ]
