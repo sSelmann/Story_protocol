@@ -83,9 +83,10 @@
     "wss_cosmos": "wss://story-aeneid-testnet-rpc.coinsspor.com/websocket",
     "addrbook": "",
     "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
-    "tools": "Auto Install Tool",
+    "tools": "Auto Install Tool, Story Aeneid Validator Table",
     "tools_url": {
-        "Auto Install Tool": "https://github.com/coinsspor/Story-Aeneid"
+        "Auto Install Tool": "https://github.com/coinsspor/Story-Aeneid",
+       "Story Aeneid Validator Table": "https://story-aeneid-validator-table.coinsspor.com/"
     }    
  },
    {
