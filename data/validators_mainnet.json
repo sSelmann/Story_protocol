@@ -115,7 +115,7 @@
     "api": "https://api.story.cumulo.me",
     "rpc": "https://rpc.story.cumulo.me",
     "grpc": "grpc.story.cumulo.me",
-    "evm-rpc": "https://evm.story.cumulo.me",
+    "evm_rpc": "https://evm.story.cumulo.me",
     "snapshot": "",
     "addrbook": "",
     "tools_url": {
