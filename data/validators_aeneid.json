@@ -121,7 +121,8 @@
     "api": "api.story-aeneid.cumulo.me",
     "tools": "Story Metrics and Grafana Dashboard",
     "tools_url": {
-      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/"
+      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/",
+      "RPC Monitoring Tool": "https://cumulo.pro/services/story-aeneid/rpcscan"
     }
   },
    {
