@@ -119,7 +119,8 @@
     "snapshot": "",
     "addrbook": "",
     "tools_url": {
-      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/"
+      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/",
+      "RPC Monitoring Tool": "https://cumulo.pro/services/story/rpcscan"
     }
   }
   
