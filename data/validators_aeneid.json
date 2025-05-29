@@ -217,7 +217,7 @@
     },
     "tools": "CommunityApp",
     "tools_url": {
-       "CommunityApp": "https://ipstoryhub.org/".
+       "CommunityApp": "https://ipstoryhub.org/",
        "State Sync": "https://noders.services/testnet-networks/story/statesync"
     }    
   }
