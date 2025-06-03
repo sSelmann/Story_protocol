@@ -156,9 +156,9 @@
   "snapshot_archival": "https://itrocket.net/services/testnet/story/",
   "tools": "Validator Analytics, Validators Performance Dashboard, Peer scanner",
  "tools_url": {
-  "Validator Analytics": "",
   "Validators Performance Dashboard": "https://itrocket.net/services/testnet/story/analytics/validators-performance/?mode=full&range=last3months",
-  "Peer scanner": ""
+  "Public RPC scanner": "https://itrocket.net/services/testnet/story/public-rpc/",
+  "Node & Validator Monitoring Script": "https://itrocket.net/services/testnet/story/monitoring/"
     },
     "content": {
         "Installation Guide": "https://itrocket.net/services/testnet/story/installation/"
