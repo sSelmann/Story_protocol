@@ -10,7 +10,7 @@
     "api": "https://story-api.oneiricts.com:8445",
     "rpc": "https://story-rpc.oneiricts.com:8445",
     "grpc": "",
-    "evm_rpc": "https://story-endpoint.oneiricts.com:8445",
+    "evm": "https://story-endpoint.oneiricts.com:8445",
     "wss_cosmos": "wss://story-wss.oneiricts.com:8445/websocket",
     "wss_evm": "wss://story-wss.oneiricts.com:8445",
     "snapshot": "",
@@ -27,7 +27,7 @@
     "api": "https://story-api.mandragora.io",
     "rpc": "https://story-rpc.mandragora.io",
     "grpc": "",
-    "evm_rpc": "https://story-rpc-evm.mandragora.io",
+    "evm": "https://story-rpc-evm.mandragora.io",
     "wss_cosmos": "wss://story-rpc.mandragora.io/websocket",
     "wss_evm": "wss://story-wss.mandragora.io",
     "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
@@ -45,7 +45,7 @@
     "api": "https://api.story.silentvalidator.com",
     "rpc": "https://rpc.story.silentvalidator.com",
     "grpc": "grpc.story.silentvalidator.com:443",
-    "evm_rpc": "https://evm-rpc.story.silentvalidator.com",
+    "evm": "https://evm-rpc.story.silentvalidator.com",
      "addrbook": "https://services.silentvalidator.com/docs/mainnets/story/Addrbook",
     "peers": "https://services.silentvalidator.com/docs/mainnets/story/Peers",
     "snapshot": "https://services.silentvalidator.com/docs/mainnets/story/snapshots/Pruned-Snapshots",
@@ -71,7 +71,7 @@
     "grpc": "grpc.story.nodestake.org:443",
     "snapshot": "https://nodestake.org/story",
     "addrbook": "https://ss.story.nodestake.org/addrbook.json",
-    "evm_rpc": "https://evmrpc.story.nodestake.org",
+    "evm": "https://evmrpc.story.nodestake.org",
      "content": {
       "Node setup guide": "https://nodestake.org/story"
      }
@@ -84,7 +84,7 @@
     "api": "https://api-story.j-node.net",
     "rpc": "https://rpc-story.j-node",
     "grpc": "",
-    "evm_rpc": "https://evm-rpc-story.j-node.net",
+    "evm": "https://evm-rpc-story.j-node.net",
     "wss_cosmos": "",
     "wss_evm": "",
     "snapshot": "https://j-node.net/mainnet/story/snapshot",
@@ -100,7 +100,7 @@
     "validatorlogo": "grandvalley.png",
     "api": "https://lightnode-api-mainnet-story.grandvalleys.com",
     "rpc": "https://lightnode-rpc-mainnet-story.grandvalleys.com",
-    "evm_rpc": "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
+    "evm": "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
     "wss_cosmos": "wss://lightnode-rpc-mainnet-story.grandvalleys.com/websocket",
     "wss_evm": "wss://lightnode-wss-mainnet-story.grandvalleys.com",
     "snapshot": ""
@@ -115,7 +115,7 @@
     "api": "https://api.story.cumulo.me",
     "rpc": "https://rpc.story.cumulo.me",
     "grpc": "grpc.story.cumulo.me",
-    "evm_rpc": "https://evm.story.cumulo.me",
+    "evm": "https://evm.story.cumulo.me",
     "snapshot": "",
     "addrbook": "",
     "tools_url": {
