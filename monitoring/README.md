@@ -72,3 +72,14 @@ You can download the Grafana dashboard from the links below:
 You can download the Grafana dashboard from the links below:
 
 [![Grafana Dashboard Demo](https://img.shields.io/badge/Grafana%20Dashboard-Official-blue?style=for-the-badge&logo=grafana&logoColor=white)](http://74.208.16.201:3000/public-dashboards/17c6d645404a400f8aa7c3c532fd4a61?orgId=1&refresh=5s)
+
+## 🧪 Story Aeneid (Testnet) Monitoring
+
+In addition to mainnet monitoring, we also provide full support for the **Story Aeneid testnet**. This includes detailed Prometheus metrics and a dedicated Grafana dashboard.
+
+You can explore the available metrics and visualizations using the links below:
+
+[![Story Aeneid Node Metrics FAQ](https://img.shields.io/badge/Story%20Aeneid%20Node%20Metrics-View-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/story_aeneid_metrics.md)
+
+[![Story Aeneid Dashboard](https://img.shields.io/badge/Grafana%20Dashboard%20Aeneid-Download-blue?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/Story%20Dashboard%20Aeneid%20by%20Cumulo-1749224644414.json)
+
