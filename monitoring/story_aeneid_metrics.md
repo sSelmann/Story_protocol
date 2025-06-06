@@ -1,4 +1,46 @@
+# 📊 Story Aeneid Node Metrics FAQ
 
+This document provides a comprehensive breakdown of the Prometheus metrics exposed by a Story Protocol node. It includes essential metrics for monitoring consensus, network health, transaction throughput, and system resource usage.
+
+Use this FAQ to guide your monitoring setup, dashboards, and performance evaluation.
+
+---
+
+## 📚 Table of Contents
+
+- [🔄 Sync Status](#-sync-status)
+- [📏 Consensus Height](#-consensus-height)
+- [⬆️ Latest Block Height](#️-latest-block-height)
+- [📦 Block Size](#-block-size)
+- [🤝 Peers Connected](#-peers-connected)
+- [🧱 Chain Size](#-chain-size)
+- [🕓 Late Votes](#-late-votes)
+- [📨 Proposal Receive Count](#-proposal-receive-count)
+- [🚀 Begin Blocker Duration](#-begin-blocker-duration)
+- [🛑 End Blocker Duration](#-end-blocker-duration)
+- [⚙️ Consensus Parameter Updates](#️-consensus-parameter-updates)
+- [⚔️ Byzantine Validators Power](#️-byzantine-validators-power)
+- [🕵️ Byzantine Validators](#-byzantine-validators)
+- [📑 Duplicate Block Part](#-duplicate-block-part)
+- [🗳️ Duplicate Vote](#️-duplicate-vote)
+- [🔢 Number of Transactions](#-number-of-transactions)
+- [🧮 Total Transactions](#-total-transactions)
+- [📥 P2P Message Receive Bytes Total](#-p2p-message-receive-bytes-total)
+- [📤 P2P Message Send Bytes Total](#-p2p-message-send-bytes-total)
+- [♻️ GC Pause Time](#️-gc-pause-time)
+- [🧪 Additional Metrics](#-additional-metrics)
+  - [ABCI Method Timings](#abci-method-timings)
+  - [Round Duration](#round-duration)
+  - [Step Duration](#step-duration)
+  - [Quorum Delay](#quorum-delay)
+  - [Voting Power Percent](#voting-power-percent)
+  - [Validator Power](#validator-power)
+  - [Log Levels](#log-levels)
+  - [Ethereum Engine Latency](#ethereum-engine-latency)
+  - [Build Info](#build-info)
+  - [System Metrics](#system-metrics)
+
+___
 ## 🔄 Sync Status
 
 *cometbft_blocksync_syncing*
