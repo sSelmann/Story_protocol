@@ -1,18 +1,17 @@
-
 # 📡 Story Node Alert Bot
 
-`story-node-alert-bot` is a monitoring and alerting system for **Story Protocol** validator nodes. It uses **Prometheus** for metric collection and **Alertmanager** to send alerts directly to **Telegram** via a custom bot.
+`story-node-alert-bot` is a monitoring and alerting setup for **Story Protocol** validator nodes. It uses **Prometheus** for metric collection and **Alertmanager** to dispatch alerts directly to **Telegram** via a dedicated bot.
 
-This setup ensures node operators receive instant feedback on the synchronization status, validator power, peer connectivity, and other essential node health indicators.
+This system ensures validator operators receive immediate feedback on key health metrics, including sync status, validator power, and peer connectivity — along with periodic status reports.
 
 ---
 
 ## 🚀 Features
 
-- ✅ Real-time alerting via Telegram  
-- 🧠 Monitors sync status, validator power, and peer count  
-- 📊 Hourly health reports with consensus and block height  
-- 🔧 Easy integration with Prometheus & Alertmanager  
+- ✅ Instant alerts sent to Telegram  
+- 🧠 Monitors synchronization, validator power, and peer count  
+- 🕒 Hourly status messages with consensus and block height (via static rule or external script)  
+- 🔧 Seamless integration with existing Prometheus + Alertmanager stacks  
 
 ---
 
@@ -20,11 +19,13 @@ This setup ensures node operators receive instant feedback on the synchronizatio
 
 | Alert Name               | Severity    | Description                                                                 |
 |--------------------------|-------------|-----------------------------------------------------------------------------|
-| `NodeSyncing`            | 🔴 Critical | Triggered when the node is out of sync (`story_consensus_syncing == 1`).   |
-| `LowPeerCount`           | 🟠 Warning  | Fires when connected peers drop below 9 (`cometbft_p2p_peers < 9`).        |
-| `LowValidatorPower`      | 🔴 Critical | Triggered when validator power falls below 1,024,000.                      |
-| `NodeStatusSummary`      | 🟢 Info     | Reports when the node is synchronized with current heights.               |
-| `HourlyNodeStatusReport` | 🕒 Info     | Sends a health check every hour as long as the node is up.                |
+| `NodeSyncing`            | 🔴 Critical | Triggered when the node is not synchronized (`story_consensus_syncing == 1`). |
+| `LowPeerCount`           | 🟠 Warning  | Fires if the connected peers drop below 9 (`cometbft_p2p_peers < 9`).        |
+| `LowValidatorPower`      | 🔴 Critical | Triggered when validator power drops below `1,024,000`.                      |
+| `NodeStatusSummary`      | 🟢 Info     | Reports when the node is synchronized with consensus and latest block height. |
+| `HourlyNodeStatusReport` | 🕒 Info     | Fires every hour to confirm the node is alive and synced.                   |
+
+> ⚠️ Note: `HourlyNodeStatusReport` uses `vector(1)` and doesn't dynamically populate metric values unless implemented via a script.
 
 ---
 
@@ -32,31 +33,31 @@ This setup ensures node operators receive instant feedback on the synchronizatio
 
 - Prometheus `v2.40+`  
 - Alertmanager (with Telegram integration)  
-- Telegram Bot (create with [BotFather](https://t.me/BotFather))  
-- Story Node exposing metrics at `http://<your-node-ip>:26666/metrics`  
+- Telegram Bot (created via [@BotFather](https://t.me/BotFather))  
+- Running Story node with metrics exposed at `http://<your-node-ip>:26666/metrics`  
 
 ---
 
-## 📦 Example Telegram Message
+## 📦 File Structure
+
+- [`/etc/prometheus/rules/story_alerts_full.yml`](./etc/prometheus/rules/story_alerts_full.yml) — Alert rules for Prometheus  
+- [`/etc/alertmanager/alertmanager.yml`](./etc/alertmanager/alertmanager.yml) — Alertmanager routing and receivers for Telegram  
+
+---
+
+## 📲 Example Telegram Message
 
 ```
-🕒 Hourly Node Report: ✅ Synchronized
+📡 [firing] HourlyNodeStatusReport (INFO)
 The node is up and synchronized.
 Consensus Height: 6349175
 Latest Block Height: 6349175
 ```
 
----
-
-## 📁 File Structure
-
-```
-/etc/prometheus/rules/story_alerts_full.yml       # Prometheus alert rules
-/etc/alertmanager/alertmanager.yml                # Alertmanager routing and receivers
-```
+> 💡 Dynamic height values require an external script or Grafana Alerting integration.
 
 ---
 
-## 💬 License
+## 📄 License
 
-MIT — feel free to fork, use, and contribute!
+MIT — use it, fork it, improve it. PRs welcome!
