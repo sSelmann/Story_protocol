@@ -1,3 +1,4 @@
+
 # 📡 Story Node Alert Bot
 
 `story-node-alert-bot` is a monitoring and alerting setup for **Story Protocol** validator nodes. It uses **Prometheus** for metric collection and **Alertmanager** to dispatch alerts directly to **Telegram** via a dedicated bot.
@@ -48,13 +49,75 @@ This system ensures validator operators receive immediate feedback on key health
 ## 📲 Example Telegram Message
 
 ```
-📡 [firing] HourlyNodeStatusReport (INFO)
-The node is up and synchronized.
+📡 [firing] NodeStatusSummary (INFO)
+The node is synchronized.
 Consensus Height: 6349175
 Latest Block Height: 6349175
 ```
 
-> 💡 Dynamic height values require an external script or Grafana Alerting integration.
+> 💡 These height values are dynamically retrieved from Prometheus using templated `{{ with query }}` blocks in the alert annotations.
+
+---
+
+# ⚙️ Configuring Alerts for Story
+
+This guide outlines the steps to configure alerts for the Story Protocol node using Prometheus and Alertmanager. It assumes you have already set up Prometheus and Alertmanager.
+
+## ✅ Prerequisites
+
+- Prometheus is installed and running.  
+- Alertmanager is installed and running.  
+- A basic understanding of YAML configuration files.  
+
+## 📍 Step 1: Configure Prometheus Rules for Story Alerts
+
+Create or update the Prometheus alert rules file at:
+
+```
+/etc/prometheus/rules/story_alerts_full.yml
+```
+
+Validate the configuration using:
+
+```bash
+promtool check rules /etc/prometheus/rules/story_alerts_full.yml
+```
+
+## 🧩 Step 2: Configure Alertmanager
+
+Use the Alertmanager configuration file provided in the following path:
+
+```
+/etc/alertmanager/alertmanager.yml
+```
+
+Replace the following placeholders:
+- `BOT_TOKEN` with your Telegram bot token.  
+- `CHAT_ID` with your Telegram chat ID.  
+
+## 🔄 Step 3: Reload Prometheus and Alertmanager
+
+Apply the changes by restarting services:
+
+```bash
+sudo systemctl restart prometheus
+sudo systemctl restart alertmanager
+sudo systemctl status alertmanager
+```
+
+## 🔍 Step 4: Verify the Loading of Rules
+
+1. Open Prometheus web interface (e.g., http://<your-node-ip>:9090)  
+2. Navigate to `Status > Rules`.  
+3. You should see the alert group named **Story Node Alerts**.
+
+---
+
+## ✅ Final Verification
+
+If everything is configured properly, alerts will begin arriving in your designated Telegram chat. These will include sync status, peer count, validator power, and periodic status updates.
+
+For more advanced customizations, consult the [Prometheus Alerting Rules documentation](https://prometheus.io/docs/alerting/latest/rules/).
 
 ---
 
