@@ -1,0 +1,46 @@
+groups:
+  - name: "Story Node Alerts"
+    interval: 1m
+    rules:
+      - alert: NodeSyncing
+        expr: cometbft_blocksync_syncing{chain_id="devnet-1"} == 1
+        for: 1m
+        labels:
+          severity: critical
+          alert_source: story
+        annotations:
+          summary: "Node is syncing"
+          description: "The Story node (devnet-1) is currently not synchronized."
+
+      - alert: LowPeerCount
+        expr: cometbft_p2p_peers{chain_id="devnet-1"} < 9
+        for: 1m
+        labels:
+          severity: warning
+          alert_source: story
+        annotations:
+          summary: "Peers below 9"
+          description: "The number of connected peers for devnet-1 is below 9."
+
+      - alert: LowValidatorPower
+        expr: cometbft_consensus_validator_power{validator_address="7FBE0E10EF7E41CEECC598AB43195F84B6DC517F", chain_id="devnet-1"} < 1024000
+        for: 1m
+        labels:
+          severity: critical
+          alert_source: story
+        annotations:
+          summary: "Validator power is low"
+          description: "Validator power on devnet-1 has fallen below the threshold."
+
+      - alert: NodeHeartbeat
+        expr: vector(1)
+        for: 0s
+        labels:
+          severity: info
+          alert_source: story
+        annotations:
+          summary: "🕒 Node Story Heartbeat"
+          description: |
+            Node is reachable.
+            Sync: {{ with query "cometbft_blocksync_syncing{chain_id='devnet-1'}" }}{{ . | first | value | printf "%.0f" }}{{ end }}
+            Latest Block Height: {{ with query "cometbft_consensus_latest_block_height{chain_id='devnet-1'}" }}{{ . | first | value | printf "%.0f" }}{{ end }}
