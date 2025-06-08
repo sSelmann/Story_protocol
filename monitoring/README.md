@@ -83,3 +83,22 @@ You can explore the available metrics and visualizations using the links below:
 
 [![Story Aeneid Dashboard](https://img.shields.io/badge/Grafana%20Dashboard%20Aeneid-Download-blue?style=for-the-badge&logo=grafana&logoColor=white)](https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/Story%20Dashboard%20Aeneid%20by%20Cumulo-1749224644414.json)
 
+---
+
+## 🤖 Story Node Alert Bot
+
+Stay informed in real-time with the **Story Node Alert Bot** — a Telegram-integrated monitoring system powered by Prometheus and Alertmanager.
+
+![StoryBot](https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/assets/storybot.png)
+
+This bot notifies you instantly about:
+
+- ⛓️ Sync status (`cometbft_blocksync_syncing`)
+- 🧠 Peer count and validator power
+- 🟢 Periodic node heartbeats (block height and availability)
+- 🔴 Any unexpected downtime or connectivity issues
+
+📄 Full guide and configuration details available here:
+
+[![Story Alert Bot Guide](https://img.shields.io/badge/Story%20Node%20Alert%20Bot-View%20Guide-blue?style=for-the-badge&logo=telegram)](https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/README_story_node_bot.md)
+
