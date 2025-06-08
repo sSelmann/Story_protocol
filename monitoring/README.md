@@ -89,7 +89,7 @@ You can explore the available metrics and visualizations using the links below:
 
 Stay informed in real-time with the **Story Node Alert Bot** — a Telegram-integrated monitoring system powered by Prometheus and Alertmanager.
 
-![StoryBot](https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/assets/storybot.png)
+![image](https://github.com/user-attachments/assets/0fea3340-dbca-4d41-8dd3-d52b8487b44e)
 
 This bot notifies you instantly about:
 
