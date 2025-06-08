@@ -43,9 +43,8 @@ This system ensures validator operators receive immediate feedback on key health
 
 ## 📦 File Structure
 
-- `/etc/prometheus/rules/story_alerts_full.yml` — Alert rules for Prometheus  
-- `/etc/alertmanager/alertmanager.yml` — Alertmanager routing and receivers for Telegram  
-
+- [`/etc/prometheus/rules/story_alerts_full.yml`](https://github.com/Cumulo-pro/Cumulo-Front-Chain/blob/main/prometheus/rules/story_alerts_full.yml) — Alert rules for Prometheus  
+- [`/etc/alertmanager/alertmanager.yml`](https://github.com/Cumulo-pro/Cumulo-Front-Chain/blob/main/alertmanager/alertmanager.yml) — Alertmanager routing and receivers for Telegram  
 ---
 
 ## 📲 Example Telegram Message
