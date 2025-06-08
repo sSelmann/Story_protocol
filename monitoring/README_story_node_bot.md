@@ -57,6 +57,9 @@ Sync: 0
 Latest Block Height: 7523313
 ```
 
+![image](https://github.com/user-attachments/assets/f530dbdf-2b4a-4302-873a-2374e6522551)
+
+
 > 💡 These height values are dynamically retrieved from Prometheus using templated `{{ with query }}` blocks in the alert annotations.
 
 ---
