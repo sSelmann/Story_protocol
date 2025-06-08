@@ -3,6 +3,8 @@
 
 `story-node-alert-bot` is a monitoring and alerting setup for **Story Protocol** validator nodes. It uses **Prometheus** for metric collection and **Alertmanager** to dispatch alerts directly to **Telegram** via a dedicated bot.
 
+![image](https://github.com/user-attachments/assets/d0525936-6700-4cfa-97b8-9ea5d339e2dc)
+
 This system ensures validator operators receive immediate feedback on key health metrics, including sync status, validator power, and peer connectivity — along with periodic status reports.
 
 ---
