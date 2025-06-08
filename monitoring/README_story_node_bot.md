@@ -3,7 +3,8 @@
 
 `story-node-alert-bot` is a monitoring and alerting setup for **Story Protocol** validator nodes. It uses **Prometheus** for metric collection and **Alertmanager** to dispatch alerts directly to **Telegram** via a dedicated bot.
 
-![image](https://github.com/user-attachments/assets/d0525936-6700-4cfa-97b8-9ea5d339e2dc)
+![image](https://github.com/user-attachments/assets/d029fa30-df5b-48cb-8c09-68bb83aacb9b)
+
 
 This system ensures validator operators receive immediate feedback on key health metrics, including sync status, validator power, and peer connectivity — along with periodic status reports.
 
@@ -20,15 +21,14 @@ This system ensures validator operators receive immediate feedback on key health
 
 ## 📋 Active Alert Rules
 
-| Alert Name               | Severity    | Description                                                                 |
-|--------------------------|-------------|-----------------------------------------------------------------------------|
-| `NodeSyncing`            | 🔴 Critical | Triggered when the node is not synchronized (`story_consensus_syncing == 1`). |
-| `LowPeerCount`           | 🟠 Warning  | Fires if the connected peers drop below 9 (`cometbft_p2p_peers < 9`).        |
-| `LowValidatorPower`      | 🔴 Critical | Triggered when validator power drops below `1,024,000`.                      |
-| `NodeStatusSummary`      | 🟢 Info     | Reports when the node is synchronized with consensus and latest block height. |
-| `HourlyNodeStatusReport` | 🕒 Info     | Fires every hour to confirm the node is alive and synced.                   |
+| Alert Name          | Severity    | Description                                                                 |
+|---------------------|-------------|-----------------------------------------------------------------------------|
+| `NodeSyncing`       | 🔴 Critical | Triggered when the node is not synchronized (`cometbft_blocksync_syncing{chain_id="devnet-1"} == 1`). |
+| `LowPeerCount`      | 🟠 Warning  | Fires if the connected peers for devnet-1 drop below 9 (`cometbft_p2p_peers{chain_id="devnet-1"} < 9`). |
+| `LowValidatorPower` | 🔴 Critical | Triggered when validator power drops below `1,024,000` on devnet-1.        |
+| `NodeHeartbeat`     | 🕒 Info     | Fires continuously to confirm the node is reachable and reports live status. |
 
-> ⚠️ Note: `HourlyNodeStatusReport` uses `vector(1)` and doesn't dynamically populate metric values unless implemented via a script.
+> ⚠️ `NodeHeartbeat` uses `vector(1)` to ensure regular firing. It queries actual metric values using Prometheus templates.
 
 ---
 
@@ -43,18 +43,18 @@ This system ensures validator operators receive immediate feedback on key health
 
 ## 📦 File Structure
 
-- [`/etc/prometheus/rules/story_alerts_full.yml`](./etc/prometheus/rules/story_alerts_full.yml) — Alert rules for Prometheus  
-- [`/etc/alertmanager/alertmanager.yml`](./etc/alertmanager/alertmanager.yml) — Alertmanager routing and receivers for Telegram  
+- `/etc/prometheus/rules/story_alerts_full.yml` — Alert rules for Prometheus  
+- `/etc/alertmanager/alertmanager.yml` — Alertmanager routing and receivers for Telegram  
 
 ---
 
 ## 📲 Example Telegram Message
 
 ```
-📡 [firing] NodeStatusSummary (INFO)
-The node is synchronized.
-Consensus Height: 6349175
-Latest Block Height: 6349175
+📘 [firing] NodeHeartbeat (INFO)
+Node is reachable.
+Sync: 0
+Latest Block Height: 7523313
 ```
 
 > 💡 These height values are dynamically retrieved from Prometheus using templated `{{ with query }}` blocks in the alert annotations.
