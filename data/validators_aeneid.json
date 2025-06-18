@@ -215,10 +215,30 @@
      "content": {
         "Installation Guide": "https://noders.services/testnet-networks/story/install"
     },
-    "tools": "CommunityApp",
+    "tools": "CommunityApp,State Sync",
     "tools_url": {
        "CommunityApp": "https://ipstoryhub.org/",
        "State Sync": "https://noders.services/testnet-networks/story/statesync"
+    }    
+  },
+    {
+    "name": "Auranode",
+    "webservices": "",
+    "x": "hidayahhtaufik",
+    "validatorlogo": ".jpg",
+    "explorer": "https://story-explorer.auranode.xyz/",
+     "peers": "",
+     "seeds": "",
+     "api": "https://story-aeneid-api.auranode.xyz/",
+     "rpc": "https://story-aeneid-rpc.auranode.xyz/",
+     "grpc": "",
+     "websocket": "wss://story-aeneid-rpc.auranode.xyz/websocket",
+     "snapshot": "",
+     "evm": "https://story-aeneid-json-rpc.auranode.xyz/",
+    "tools": "Monitoring, Faucet",
+    "tools_url": {
+       "Monitoring": "https://monitoring.auranode.xyz/",
+       "Faucet": "https://faucet.auranode.xyz/"
     }    
   }
 ]
