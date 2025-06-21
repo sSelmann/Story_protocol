@@ -89,7 +89,7 @@
     "wss_evm": "",
     "snapshot": "https://j-node.net/mainnet/story/snapshot",
     "addrbook": "",
-    "tools_url": {
+    "content": {
       "guide": "https://j-node.net/mainnet/story/installation/"
     }
   },
@@ -122,7 +122,25 @@
       "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/",
       "RPC Monitoring Tool": "https://cumulo.pro/services/story/rpcscan"
     }
+  },
+    {
+    "name": "pro-nodes75",
+    "webservices": "https://services.node75.org/chains/story-mainnet",
+    "x": "theNode75",
+    "validatorlogo": "pronodes75.png",
+    "explorer": "",
+     "peers": "",
+     "chainlist": "https://chainlist.org/chain/1514",
+     "api": "",
+     "rpc": "https://rpc-archive.story.node75.org",
+     "grpc": "",
+     "websocket": "",
+     "snapshot": "",
+     "evm": " https://evm-rpc-archive.story.node75.org",
+      "tools_url": {
+      "Cosmovisor setup": "https://services.node75.org/papers/guide_setup_cosmovisor",
+      "Monitoring dashboard": "https://github.com/the-node75/mon_story"
+    }
   }
-  
   ]
   
