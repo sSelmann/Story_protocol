@@ -240,5 +240,20 @@
        "Monitoring": "https://monitoring.auranode.xyz/",
        "Faucet": "https://faucet.auranode.xyz/"
     }    
+  },
+    {
+    "name": "pro-nodes75",
+    "webservices": "https://services.node75.org/chains/story-testnet",
+    "x": "theNode75",
+    "validatorlogo": "pronodes75.png",
+    "explorer": "",
+     "peers": "85e39bd2820f16f023289ff7f2a3e57b60d03dcb@peer.story.testnet.node75.org:22136",
+     "chainlist": "https://chainlist.org/chain/1315",
+     "api": "",
+     "rpc": "https://rpc-archive.story.testnet.node75.org/ ",
+     "grpc": "",
+     "websocket": "",
+     "snapshot": "https://snap-archive.story.testnet.node75.org",
+     "evm": "https://evm-rpc.story.testnet.node75.org"
   }
 ]
