@@ -223,22 +223,25 @@
   },
     {
     "name": "Auranode",
-    "webservices": "",
+    "webservices": "https://auranode.xyz/story-validator/service",
     "x": "hidayahhtaufik",
     "validatorlogo": "auranode.jpg",
     "explorer": "https://story-explorer.auranode.xyz/",
-     "peers": "",
-     "seeds": "",
-     "api": "https://story-aeneid-api.auranode.xyz/",
-     "rpc": "https://story-aeneid-rpc.auranode.xyz/",
-     "grpc": "",
-     "websocket": "wss://story-aeneid-rpc.auranode.xyz/websocket",
-     "snapshot": "",
-     "evm": "https://story-aeneid-json-rpc.auranode.xyz/",
+    "peers": "",
+    "seeds": "",
+    "api": "https://story-aeneid-api.auranode.xyz/",
+    "rpc": "https://story-aeneid-rpc.auranode.xyz/",
+    "grpc": "",
+    "websocket": "wss://story-aeneid-rpc.auranode.xyz/websocket",
+    "snapshot": "https://story-aeneid-snapshot.auranode.xyz/",
+    "evm": "https://story-aeneid-json-rpc.auranode.xyz/",
     "tools": "Monitoring, Faucet",
     "tools_url": {
        "Monitoring": "https://monitoring.auranode.xyz/",
        "Faucet": "https://faucet.auranode.xyz/"
+    },
+    "content": {
+      "Install guide": "https://auranode.xyz/story-validator/installation"
     }    
   },
     {
