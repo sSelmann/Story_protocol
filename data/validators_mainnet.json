@@ -31,6 +31,7 @@
     "wss_cosmos": "wss://story-rpc.mandragora.io/websocket",
     "wss_evm": "wss://story-wss.mandragora.io",
     "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
+    "snap_url" : "https://snapshots2.mandragora.io/story/story_snapshot.lz4",
     "addrbook": "https://snapshots.mandragora.io/addrbook.json",
     "tools": "Lost My Validator",
     "tools_url": {
@@ -49,6 +50,7 @@
      "addrbook": "https://services.silentvalidator.com/docs/mainnets/story/Addrbook",
     "peers": "https://services.silentvalidator.com/docs/mainnets/story/Peers",
     "snapshot": "https://services.silentvalidator.com/docs/mainnets/story/snapshots/Pruned-Snapshots",
+    "snap_url": "https://snapshot.silentvalidator.com/story/snapshot/story_latest.tar.lz4",
      "content": {
       "Node setup guide": "https://services.silentvalidator.com/docs/mainnets/story/Installation"
     },
@@ -70,6 +72,7 @@
     "rpc": "https://rpc.story.nodestake.org:443",
     "grpc": "grpc.story.nodestake.org:443",
     "snapshot": "https://nodestake.org/story",
+    "snap_url": "", 
     "addrbook": "https://ss.story.nodestake.org/addrbook.json",
     "evm": "https://evmrpc.story.nodestake.org",
      "content": {
