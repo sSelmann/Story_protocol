@@ -144,6 +144,25 @@
       "Cosmovisor setup": "https://services.node75.org/papers/guide_setup_cosmovisor",
       "Monitoring dashboard": "https://github.com/the-node75/mon_story"
     }
+  },
+   {
+    "name": "Coha05",
+    "webservices": "https://spidernode.net/docs/story/",
+    "x": "Coha05_",
+    "validatorlogo": "coha05.png",
+    "explorer": "",
+    "peers": "",
+    "seeds": "",
+    "api": "",
+    "rpc": "",
+    "evm-rpc": "",
+    "wss_cosmos": "",
+    "wss_evm": "",
+    "snapshot": "https://spidernode.net/docs/story/snapshot",
+    "snap_url": "https://snapshot.spidernode.net/Geth_snapshot.lz4",
+    "content": {
+      "Install guide": "https://spidernode.net/docs/story/install"
+    }
   }
   ]
   
