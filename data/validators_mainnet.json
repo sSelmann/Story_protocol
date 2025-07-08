@@ -32,6 +32,7 @@
     "wss_evm": "wss://story-wss.mandragora.io",
     "snapshot": "https://hackmd.io/@bMLJfk-wRcus0zQNBavDTQ/r1Mc-eWhR#Apply-Mandragora-pruned-snapshot-gethstory",
     "snap_url" : "https://snapshots2.mandragora.io/story/story_snapshot.lz4",
+    "archival_snap": "https://hackmd.io/@mandragora/story-mainnet#Apply-Mandragora-archival-snapshot-gethstory",
     "addrbook": "https://snapshots.mandragora.io/addrbook.json",
     "tools": "Lost My Validator",
     "tools_url": {
@@ -73,6 +74,7 @@
     "grpc": "grpc.story.nodestake.org:443",
     "snapshot": "https://nodestake.org/story",
     "snap_url": "", 
+     "archival_snap": "https://nodestake.org/story",
     "addrbook": "https://ss.story.nodestake.org/addrbook.json",
     "evm": "https://evmrpc.story.nodestake.org",
      "content": {
