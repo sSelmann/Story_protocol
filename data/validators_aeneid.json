@@ -239,7 +239,8 @@
     "tools": "Monitoring, Faucet",
     "tools_url": {
        "Monitoring": "https://monitoring.auranode.xyz/",
-       "Faucet": "https://faucet.auranode.xyz/"
+       "Faucet": "https://faucet.auranode.xyz/",
+       "Autoinstall": "https://raw.githubusercontent.com/hidayahhtaufik/Testnet-Guides/master/Story/auto-install.sh"
     },
     "content": {
       "Install guide": "https://auranode.xyz/story-validator/installation"
