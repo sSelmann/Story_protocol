@@ -108,24 +108,7 @@
        "Story Auto Upgrade": "https://services.mictonode.com/story-aeneid/auto-update"
     }
 },
-   {
-    "name": "Cumulo",
-    "webservices": "https://cumulo.pro/story-aeneid/",
-    "x": "Cumulo_pro",
-    "validatorlogo": "cumulo.jpg",
-    "rpc": "https://rpc.story-aeneid.cumulo.me",
-    "grpc": "",
-    "evm": "https://json-rpc.story-aeneid.cumulo.me",
-    "wss_cosmos": "wss://rpc.story-aeneid.cumulo.me/websocket",
-    "wss_evm": "ws-evm.story-aeneid.cumulo.me",
-    "api": "api.story-aeneid.cumulo.me",
-    "tools": "Story Metrics and Grafana Dashboard,RPC Monitoring Tool",
-    "tools_url": {
-      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/",
-      "RPC Monitoring Tool": "https://cumulo.pro/services/story-aeneid/rpcscan"
-    }
-  },
-   {
+  {
     "name": "CoreNode",
     "webservices": "https://services.corenodehq.xyz/testnet/story-tesnet",
     "x": "corenodeHQ",
@@ -260,5 +243,33 @@
      "websocket": "",
      "snapshot": "https://snap-archive.story.testnet.node75.org",
      "evm": "https://evm-rpc.story.testnet.node75.org"
+  },
+    {
+    "name": "NodesForAll",
+    "webservices": "",
+    "x": "Nodes_For_All",
+    "validatorlogo": "nodes_nor_all.jpg",
+    "explorer": "",
+     "tools": "Story Sentinel",
+    "tools_url": {
+       "Story Sentinel": "https://github.com/nodemasterpro/story-sentinel"
+    }   
+  },
+     {
+    "name": "Cumulo",
+    "webservices": "https://cumulo.pro/story-aeneid/",
+    "x": "Cumulo_pro",
+    "validatorlogo": "cumulo.jpg",
+    "rpc": "https://rpc.story-aeneid.cumulo.me",
+    "grpc": "",
+    "evm": "https://json-rpc.story-aeneid.cumulo.me",
+    "wss_cosmos": "wss://rpc.story-aeneid.cumulo.me/websocket",
+    "wss_evm": "ws-evm.story-aeneid.cumulo.me",
+    "api": "api.story-aeneid.cumulo.me",
+    "tools": "Story Metrics and Grafana Dashboard,RPC Monitoring Tool",
+    "tools_url": {
+      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/",
+      "RPC Monitoring Tool": "https://cumulo.pro/services/story-aeneid/rpcscan"
+    }
   }
 ]
