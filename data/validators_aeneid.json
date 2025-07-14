@@ -78,7 +78,7 @@
     "evm": "https://story-aeneid-testnet-evm.coinsspor.com/",
     "api": "https://story-aeneid-testnet-api.coinsspor.com/",
     "rpc": "https://story-aeneid-testnet-rpc.coinsspor.com/",
-    "json_rpc": "https://warden-chiado-json-rpc.coinsspor.com",
+    "evm": "https://warden-chiado-json-rpc.coinsspor.com",
     "grpc": "",
     "wss_cosmos": "wss://story-aeneid-testnet-rpc.coinsspor.com/websocket",
     "addrbook": "",
