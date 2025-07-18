@@ -110,25 +110,7 @@
     "wss_evm": "wss://lightnode-wss-mainnet-story.grandvalleys.com",
     "snapshot": ""
    },
-   {
-    "name": "Cumulo",
-    "webservices": "https://cumulo.pro/services/story/",
-    "x": "Cumulo_pro",
-    "validatorlogo": "cumulo.jpg",
-    "peers": "a6d49faf6e1200cade89cb6260c878c38b153c9a@109.228.57.155:26646",
-    "seeds": "",
-    "api": "https://api.story.cumulo.me",
-    "rpc": "https://rpc.story.cumulo.me",
-    "grpc": "grpc.story.cumulo.me",
-    "evm": "https://evm.story.cumulo.me",
-    "snapshot": "",
-    "addrbook": "",
-    "tools_url": {
-      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/",
-      "RPC Monitoring Tool": "https://cumulo.pro/services/story/rpcscan"
-    }
-  },
-    {
+  {
     "name": "pro-nodes75",
     "webservices": "https://services.node75.org/chains/story-mainnet",
     "x": "theNode75",
@@ -164,6 +146,42 @@
     "snap_url": "https://snapshot.spidernode.net/Geth_snapshot.lz4",
     "content": {
       "Install guide": "https://spidernode.net/docs/story/install"
+    }
+  },
+    {
+    "name": "NODERS",
+    "webservices": "",
+    "x": "NODERS_TEAM",
+    "validatorlogo": "noders.jpg",
+    "explorer": "https://ipstoryhub.org/explorer/dashboard",
+    "peers": "",
+    "seeds": "",
+    "api": "",
+    "rpc": "",
+    "grpc": "",
+    "snapshot": "",
+    "addrbook": "",
+    "tools_url": {
+        "Ecosystem Projects": "https://ipstoryhub.org/ecosystem",
+        "RPC List": "https://ipstoryhub.org/resources/rpc-list"
+    }       
+  },
+   {
+    "name": "Cumulo",
+    "webservices": "https://cumulo.pro/services/story/",
+    "x": "Cumulo_pro",
+    "validatorlogo": "cumulo.jpg",
+    "peers": "a6d49faf6e1200cade89cb6260c878c38b153c9a@109.228.57.155:26646",
+    "seeds": "",
+    "api": "https://api.story.cumulo.me",
+    "rpc": "https://rpc.story.cumulo.me",
+    "grpc": "grpc.story.cumulo.me",
+    "evm": "https://evm.story.cumulo.me",
+    "snapshot": "",
+    "addrbook": "",
+    "tools_url": {
+      "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/",
+      "RPC Monitoring Tool": "https://cumulo.pro/services/story/rpcscan"
     }
   }
   ]
