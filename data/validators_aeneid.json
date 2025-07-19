@@ -255,6 +255,22 @@
        "Story Sentinel": "https://github.com/nodemasterpro/story-sentinel"
     }   
   },
+    {
+    "name": "OneNov",
+    "webservices": "",
+    "x": "Surya021292",
+    "validatorlogo": "onenov.jpg",
+    "explorer": "",
+     "peers": "",
+     "api": "https://api-story-aeneid.onenov.xyz",
+     "rpc": "https://rpc-story-aeneid.onenov.xyz",
+     "grpc": "grpc-story-aeneid.onenov.xyz",
+     "websocket": "",
+     "snapshot": "",
+     "evm-wss":"wss-evm-story-aeneid.onenov.xyz",
+      "wss_cosmos": "wss-story-aeneid.onenov.xyz",
+     "evm": "https://rpc-evm-story-aeneid.onenov.xyz"
+  },
      {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
