@@ -270,7 +270,10 @@
      "snapshot": "",
      "evm-wss":"wss-evm-story-aeneid.onenov.xyz",
       "wss_cosmos": "wss-story-aeneid.onenov.xyz",
-     "evm": "https://rpc-evm-story-aeneid.onenov.xyz"
+     "evm": "https://rpc-evm-story-aeneid.onenov.xyz",
+      "tools_url": {
+       "Dashboard monitoring": "https://dashboard-story.onenov.xyz"
+    }   
   },
      {
     "name": "Cumulo",
