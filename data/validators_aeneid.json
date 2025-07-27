@@ -286,7 +286,7 @@
     "grpc": "",
     "snapshot": "https://www.nodevism.com/testnet/story",
     "evm": "",
-    "peer": "",
+    "peers": "https://www.nodevism.com/testnet/story",
     "content": {
       "Install guide": "https://www.nodevism.com/testnet/story"
     }  
