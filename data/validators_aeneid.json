@@ -88,7 +88,10 @@
        "Auto Install Tool": "https://github.com/coinsspor/Story-Aeneid",
        "Story Aeneid Validator Table": "https://story-aeneid-validator-table.coinsspor.com/",
        "Story Protocol Validator Competition": " https://storytable.coinsspor.com/"
-    }    
+    },
+   "content": {
+      "Story Protocol Aeneid Testnet Complete Node Setup Guide": "https://github.com/coinsspor/Story-Aeneid"
+    }
  },
    {
     "name": "MictoNode",
