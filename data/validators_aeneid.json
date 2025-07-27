@@ -281,6 +281,7 @@
     "webservices": "https://www.nodevism.com/testnet/story",
     "x": "Sir_Bell_",
     "validatorlogo": "nodevism.jpg",
+    "addrbook": "https://snapshot.nodevism.com/testnet/story/addrbook.json",
     "api": "",
     "rpc": "",
     "grpc": "",
