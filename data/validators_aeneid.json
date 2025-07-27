@@ -276,6 +276,21 @@
        "Dashboard monitoring": "https://dashboard-story.onenov.xyz"
     }   
   },
+    {
+    "name": "Nodevism",
+    "webservices": "https://www.nodevism.com/testnet/story",
+    "x": "Sir_Bell_",
+    "validatorlogo": "nodevism.jpg",
+    "api": "",
+    "rpc": "",
+    "grpc": "",
+    "snapshot": "https://www.nodevism.com/testnet/story",
+    "evm": "",
+    "peer": "",
+    "content": {
+      "Install guide": "https://www.nodevism.com/testnet/story"
+    }  
+  },
      {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
