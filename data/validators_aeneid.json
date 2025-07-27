@@ -95,6 +95,7 @@
     "x": "onurnft0",
     "webservices": "https://services.mictonode.com/story-aeneid",
     "validatorlogo": "mictonode.jpg",
+    "peers": "https://services.mictonode.com/story-aeneid/peers",
     "rpc": "https://story-testnet-rpc.mictonode.com/",
     "rpc_wss": "wss://story-testnet-rpc.mictonode.com/websocket",
     "api": "https://story-testnet-api.mictonode.com/",
