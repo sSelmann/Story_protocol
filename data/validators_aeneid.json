@@ -295,6 +295,23 @@
       "Install guide": "https://www.nodevism.com/testnet/story"
     }  
   },
+    {
+    "name": "Synergy Nodes",
+    "webservices": "https://www.synergynodes.com/service/storytestnet",
+    "x": "SynergyNodes",
+    "validatorlogo": "synergynodes.png",
+    "addrbook": "https://support.synergynodes.com/addrbook/story_testnet/addrbook.json",
+    "api": "https://story-testnet-api.synergynodes.com/",
+    "rpc": "https://story-testnet-rpc.synergynodes.com/",
+    "grpc": "",
+    "snapshot": "https://www.synergynodes.com/service/storytestnet",
+    "evm": "https://story-testnet-evm.synergynodes.com/",
+    "peers": "https://www.synergynodes.com/service/storytestnet",
+    "seeds": "cbb651645ea5ec71cd4b1b0bf11f5e0126f01018@story-testnet-seed.synergynodes.com:26656",
+    "content": {
+      "Node Installation": "https://www.synergynodes.com/service/storytestnet"
+    }  
+  },
      {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
