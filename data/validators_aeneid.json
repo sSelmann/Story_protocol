@@ -85,6 +85,7 @@
     "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
     "tools": "Auto Install Tool, Story Aeneid Validator Table",
     "tools_url": {
+       "Story Aeneid Mini Explorer": "https://storyaeneidminiexplorer.coinsspor.com",
        "Auto Install Tool": "https://github.com/coinsspor/Story-Aeneid",
        "Story Aeneid Validator Table": "https://story-aeneid-validator-table.coinsspor.com/",
        "Story Protocol Validator Competition": " https://storytable.coinsspor.com/"
