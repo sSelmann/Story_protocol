@@ -328,5 +328,24 @@
       "Story Metrics and Grafana Dashboard": "https://github.com/Cumulo-pro/Story_protocol/blob/main/monitoring/",
       "RPC Monitoring Tool": "https://cumulo.pro/services/story-aeneid/rpcscan"
     }
-  }
+  },
+  {
+    "name": "BlockNth",
+    "webservices": "https://docs.blocknth.com/docs/category/story-protocol-testnet",
+    "x": "blocknth",
+    "validatorlogo": "blocknth.png",
+    "api": "https://api-aeneid-story.blocknth.com",
+    "rpc": "https://rpc-aeneid-story.blocknth.com",
+    "grpc": "https://grpc-aeneid-story.blocknth.com",
+    "evm": "https://evmrpc-aeneid-story.blocknth.com",
+    "seeds": "517e7b9fb08ed0123a50a0a4ddac0639e7c0cca0@seed-aeneid-story.blocknth.com:26656",
+    "addrbook": "http://snapshot-aeneid-story.blocknth.com/addrbook/addrbook.json",
+    "snapshot": "https://docs.blocknth.com/docs/tools/snapshots/story",
+    "content": {
+      "Node setup guide": "https://docs.blocknth.com/docs/testnet-networks/story/fullnode-setup"
+    },
+    "tools_url": {
+      "Story Node Monitor": "https://docs.blocknth.com/docs/tools/chainmonidtor",
+    }
+   }
 ]
