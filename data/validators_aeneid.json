@@ -78,7 +78,6 @@
     "evm": "https://story-aeneid-testnet-evm.coinsspor.com/",
     "api": "https://story-aeneid-testnet-api.coinsspor.com/",
     "rpc": "https://story-aeneid-testnet-rpc.coinsspor.com/",
-    "evm": "https://warden-chiado-json-rpc.coinsspor.com",
     "snapshot": "https://snaps.coinsspor.com",
     "wss_cosmos": "wss://story-aeneid-testnet-rpc.coinsspor.com/websocket",
     "addrbook": "",
@@ -346,7 +345,7 @@
       "Node setup guide": "https://docs.blocknth.com/docs/testnet-networks/story/fullnode-setup"
     },
     "tools_url": {
-      "Story Node Monitor": "https://docs.blocknth.com/docs/tools/chainmonidtor",
+      "Story Node Monitor": "https://docs.blocknth.com/docs/tools/chainmonidtor"
     }
    }
 ]
