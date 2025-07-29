@@ -81,7 +81,7 @@
     "snapshot": "https://snaps.coinsspor.com",
     "wss_cosmos": "wss://story-aeneid-testnet-rpc.coinsspor.com/websocket",
     "addrbook": "",
-    "wss_evm": "wss://lightnode-wss-story.grandvalleys.com",
+    "wss_evm": "wss://story-aeneid-testnet-evm.coinsspor.com",
     "tools": "Auto Install Tool, Story Aeneid Validator Table",
     "tools_url": {
        "Story Aeneid Mini Explorer": "https://storyaeneidminiexplorer.coinsspor.com",
