@@ -1,5 +1,15 @@
 [
    {
+    "name": "Nodes.Guru",
+    "webservices": "",
+    "x": "NodesGuru",
+    "validatorlogo": "nodesguru.png",
+    "explorer": "https://testnet.story.explorers.guru/",
+    "api": "",
+    "rpc": "",
+    "grpc": ""
+},
+   {
     "name": "Coha05",
     "webservices": "https://spidernode.net/docs/story/service/",
     "x": "Coha05_",
