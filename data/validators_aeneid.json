@@ -182,7 +182,19 @@
     "x": "stakeme_pro",
     "validatorlogo": "stakeme.jpg",
     "explorer": "https://aeneid.storyscan.app/validators",
-    "addrbook": ""
+    "snapshot": "https://aeneid.storyscan.app/labs?page=snapshots",
+    "peers": "01dc0c4abb8c033e848dbdc58aef875978aee35b@story-aeneid-peer.stakeme.pro:33656",
+    "seeds": "01dc0c4abb8c033e848dbdc58aef875978aee35b@story-aeneid-seed.stakeme.pro:33656",
+    "api": "https://story-aeneid-rest.stakeme.pro",
+    "rpc": "https://story-aeneid-rpc.stakeme.pro",
+    "evm": "https://story-aeneid-evm-rpc.stakeme.pro:443",
+    "content":{
+    "Installation Guide": "https://aeneid.storyscan.app/labs?page=installation",
+    "Manual upgrade": "https://aeneid.storyscan.app/labs?page=upgrade"
+     },
+     "tools_url": {
+        "Story testnet Labs": "https://aeneid.storyscan.app/labs"
+    }
   },
     {
     "name": "NODESYNC",
