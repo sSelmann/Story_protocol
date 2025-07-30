@@ -334,6 +334,21 @@
       "Node Installation": "https://www.synergynodes.com/service/storytestnet"
     }  
   },
+    {
+        "name": "Krews",
+        "webservices": "",
+        "x": "Krewstake",
+        "validatorlogo": "krews.jpg",
+        "github": "",
+        "rpc": "",
+        "api": "",
+        "grpc": "",
+        "explorer": "",
+        "tools": "validator performance dashboard",
+        "tools_url": {
+            "validator performance dashboard": "https://story-dashboard.krews.xyz/?network=story_aeneid&year=2025&week=30&sortBy=signed_blocks&dir=desc"
+        }
+    },
      {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
