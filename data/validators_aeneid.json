@@ -349,6 +349,16 @@
             "validator performance dashboard": "https://story-dashboard.krews.xyz/?network=story_aeneid&year=2025&week=30&sortBy=signed_blocks&dir=desc"
         }
     },
+    {
+    "name": "Validator247.com",
+    "webservices": "",
+    "x": "Validator247",
+    "validatorlogo": "validator247.jpg",
+    "evm": "https://story-eaneid-evm-rpc.validator247.com/",
+    "api": "https://story-eaneid-testnet-api.validator247.com/",
+    "rpc": "https://story-eaneid-testnet-rpc.validator247.com/",
+    "websocket": "wss://Story-eaneid-evm-ws.validator247.com"
+    },
      {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
