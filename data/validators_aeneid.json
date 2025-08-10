@@ -359,6 +359,16 @@
     "rpc": "https://story-eaneid-testnet-rpc.validator247.com/",
     "websocket": "wss://Story-eaneid-evm-ws.validator247.com"
     },
+   {
+    "name": "Cosmic Validator",
+    "webservices": "",
+    "x": "CosmicValidator",
+    "validatorlogo": "cosmivalidator.jpg",
+    "evm": "",
+    "api": "https://story-testnet-api.cosmicvalidator.com",
+    "rpc": "https://story-testnet-rpc.cosmicvalidator.com",
+    "snapshot": "https://story-snapshots.cosmicvalidator.com/ "
+    },
      {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
