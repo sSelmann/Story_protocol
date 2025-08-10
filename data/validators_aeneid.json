@@ -130,8 +130,8 @@
     "validatorlogo": "corenode.jpg",
     "api": "",
     "rpc": "",
-    "evm": "",
-    "snapshot": "",
+    "evm": "https://story-aeneid-evm-rpc.corenodehq.xyz",
+    "snapshot": "https://services.corenodehq.xyz/testnet/story-tesnet/snap",
     "websocket": "",
     "content": {
         "Installation Guide": "https://services.corenodehq.xyz/testnet/story-tesnet"
