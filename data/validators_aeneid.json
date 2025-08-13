@@ -54,7 +54,7 @@
     "rpc": "https://aeneid.rpc.story.silentvalidator.com",
     "grpc": "aeneid.grpc.story.silentvalidator.com:443",
     "evm": "https://aeneid.evm-rpc.story.silentvalidator.com",
-     "addrbook": "https://services.silentvalidator.com/docs/Testnets/story/Addrbook",
+    "addrbook": "https://services.silentvalidator.com/docs/Testnets/story/Addrbook",
     "snapshot": "https://services.silentvalidator.com/docs/category/snapshots-1",
      "content": {
       "Node setup guide": "https://services.silentvalidator.com/docs/Testnets/story/Installation"
@@ -361,13 +361,19 @@
     },
    {
     "name": "Cosmic Validator",
-    "webservices": "",
+    "webservices": "https://github.com/CosmicValidator/Story-Aeneid/blob/main/README.md",
     "x": "CosmicValidator",
     "validatorlogo": "cosmivalidator.jpg",
-    "evm": "",
+    "evm": "https://story-testnet-evm.cosmicvalidator.com",
     "api": "https://story-testnet-api.cosmicvalidator.com",
     "rpc": "https://story-testnet-rpc.cosmicvalidator.com",
-    "snapshot": "https://story-snapshots.cosmicvalidator.com/ "
+    "snapshot": "https://story-snapshots.cosmicvalidator.com",
+     "addrbook": "https://story-snapshots.cosmicvalidator.com/story/aeneid/addrbook.json",
+     "wss_evm": "wss://story-testnet-wss.cosmicvalidator.com",
+     "wss_cosmos": "wss:// story-testnet-rpc.cosmicvalidator.com/websocket",
+     "tools_url": {
+       "State-sync": "https://github.com/CosmicValidator/Story-Aeneid/blob/main/README.md#state-sync"
+      }
     },
      {
     "name": "Cumulo",
