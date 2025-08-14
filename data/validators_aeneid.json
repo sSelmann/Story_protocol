@@ -387,7 +387,7 @@
     "wss_cosmos": "wss://rpc.story.encipher88.tech/websocket",
     "tools_url": {
        "StoryProtocol Network Monitor": "https://geo.story.encipher88.tech",
-       "grafana oneline script": "https://github.com/encipher88/story-grafana"
+       "Grafana oneline script": "https://github.com/encipher88/story-grafana"
       }
     },
      {
