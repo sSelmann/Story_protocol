@@ -391,6 +391,19 @@
       }
     },
      {
+    "name": "shachopra",
+    "webservices": "https://services.shachopra.com/",
+    "x": "",
+    "validatorlogo": "shachopra.png",
+    "evm": "https://story-testnet-jsonrpc.shachopra.com",
+    "api": "https://story-testnet-api.shachopra.com",
+    "rpc": "https://story-testnet-rpc.shachopra.com",
+    "snapshot": "https://services.shachopra.com/story-testnet-aeneid/snapshot",
+     "content": {
+      "Manual Installation (Cosmovisor)": "https://services.shachopra.com/story-testnet-aeneid/manual-installation-cosmovisor"
+    }  
+    },
+     {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
     "x": "Cumulo_pro",
