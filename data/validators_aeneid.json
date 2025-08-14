@@ -375,6 +375,21 @@
        "State-sync": "https://github.com/CosmicValidator/Story-Aeneid/blob/main/README.md#state-sync"
       }
     },
+    {
+    "name": "encipher",
+    "webservices": "",
+    "x": "encipher88",
+    "validatorlogo": "eNcipher.jpg",
+    "evm": "https://rpc-evm.story.encipher88.tech",
+    "api": "https://api.story.encipher88.tech",
+    "rpc": "https://rpc.story.encipher88.tech",
+    "wss_evm": "wss://rpc-evm.story.encipher88.tech/websocke",
+    "wss_cosmos": "wss://rpc.story.encipher88.tech/websocket",
+    "tools_url": {
+       "StoryProtocol Network Monitor": "https://geo.story.encipher88.tech",
+       "grafana oneline script": "https://github.com/encipher88/story-grafana"
+      }
+    },
      {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
