@@ -404,6 +404,20 @@
       "Manual Installation (Cosmovisor)": "https://services.shachopra.com/story-testnet-aeneid/manual-installation-cosmovisor"
     }  
     },
+      {
+    "name": "Piki Nodes",
+    "webservices": "https://piki-nodes.xyz/network/story-testnet",
+    "x": "Piki_eth_eth",
+    "validatorlogo": "piki.jpg",
+    "evm": "",
+    "api": "https://story-aeneid-testnet-api.piki-nodes.xyz",
+    "rpc": "https://story-aeneid-testnet-rpc.piki-nodes.xyz",
+    "grpc": "https://story-aeneid-testnet-grpc.piki-nodes.xyz",
+    "snapshot": "https://www.piki-nodes.xyz/network/story-testnet",
+     "content": {
+      "Complete Node Setup Guide": "https://www.piki-nodes.xyz/network/story-testnet"
+      }  
+    },
      {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/story-aeneid/",
