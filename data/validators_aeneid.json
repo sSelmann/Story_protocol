@@ -344,7 +344,7 @@
         "rpc": "",
         "api": "",
         "grpc": "",
-        "explorer": "",
+        "snapshot": "https://story-dashboard.krews.xyz/story-aeneid/snapshots",
         "tools": "validator performance dashboard",
         "tools_url": {
             "validator performance dashboard": "https://story-dashboard.krews.xyz/?network=story_aeneid&year=2025&week=30&sortBy=signed_blocks&dir=desc"
