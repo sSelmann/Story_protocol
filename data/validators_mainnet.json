@@ -176,8 +176,21 @@
     "rpc": "https://story-rpc.cosmicvalidator.com",
     "snapshot": "",
      "addrbook": "",
-     "wss_evm": " wss://story-evm-wss.cosmicvalidator.com",
+     "wss_evm": "wss://story-evm-wss.cosmicvalidator.com",
      "wss_cosmos": "wss://story-rpc.cosmicvalidator.com/websocket"
+    },
+   {
+    "name": "Nodefleet",
+    "webservices": "https://nodes.nodefleet.org",
+    "x": "nodefleet",
+    "validatorlogo": "nodefleet.jpg",
+    "evm": "",
+    "api": "",
+    "rpc": "",
+    "snapshot": "https://nodes.nodefleet.org",
+     "addrbook": "",
+     "wss_evm": " ",
+     "wss_cosmos": ""
     },
    {
     "name": "Cumulo",
