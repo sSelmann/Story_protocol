@@ -201,7 +201,7 @@
         "rpc": "",
         "api": "",
         "grpc": "",
-        "snapshot": "",
+        "snapshot": "https://story-dashboard.krews.xyz/story/snapshots",
         "tools_url": {
             "validator performance dashboard": "https://story-dashboard.krews.xyz/story/validator-status"
         }
