@@ -192,6 +192,20 @@
      "wss_evm": " ",
      "wss_cosmos": ""
     },
+    {
+        "name": "Krews",
+        "webservices": "",
+        "x": "Krewstake",
+        "validatorlogo": "krews.jpg",
+        "github": "",
+        "rpc": "",
+        "api": "",
+        "grpc": "",
+        "snapshot": "",
+        "tools_url": {
+            "validator performance dashboard": "https://story-dashboard.krews.xyz/story/validator-status"
+        }
+    },
    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/story/",
