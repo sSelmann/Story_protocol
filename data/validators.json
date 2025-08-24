@@ -172,7 +172,8 @@
     "tools": "Snapshots App, Autoload script, Tenderduty Dashboard",
     "tools_url": {
       "Snapshots App": "https://storyprotocol-snapshots.endorphinestake.com",
-      "Tenderduty Dashboard": "https://story-tenderduty.endorphinestake.com"
+      "Tenderduty Dashboard": "https://story-tenderduty.endorphinestake.com",
+      "Story Logs EFK Monitoring": "https://github.com/endorphinestake/story-efk"
     }
   },
   {
