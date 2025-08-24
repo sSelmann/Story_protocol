@@ -122,7 +122,7 @@
      "rpc": "https://rpc-archive.story.node75.org",
      "grpc": "",
      "websocket": "",
-     "snapshot": "",
+     "snapshot": "https://snap.story.node75.org/",
      "evm": " https://evm-rpc-archive.story.node75.org",
       "tools_url": {
       "Cosmovisor setup": "https://services.node75.org/papers/guide_setup_cosmovisor",
