@@ -206,6 +206,31 @@
             "validator performance dashboard": "https://story-dashboard.krews.xyz/story/validator-status"
         }
     },
+  {
+  "name": "ITRocket",
+  "webservices": "https://itrocket.net/services/testnet/story/",
+  "x": "itrocket_team",
+  "validatorlogo": "itrocket.png",
+  "peers": "",
+  "seeds": "",
+  "api": "https://story-mainnet-api.itrocket.net",
+  "rpc": "https://story-mainnet-rpc.itrocket.net",
+  "grpc": "",
+  "wss_cosmos": "wss://story-mainnet-rpc.itrocket.net/websocket",
+  "evm": "https://story-testnet-evm.itrocket.net:443",
+  "wss_evm":"wss://story-mainnet-wss.itrocket.net",
+  "snapshot": "https://itrocket.net/services/mainnet/story/",
+  "snapshot_archival": "",
+  "tools_url": {
+    "Validators Performance Dashboard": "https://itrocket.net/services/mainnet/story/analytics/validators-performance/?mode=full&range=last3months",
+    "Public RPC scanner": "https://itrocket.net/services/mainnet/story/public-rpc/",
+    "Node & Validator Monitoring Script": "https://itrocket.net/services/mainnet/story/monitoring/",
+    "ITRocket Community Tab for Story Testnet & Mainnet": "https://itrocket.net/services/mainnet/story/community/useful-tools/"
+    },
+    "content": {
+        "Installation Guide": "https://itrocket.net/services/mainnet/story/installation/"
+    }
+  },
    {
     "name": "Cumulo",
     "webservices": "https://cumulo.pro/services/story/",
